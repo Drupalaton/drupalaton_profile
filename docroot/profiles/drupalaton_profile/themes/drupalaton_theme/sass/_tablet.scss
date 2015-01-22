@@ -1,0 +1,113 @@
+/**
+ * @file
+ * Formatting for devices tablet screens.
+ */
+
+section.keynote {
+  h2.section-title {
+    padding-left: 25px;
+  }
+  .user {
+    float: none;
+    padding-left: 25px;
+  }
+}
+#nav ul li {
+  margin: 0 5px;
+  
+  a {
+    font-size: $base-font-size;
+  }
+}
+.container_12 {
+  width: 100%;
+  
+  .wrapper {
+    padding: 0 40px;
+  }
+}
+body {
+  min-width: 600px;
+  max-width: 999px;
+}
+.hills {
+  width: 600px;
+}
+.logo-link .logo-link-inner {
+  width: 100%;
+  
+  a {
+    right: 90%;
+  }
+}
+.logo {
+  .logo-inner {
+    width: 100%;
+    padding: 0;
+    
+    img {
+      right: 10%;
+      position: relative;
+    }
+  }
+}
+.lake,
+.landscape {
+  height:644px;
+}
+.info {
+  height: 285px;
+  
+  h1 {
+    width: 600px;
+    
+    span {
+      background-size: 100% auto;
+    }
+  }
+}
+.about .event-data {
+  background-size: 40% auto;
+}
+.sponsors .tab-button {
+  width: 90%;
+}
+.newsletter .container_12,
+.twitter .container_12,
+.social .container_12 {
+  padding: 0 40px;
+  max-width: 86%;
+}
+.contactmin p,
+div.newsletter span,
+div.twitter span,
+div.social p {
+  font-size: $base-font-size * 4;
+}
+div.newsletter input.email {
+  width: 59%;
+}
+.tabs h2 a span {
+  display: none;
+}
+p.price {
+  display: block;
+}
+body.front {
+  .info h1 {
+    width: 90%;
+  }
+  .panels-flexible-row-last .container_12 {
+    padding: 0 40px;
+    width: 90%;
+  }
+}
+.about-buttons .tab-button {
+  width: 29%;
+}
+body.front .logo .logo-inner {
+  width: 80%;
+}
+.contactmin {
+  padding: 50px;
+}

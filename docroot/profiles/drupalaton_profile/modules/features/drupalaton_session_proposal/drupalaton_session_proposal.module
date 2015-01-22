@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Session proposal feature.
+ */
+
+include_once 'drupalaton_session_proposal.features.inc';

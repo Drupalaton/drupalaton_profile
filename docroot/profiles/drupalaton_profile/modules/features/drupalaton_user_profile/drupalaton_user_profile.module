@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the User profile feature.
+ */
+
+include_once 'drupalaton_user_profile.features.inc';
