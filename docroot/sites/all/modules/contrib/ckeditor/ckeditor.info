@@ -5,9 +5,9 @@ package     = User interface
 configure   = admin/config/content/ckeditor
 files[]     = includes/ckeditor.user.inc
 
-; Information added by drush on 2015-01-22
+; Information added by drush on 2015-01-28
 version = "7.x-1.12+7-dev"
 core = "7.x"
 project = "ckeditor"
-datestamp = "1421921189"
+datestamp = "1422480783"
 
