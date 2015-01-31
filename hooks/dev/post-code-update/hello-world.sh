@@ -5,5 +5,5 @@
 site="$1"
 target_env="$2"
 
-drush @$site.$target_env make profiles/drupalaton_profile/drupalaton_profile.make --yes
+drush @$site.$target_env make docroot/profiles/drupalaton_profile/drupalaton_profile.make --yes
 
