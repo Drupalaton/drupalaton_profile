@@ -5,8 +5,8 @@
 
 site="$1"
 target_env="$2"
-drush @$site.$target_env status
-echo "Path:$root_directory/profiles/drupalaton/drupalaton_profile/drupalaton_profile.make"
+site_url = "http://drupalatondev.prod.acquia-sites.com"
+echo "Path:$site_url/profiles/drupalaton/drupalaton_profile/drupalaton_profile.make"
 
-#drush @$site.$target_env make "$root_directory/profiles/drupalaton_profile/drupalaton_profile.make" --yes
+drush @$site.$target_env make "$site_url/profiles/drupalaton_profile/drupalaton_profile.make" --yes
 
