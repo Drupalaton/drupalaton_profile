@@ -4,6 +4,7 @@
 # 
 site="$1"
 target_env="$2"
+root_directory=$(drush @drupalaton.local status --fields=root --field-labels=0 | tr -d ' ')
 
-drush @$site.$target_env make docroot/profiles/drupalaton_profile/drupalaton_profile.make --yes
+drush @$site.$target_env make "$root_directory/profiles/drupalaton_profile/drupalaton_profile.make" --yes
 
