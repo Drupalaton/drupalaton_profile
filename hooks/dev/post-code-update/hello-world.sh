@@ -1,7 +1,9 @@
 #!/bin/sh
 #
-# This sample Cloud Hook script just echos "Hello, Cloud!" to standard
-# output. It will work in any hook directory.
+# This run an automatic drush make every push, which deploy the new modules.
+# 
+site="$1"
+target_env="$2"
 
-echo "Hello, Cloud!"
+drush @$site.$target_env make profiles/drupalaton_profile/drupalaton_profile.make --yes
 
