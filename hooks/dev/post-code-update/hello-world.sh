@@ -5,8 +5,8 @@
 
 site="$1"
 target_env="$2"
-site_url="http://drupalatondev.prod.acquia-sites.com"
+#site_url="http://drupalatondev.prod.acquia-sites.com"
 echo "Path:$site_url/profiles/drupalaton/drupalaton_profile/drupalaton_profile.make"
-
+echo $("pwd")
 drush @$site.$target_env make "$site_url/profiles/drupalaton_profile/drupalaton_profile.make" --yes
 
