@@ -1,0 +1,294 @@
+/**
+ * @file
+ * Formatting for small devices.
+ */
+body {
+  max-width: 599px;
+  min-width: 100px;
+}
+section.keynote {
+  h2.section-title {
+    padding-left: 15px;
+  }
+  .user {
+    float: none;
+    padding-left: 10px;
+  }
+}
+.container_12 {
+  width: 100%;
+  max-width: 599px;
+}
+#nav ul {
+  padding-left: 20px;
+  
+  li a {
+    color: #fff;
+  }
+}
+body.front {
+  .hills {
+    width: 100%;
+    background-position: -392px 0;    
+  }
+  .logo {
+    top: 196px;
+    right: 0;
+    position: relative;
+    text-align: left;
+  }
+  .landscape {
+    height: 562px;
+
+    .hills {
+      width: 100%;
+      background-position: -392px 0;
+    }
+    .logo {
+      top: 196px;
+      right: 0;
+
+      .logo-inner {
+        width: 100%;
+        max-width: 599px;
+        padding: 0;
+
+        img {
+          margin: 0 30px 0 0;
+          width: 280px;
+        }
+      }
+    }
+    .info {
+      height: 262px;
+      margin-top: 0;
+
+      h1 {
+        width: 100%;
+        max-width: 500px;
+
+        span {
+          background-size: 89% auto;
+          background-position: 18px 0;
+          margin-left: 0;
+          width: 100%;
+        }
+      }
+      .sponsor {
+        position: relative;
+        z-index: 10;
+        margin: 180px 0 0 0;
+      }
+    }
+    .lake {
+      height: 562px;
+    }
+    .logo-link-inner {
+      width: 100%;
+      max-width: 599px;
+
+      a {
+        right: 17px;
+        top: 193px;
+      }
+    }
+  }
+  .sponsors {
+    .sponsor-row:nth-child(2) {
+      position: relative !important;
+      left: 0 !important;
+      top: 0 !important;
+    }
+    h3 {
+      float: none;
+    }
+    .views-row {
+      float: none;
+      margin: 10px 0;
+    }
+  }  
+}
+.clouds,
+.boats {
+  display: none;
+}
+
+
+.tabs {
+  height: auto;
+
+  h2 {
+    float: left;
+    width: 30%;
+    margin: 0 0 0 2%;
+    
+    &.last {
+      margin-left: 0;
+    }
+    span {
+      display: none;
+    }
+    &.middle {
+      margin: 0 10px;
+    }
+    a {
+      padding: 5px;
+      font-size: $base-font-size;
+    }
+  }
+}
+.sponsors .tabs h2 a {
+  font-size: $base-font-size;
+}
+.content {
+  .wrapper {
+    padding: 0 20px;
+  }
+}
+body.front {
+  .panels-flexible-row-last .container_12 {
+    padding: 0 20px;
+    width: 90%;
+  }
+}
+.event-data {
+  background-image:none;
+}
+
+.twitter span,
+.newsletter form {
+  padding: 0 20px;
+}
+div.twitter span,
+div.newsletter span {
+  font-size: $base-font-size + 18;
+  line-height: 120%;
+}
+div.twitter {
+  span {
+
+  }
+}
+.sponsors-bottom {
+  padding: 0 20px;
+}
+div.newsletter {
+  input.email {
+    float: none;
+    width: 88.5%;
+    margin: 20px 0 0 0;
+    text-align: center;
+  }
+  input.button {
+    width: 100%;
+    float: none;
+    margin: 20px 0 0 0;
+  }
+}
+.navigation {
+  height: auto;
+}
+h2.section-title,
+.panel-pane h2.pane-title {
+  font-size: $base-font-size * 2;
+}
+.about .event-data {
+  padding-bottom: 180px;
+  background-size: 100% auto;
+  background-position: 0 bottom;
+}
+.contactmin {
+  p {
+    font-size: $base-font-size * 2 + 2;
+  }
+}
+.sponsors {
+  .tab-button {
+    width: 77%;
+  }
+}
+.boats {
+ .boat {
+   display: none;
+ }
+}
+.tab-content {
+  p.price {
+    display: block;
+  }
+}
+div.social {
+  img {
+    height: 28px;
+  }
+  p {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: $base-font-size *2+4;
+    line-height: 120%;
+  }
+}
+.panels-flexible-row-2-main-row .keynote .speaker-name {
+  font-size: $base-font-size *2;
+}
+.rounded-corner .wrap-corner .r-edge {
+  padding: 5px 10px;
+  width: 95%;
+}
+.panels-flexible-row-2-main-row .keynote .user {
+  float: none;
+  width: 100%;
+  margin: 30px 0 0;
+}
+.panels-flexible-row-2-main-row .keynote .user .tab-button {
+  width: 100%;
+}
+.about-buttons .tab-button {
+  width: 100%;
+  float: none;
+  margin: 10px 0;
+  
+  &.center {
+    margin: 10px 0;
+  }
+}
+
+.contactmin {
+  padding: 40px 20px;
+
+  p {
+    line-height: 120%;
+  }
+}
+.info .sponsor {
+
+}
+body.front .sponsor-pack,
+.sponsor-pack {
+	float: none;
+  width: 94%;
+}
+.tab-button {
+	width: 100%;
+
+  a {
+    width: 78%;
+  }
+}
+body.front .panel-flexible .sponsor .keynote .user {
+  margin: 0 0 30px 0;
+  width: 100%;
+  float: none;
+  
+  img {
+    width: 100%;
+    height: auto;
+  }
+  .tab-button {
+    width: 100%;
+
+    a {
+      width: 100%;
+    }
+  }
+}

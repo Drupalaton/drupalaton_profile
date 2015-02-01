@@ -1,0 +1,25 @@
+/**
+ * @file
+ * Formatting the forms.
+ */
+
+form {
+	font-family: $opensans;
+
+	label {
+		font-size: 16px;
+	}
+	.form-text {
+		border: 1px solid $sectiontitle-40;
+		margin: 10px 0;
+		padding: 10px;
+		font-size: 16px;
+	}
+	.form-submit {
+		border: 0;
+		@include submit-button;
+	}
+	.fieldset-legend {
+		font-size: 18px;
+	}
+}
