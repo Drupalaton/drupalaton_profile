@@ -1,0 +1,14 @@
+# Ignore configuration files that may contain sensitive information.
+
+# Ignore everything
+*
+/*
+/*/
+
+# But not these files...
+!.gitignore
+!profiles/drupalaton_profile
+!profiles/drupalaton_profile/*
+
+# ...even if they are in subdirectories
+!*/
