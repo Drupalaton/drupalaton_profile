@@ -3,15 +3,3 @@
 # Ignore paths that contain user-generated content.
 sites/*/files
 sites/*/private
-
-# Ignore everything
-*
-
-# But not these files...
-!.gitignore
-!profiles/drupalaton_profile
-!profiles/drupalaton_profile/*
-
-# ...even if they are in subdirectories
-!*/
-

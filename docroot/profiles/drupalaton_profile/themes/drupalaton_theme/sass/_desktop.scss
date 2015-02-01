@@ -1,0 +1,110 @@
+/**
+ * @file
+ * Formatting for large desktop.
+ */
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+.container_12 {
+  margin: 40px auto;
+}
+.panel-separator {
+  display: none;
+}
+#nav {
+  width: $dekstopwidth;
+  margin: 0 auto;
+}
+.tab-content .content {
+  width: 960px;
+  margin: 0 auto;
+}
+ul.badges {
+  padding: 0;
+  margin: 0;
+  
+  li {
+    @include clearfix;
+    list-style: none;
+    border-bottom: 1px solid #CCC;
+    padding: 13px 0 25px 0;
+    margin: 13px 0 13px 0;
+    
+    &:last-child {
+      border-bottom: 0;
+    }
+    
+    img {
+      float: left;
+      margin-right: 50px;
+    }
+    .codeblock {
+      display: block;
+      float: left;
+      width: 75%;
+      
+      code {
+        font-size: 14px;
+        line-height: 140%;
+      }
+    }
+  }
+}
+.sponsors-bottom {
+  padding: 60px 0;
+}
+.contactmin {
+  background-color: lighten($sectiontitle, 40%);
+  padding: 60px 0;
+}
+.view-sponsors {
+  .views-row {
+    float: left;
+    margin-right: 25px;
+  }
+}
+body.front .info {
+  position: absolute;
+  width: 100%;
+  top: 311px;
+
+  h1 {
+    width: 584px;
+    height: 257px;
+    float: left;
+
+    span {
+      background-image: url("../img/smaller_big_typo.png");
+    }
+  }
+  .sponsor {
+    float: right;
+    margin: 20px 40px;
+
+    .views-row {
+      float: none;
+      margin: 0;
+    }
+  }
+}
+
+/**
+ * landscape
+ */
+body.front{
+  .landscape {
+    height: 677px;
+  }
+  .hills {
+    height: 174px;
+    width: 745px;
+  }
+  .lake {
+    height: 677px;
+  }
+}
+/**
+ * Sponsor badges
+ */
