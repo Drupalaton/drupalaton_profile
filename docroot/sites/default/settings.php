@@ -212,7 +212,21 @@
  *   );
  * @endcode
  */
-$databases = array();
+$databases = array (
+  'default' =>
+  array (
+    'default' =>
+    array (
+      'database' => 'fidic',
+      'username' => 'drupal',
+      'password' => 'drupal',
+      'host' => '127.0.0.1',
+      'port' => '',
+      'driver' => 'mysql',
+      'prefix' => '',
+    ),
+  ),
+);
 
 /**
  * Access control for update.php script.
@@ -574,3 +588,35 @@ $conf['404_fast_html'] = '<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
 if (file_exists('/var/www/site-php')) {
   require('/var/www/site-php/drupalaton/drupalaton-settings.inc');
 }
+
+
+$staging_conf['dir'] = '/Users/york/projects/inovae/staging_settings';
+if (is_file($staging_conf['dir'] . '/' . 'staging.settings.php')) {
+  require_once $staging_conf['dir'] . '/' . 'staging.settings.php';
+}
+
+// Show advanced options
+$conf['views_ui_show_advanced_column'] = TRUE;
+$conf['views_ui_show_sql_query'] = TRUE;
+
+// Rerouter
+$conf['reroute_email_enable'] = 1;
+$conf['reroute_email_address'] = 'mr.york+drupdev@gmail.com';
+$conf['reroute_email_enable_message'] = 1;
+
+// Shield disabled:
+$conf['shield_user'] = '';
+$conf['shield_pass'] = '';
+
+$conf['environment_indicator_text'] = 'Drupalaton on LOCALHOST - Dev environment';
+$conf['environment_indicator_color'] = '#ffaf26';
+$conf['environment_indicator_enabled'] = TRUE;
+
+$conf['stage_file_proxy_origin'] = 'http://fidic.org';
+#$conf['stage_file_proxy_use_imagecache_root'] = FALSE;
+#$conf['stage_file_proxy_hotlink'] = TRUE;
+#$conf['stage_file_proxy_use_imagecache_root'] = FALSE;
+#$conf['stage_file_proxy_hotlink'] = FALSE;
+
+$conf['site_mail'] = 'mr.york+drupdev@gmail.com';
+$conf['admin_theme'] = 'seven';
