@@ -64,4 +64,12 @@ function drupalaton_theme_preprocess_page(&$variables) {
   $variables['sponsor_diamond'] = views_embed_view('sponsors', 'block_1');
   $variables['sponsor_diamond_header'] = views_embed_view('sponsors', 'sponsor_diamond_header');
   $variables['sponsor_gold'] = views_embed_view('sponsors', 'block_2');
+
+  if (strpos($variables['sponsor_diamond'], '<div class="view-empty">')) {
+    $variables['sponsor_diamond'] = '';
+  }
+
+  if (strpos($variables['sponsor_gold'], '<div class="view-empty">')) {
+    $variables['sponsor_gold'] = '';
+  }
 }
