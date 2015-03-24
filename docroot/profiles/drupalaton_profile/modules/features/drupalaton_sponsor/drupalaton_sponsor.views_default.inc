@@ -182,7 +182,7 @@ function drupalaton_sponsor_views_default_views() {
   $handler->display->display_options['filters']['field_sponsor_tax_category_tid']['table'] = 'field_data_field_sponsor_tax_category';
   $handler->display->display_options['filters']['field_sponsor_tax_category_tid']['field'] = 'field_sponsor_tax_category_tid';
   $handler->display->display_options['filters']['field_sponsor_tax_category_tid']['value'] = array(
-    2 => '2',
+    6 => '6',
   );
   $handler->display->display_options['filters']['field_sponsor_tax_category_tid']['group'] = 1;
   $handler->display->display_options['filters']['field_sponsor_tax_category_tid']['type'] = 'select';
