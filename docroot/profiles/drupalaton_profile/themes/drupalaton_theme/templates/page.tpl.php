@@ -72,7 +72,8 @@
   <div class="container_12">
     <!-- Begin MailChimp Signup Form -->
     <div id="mc_embed_signup">
-    <form action="http://drupal.us4.list-manage1.com/subscribe/post?u=8c9c7d47497f10b169c88b791&amp;id=24c4e902a7" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    <form action="//drupalaton.us4.list-manage.com/subscribe/post?u=8c9c7d47497f10b169c88b791&amp;id=8e42a64e05" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate="">
+
     <label for="mce-EMAIL">
       <span class="first">Subscribe to our newsletter. </span>
       <span class="last">Receive the latest updates.</span>
