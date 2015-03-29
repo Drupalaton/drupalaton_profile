@@ -1,0 +1,40 @@
+body.front .info {
+  position: absolute;
+  width: 100%;
+  top: 311px;
+
+  h1 {
+    width: 100%;
+    height: 392px;
+
+    i {
+      @include drupalaton-img-retina('../img/big_typo.png', '../img/big_typo-2x.png');
+    }
+  }
+
+  .sponsor {
+    float: right;
+    margin: 20px 40px;
+
+    .views-row {
+      float: none;
+      margin: 0;
+    }
+  }
+}
+
+// Landscape
+.front{
+  .landscape {
+    height: 780px;
+  }
+
+  .lake {
+    height: 780px;
+  }
+
+  .hills {
+    height: 174px;
+    width: 745px;
+  }
+}

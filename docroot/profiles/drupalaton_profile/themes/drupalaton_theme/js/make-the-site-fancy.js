@@ -44,14 +44,14 @@
         .animate('.cloud1', { delay: 0, duration: 1200, property: 'left', start: 0, end: 650  })
         .animate('.cloud2', { delay: 0, duration: 1200, property: 'left', start: 60, end: 650  })
         .animate('.cloud3', { delay: 0, duration: 1200, property: 'left', start: 740, end: 650  })
-        .animate('.cloud4', { delay: 0, duration: 1200, property: 'left', start: 1050, end: 650  })
+        .animate('.cloud4', { delay: 0, duration: 1200, property: 'left', start: 930, end: 650  })
         .animate('.cloud5', { delay: 0, duration: 1200, property: 'left', start: 350, end: 650  })
         
         .animate('.cloud6', { delay: 0, duration: 1200, property: 'left', start: 750, end: 650  })
         .animate('.cloud7', { delay: 0, duration: 1200, property: 'left', start: 940, end: 650  })
         .animate('.cloud8', { delay: 0, duration: 1200, property: 'left', start: 900, end: 650  })
         .animate('.cloud9', { delay: 0, duration: 1200, property: 'left', start: 820, end: 650  })
-        .animate('.cloud10',{ delay: 0, duration: 1200, property: 'left', start: 1000, end: 650  });
+        .animate('.cloud10',{ delay: 0, duration: 1200, property: 'left', start: 970, end: 650  });
       }
       else if (width < 979 && width >= 600) {
         addclasstonav();

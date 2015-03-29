@@ -1,0 +1,23 @@
+
+div.twitter {
+  background-color: $sectiontitle;
+  padding: 60px 0;
+
+  span {
+    display: block;
+    font-family: $oswald;
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 100%;
+    font-size: $base-font-size * 4 + 11;
+    font-weight: bold;
+
+    &.second {
+      color: $twitterurl;
+    }
+  }
+}
+
+div.twitter span {
+  font-size: $base-font-size * 4;
+}

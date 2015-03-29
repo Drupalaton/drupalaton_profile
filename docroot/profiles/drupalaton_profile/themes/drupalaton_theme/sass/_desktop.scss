@@ -65,46 +65,7 @@ ul.badges {
     margin-right: 25px;
   }
 }
-body.front .info {
-  position: absolute;
-  width: 100%;
-  top: 311px;
 
-  h1 {
-    width: 584px;
-    height: 257px;
-    float: left;
-
-    span {
-      background-image: url("../img/smaller_big_typo.png");
-    }
-  }
-  .sponsor {
-    float: right;
-    margin: 20px 40px;
-
-    .views-row {
-      float: none;
-      margin: 0;
-    }
-  }
-}
-
-/**
- * landscape
- */
-body.front{
-  .landscape {
-    height: 677px;
-  }
-  .hills {
-    height: 174px;
-    width: 745px;
-  }
-  .lake {
-    height: 677px;
-  }
-}
-/**
- * Sponsor badges
- */
+// Import desktop styles.
+@import 'desktop/layout/header';
+@import 'desktop/nav';

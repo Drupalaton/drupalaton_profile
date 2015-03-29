@@ -1,0 +1,123 @@
+/**
+ * Sponsor badges
+ */
+
+.sponsor-pack {
+  float: left;
+  width: 45%;
+  margin: 60px 10px 30px;
+
+  body.front & {
+    width: 21.5%;
+    margin: 60px 10px 30px;
+  }
+
+  .badge {
+    @include drupalaton-sprite-background();
+    @include drupalaton-sprite(200px, 200px, 0 0);
+    text-align: center;
+    background-color: transparent;
+    margin: 0 auto 20px;
+  }
+
+  * {
+    line-height: 100%;
+  }
+
+  .text {
+    ul {
+      padding: 0 0 0 20px;
+
+      li {
+        font-size: 18px;
+      }
+    }
+  }
+
+  .tab-button a {
+    @include orange-button;
+    @include box-shadow($darkorange 0px 6px);
+    padding: 9px 30px 6px;
+    font-size: 20px;
+  }
+
+  .inactive span {
+    @include orange-button;
+    @include box-shadow(#8f8f8f 0px 6px);
+    text-align: center;
+    padding: 9px 30px 6px;
+    background-color: #bfbfbf;
+  }
+}
+
+.sponsor-diamond .badge {
+  background-position: 0 0;
+}
+
+.sponsor-gold {
+  .badge {
+    background-position: 0 -200px;
+  }
+
+  div.tab-button {
+    margin-top: 126px;
+
+    body.front & {
+      margin-top: 0;
+    }
+  }
+}
+
+.sponsor-silver .badge {
+  background-position: 0 -400px;
+}
+
+.sponsor-bronze {
+  .badge {
+    background-position: 0 -600px;
+  }
+
+  div.tab-button {
+
+    body.front & {
+      margin-top: 0;
+    }
+  }
+}
+
+.pack-name,
+.pack-price,
+.pack-status {
+  font-family: $oswald;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.pack-name,
+.pack-price {
+  color: rgba(0, 0, 0, .5);
+}
+
+.pack-name {
+  padding-top: 74px;
+
+  span {
+    font-size: 36px;
+  }
+}
+
+.pack-price {
+  margin: 5px 0;
+
+  span {
+    font-size: 18px;
+  }
+}
+
+.pack-status {
+  color: #fff;
+  margin: 22px 0 0 0;
+  font-size: 18px;
+  font-weight: 500;
+}

@@ -2,6 +2,7 @@
  * @file
  * Formatting for small devices.
  */
+
 body {
   max-width: 599px;
   min-width: 100px;
@@ -155,20 +156,7 @@ body.front {
   background-image:none;
 }
 
-.twitter span,
-.newsletter form {
-  padding: 0 20px;
-}
-div.twitter span,
-div.newsletter span {
-  font-size: $base-font-size + 18;
-  line-height: 120%;
-}
-div.twitter {
-  span {
 
-  }
-}
 .sponsors-bottom {
   padding: 0 20px;
 }
@@ -292,3 +280,9 @@ body.front .panel-flexible .sponsor .keynote .user {
     }
   }
 }
+
+@import 'mobile/elements/contact';
+@import 'mobile/elements/newsletter';
+@import 'mobile/elements/twitter';
+@import 'mobile/responsive-nav';
+@import 'mobile/nav';

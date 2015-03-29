@@ -33,8 +33,8 @@
     <div class="info">
       <div class="container">
         <h1>
-          <span></span>
-          Drupalaton, August 7-10, 2014, Hotel Helikon, Keszthely
+          <i></i>
+          <span>Drupalaton, August 7-10, 2014, Hotel Helikon, Keszthely</span>
         </h1>
         <?php if ($sponsor_diamond_header): ?>
           <div class="sponsor">

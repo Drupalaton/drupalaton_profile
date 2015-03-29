@@ -37,11 +37,11 @@
     </div>
   </div><!-- /.landscape-->
   
-  <?php print $messages; ?>
-
   <div id="main-wrapper"><div id="main" class="clearfix">
 
     <div id="content" class="column"><div class="section container_12">
+      <?php print $messages; ?>
+
       <a id="main-content"></a>
       <?php print render($title_prefix); ?>
       <?php if ($title): ?><h1 class="title" id="page-title"><?php print $title; ?></h1><?php endif; ?>

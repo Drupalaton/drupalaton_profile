@@ -1,0 +1,31 @@
+.info {
+  height: 400px;
+  margin: 0 auto;
+
+  h1 {
+    color: transparent;
+    display: block;
+    height: 100%;
+    position: relative;
+    text-indent: -9000em;
+
+    i {
+      background-repeat: no-repeat;
+      display: block;
+      height: 100%;
+      position: absolute;
+      width: 100%;
+    }
+  }
+  .view-content,
+  .view-footer {
+    text-align: center;
+  }
+  .view-footer {
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: $oswald;
+    text-align: center;
+  }
+}

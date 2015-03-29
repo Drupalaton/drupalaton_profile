@@ -1,0 +1,56 @@
+
+div.newsletter {
+  background-color: $menuitemcolor;
+  padding: 60px 0;
+
+  span {
+    display: block;
+    font-family: $oswald;
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 100%;
+    font-size: $base-font-size * 4 + 11;
+    font-weight: bold;
+
+    &.second {
+      color: $twitterurl;
+    }
+    &.first {
+      color: $sectiontitle;
+    }
+  }
+  input.email {
+    @include border-radius(6px);
+    @include box-shadow(#bfbfbf 0px -6px);
+    position: relative;
+    color: $sectiontitle;
+    background-color: #ffffff;
+    font-family: $oswald;
+    font-weight: bold;
+    display: block;
+    text-transform: uppercase;
+
+    font-size:$base-font-size + 8;
+    padding:14px 30px 10px 30px;
+
+    width: 50%;
+    float: left;
+    margin: 40px 40px 0 0;
+    text-align: left;
+    border: 0;
+  }
+  input.button {
+    @include orange-button;
+
+    width: 25%;
+    float: left;
+    margin: 40px 0 0 0;
+    text-align: center;
+    border: 0;
+
+  }
+}
+
+div.newsletter span {
+  font-size: $base-font-size * 4;
+}

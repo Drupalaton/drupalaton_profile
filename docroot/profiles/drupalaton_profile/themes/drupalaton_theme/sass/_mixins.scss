@@ -30,3 +30,133 @@
   height: $height;
   background-position: $background-position;
 }
+
+@mixin element-invisible {
+  position: absolute !important;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  @if $legacy-support-for-ie6 or $legacy-support-for-ie7 {
+    clip: rect(1px 1px 1px 1px); // IE6 and IE7 use the wrong syntax.
+  }
+  clip: rect(1px, 1px, 1px, 1px);
+}
+
+// Turns off the element-invisible effect.
+@mixin element-invisible-off {
+  position: static !important;
+  clip: auto;
+  height: auto;
+  width: auto;
+  overflow: auto;
+}
+
+@mixin element-focusable {
+  @include element-invisible;
+
+  &:active,
+  &:focus {
+    @include element-invisible-off;
+  }
+}
+
+@mixin texthidden {
+  text-indent: -9000em;
+  color: transparent;
+}
+
+
+@mixin submit-button {
+  display: block;
+  color: #ffffff;
+  color: #fff;
+  font-family: $oswald;
+  font-weight: bold;
+  display: block;
+  text-transform: uppercase;
+
+  font-size: $base-font-size + 4;
+  padding: 14px 30px 10px 30px;
+  @include text-shadow(0 -2px #000000);
+  @include border-radius(6px);
+
+  -webkit-box-shadow: 0px 6px 0px #15648c;
+  -moz-box-shadow: 0px 6px 0px #15648c;
+  box-shadow: 0px 6px 0px #15648c;
+  background-color: #1675af;
+
+  text-align: center;
+
+  -webkit-transform: translate(0, 0);
+  -moz-transform: translate(0, 0);
+  transform: translate(0, 0);
+
+  -webkit-transition: all .2s ease;
+  -moz-transition: all .2s ease;
+  -ms-transition: all .2s ease;
+  -o-transition: all .2s ease;
+  transition: all .2s ease;
+
+  &:active {
+    -webkit-transform: translate(0, 3px);
+    -moz-transform: translate(0, 3px);
+    transform: translate(0, 3px);
+  }
+}
+
+@mixin tab-button {
+  display: block;
+  color: #ffffff;
+  color: #fff;
+  font-family: $oswald;
+  font-weight: bold;
+  display: block;
+  text-transform: uppercase;
+
+  font-size: $base-font-size + 4;
+  padding: 14px 30px 18px 30px;
+  @include text-shadow(0 -2px #000000);
+  @include border-radius(6px 6px 0 0);
+
+  -webkit-box-shadow: 0px -6px #374b57;
+  -moz-box-shadow: 0px -6px #374b57;
+  box-shadow: 0px -6px #374b57;
+  background-color: $sectiontitle;
+
+  text-align: center;
+
+  -webkit-transform: translate(0, 0);
+  -moz-transform: translate(0, 0);
+  transform: translate(0, 0);
+
+  -webkit-transition: all .2s ease;
+  -moz-transition: all .2s ease;
+  -ms-transition: all .2s ease;
+  -o-transition: all .2s ease;
+  transition: all .2s ease;
+
+  &:active {
+    -webkit-transform: translate(0, 3px);
+    -moz-transform: translate(0, 3px);
+    transform: translate(0, 3px);
+  }
+  &.tab-open {
+    background-color:$menuitemcolor;
+  }
+}
+
+@mixin orange-button {
+  position: relative;
+  color: #fff;
+  background-color: $orange;
+  font-family: $oswald;
+  font-weight: bold;
+  display: block;
+  text-transform: uppercase;
+
+  font-size:$base-font-size + 8;
+  padding:14px 30px 10px 30px;
+  @include text-shadow(0 -2px #000000);
+  @include border-radius(6px);
+  @include box-shadow($darkorange 0px -6px);
+}

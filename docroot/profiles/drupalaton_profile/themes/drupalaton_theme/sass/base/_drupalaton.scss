@@ -28,7 +28,7 @@ a {
 a.anchor {
   color: $sectionsubtitle;
 }
-p, .node * {
+p {
   font-size: $base-font-size + 8;
   line-height: 140%;
 }
@@ -151,38 +151,7 @@ body.front {
       padding: 0 $dekstopgutter;
     }
   }
-  .info {
-    height: 400px;
-    margin-top: 30px;
-    margin: 0 auto;
-  
-    h1 {
-      color: transparent;
-      display: block;
-      height: 100%;
-      position: relative;
-      text-indent: -9000em;
-  
-      span {
-        background-repeat: no-repeat;
-        display: block;
-        height: 100%;
-        position: absolute;
-        width: 100%; 
-      }
-    }
-    .view-content,
-    .view-footer {
-      text-align: center;
-    }
-    .view-footer {
-      font-size: 20px;
-      text-transform: uppercase;
-      color: #fff;
-      font-family: $oswald;
-      text-align: center;
-    }
-  }
+
   .logo-link {
     width: 100%;
 
@@ -637,117 +606,6 @@ section {
   text-align: center;
   border: 0;
 }
-.contactmin {
-  .content {
-    padding: 80px 0;
-  }
-  p {
-    margin: 0;
-    display: block;
-    font-family: $oswald;
-    color: #fff;
-    text-transform: uppercase;
-    line-height: 100%;
-    font-size: $base-font-size * 5 + 2;
-    font-weight: bold;
-    @include text-shadow(1px 1px 1px $sectiontitle);
-
-    span a {
-      color: #fff;
-    }
-  }
-}
-
-div.twitter {
-  background-color: $sectiontitle;
-  padding: 60px 0;
-
-  span {
-    display: block;
-    font-family: $oswald;
-    color: #fff;
-    text-transform: uppercase;
-    line-height: 100%;
-    font-size: $base-font-size * 4 + 11;
-    font-weight: bold;
-
-    &.second {
-      color: $twitterurl;
-    }
-  }
-}
-
-div.newsletter {
-  background-color: $menuitemcolor;
-  padding: 60px 0;
-
-  span {
-    display: block;
-    font-family: $oswald;
-    color: #fff;
-    text-transform: uppercase;
-    line-height: 100%;
-    font-size: $base-font-size * 4 + 11;
-    font-weight: bold;
-
-    &.second {
-      color: $twitterurl;
-    }
-    &.first {
-      color: $sectiontitle;
-    }
-  }
-  input.email {
-    position: relative;
-    color: $sectiontitle;
-    background-color: #ffffff;
-    font-family: $oswald;
-    font-weight: bold;
-    display: block;
-    text-transform: uppercase;
-
-    font-size:$base-font-size + 8;
-    padding:14px 30px 10px 30px;
-    @include border-radius(6px);
-    @include box-shadow(#bfbfbf 0px -6px);
-
-    width: 50%;
-    float: left;
-    margin: 40px 40px 0 0;
-    text-align: left;
-    border: 0;
-  }
-  input.button {
-    @include orange-button;
-
-    width: 25%;
-    float: left;
-    margin: 40px 0 0 0;
-    text-align: center;
-    border: 0;
-
-  }
-}
-
-// social
-div.social {
-  background-color: $orange;
-  padding: 60px 0;
-
-  display: block;
-  font-family: $oswald;
-  color: #fff;
-  text-transform: uppercase;
-  line-height: 100%;
-  
-  p {
-    font-size: $base-font-size * 4 + 11;
-    font-weight: bold;
-    margin: 0;
-    padding: 0;
-  }
-}
-
 
 .partner-link {
   background: #fff;
@@ -1043,136 +901,13 @@ img.img-right {
   padding: 60px;
 }
 
-/**
- * Sponsor badges
- */
 
-.sponsor-pack {
-  float: left;
-  width: 45%;
-  margin: 60px 10px 30px 10px;
-
-  body.front & {
-    width: 21.5%;
-    margin: 60px 10px 30px 10px;    
-  }
-  .badge {
-    @include drupalaton-sprite-background();
-    @include drupalaton-sprite(200px, 200px, 0 0);
-    text-align: center;
-    background-color: transparent;
-    margin: 0 auto 20px auto;
-  }
-  * {
-    line-height: 100%;
-  }
-  .text {
-    ul {
-      padding: 0 0 0 20px;
-
-      li {
-        font-size: 18px;
-      }
-    }
-  }
-  .tab-button a {
-    @include orange-button;
-    @include box-shadow($darkorange 0px 6px);
-    padding: 9px 30px 6px 30px;
-    font-size: 20px;
-  }
-  .inactive span {
-    @include orange-button;
-    @include box-shadow(#8f8f8f 0px 6px);
-    text-align: center;
-    padding: 9px 30px 6px 30px;
-    background-color: #bfbfbf;
-  }
-}
-.sponsor-diamond .badge {
-  background-position: 0 0;
-}
-.sponsor-gold {
-  .badge {
-    background-position: 0 -200px;
-  }
-  div.tab-button {
-    margin-top: 51px;
-    
-    body.front & {
-      margin-top: 0;
-    }
-  }
-}
-.sponsor-silver .badge {
-  background-position: 0 -400px;
-}
-.sponsor-bronze {
-  .badge {
-    background-position: 0 -600px;
-  }
-  div.tab-button {
-    margin-top: 106px;
-
-    body.front & {
-      margin-top: 0;
-    }
-  }
-}
-.pack-name,
-.pack-price,
-.pack-status {
-  font-family: $oswald;
-  font-weight: 700;
-  text-transform: uppercase;
-  text-align: center; 
-}
-.pack-name,
-.pack-price {
-  color: rgba(0, 0, 0, .5);
-}
-
-.pack-name {
-  padding-top: 74px;
-
-  span {
-    font-size: 36px;
-  }
-}
-.pack-price {
-  margin: 5px 0;
-
-  span {
-    font-size: 18px;
-  }
-}
-.pack-status {
-  color: #fff;
-  margin: 22px 0 0 0;
-  font-size: 18px;
-  font-weight: 500;
-}
-
-@media all and (min-width: 960px) {
-  @import "_desktop.scss";
-}
-// tablet and small screen
-@media all and (min-width: 600px) and (max-width: 999px) {
-  @import "_tablet.scss";
-}
-// mobile device
-@media all and (max-width: 640px) {
-  @import "_mobile.scss";
-}
-// Large desktop
-@media only screen and (min-width: 1300px) {
-  @import "_desktop_lg.scss";
-}
 @media all and (max-width: 1300px) {
   .hills {
     background-position: -320px 0;
   }
 }
+
 // Standing retina screen
 @media only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 600px){
   .landscape .info h1 span {

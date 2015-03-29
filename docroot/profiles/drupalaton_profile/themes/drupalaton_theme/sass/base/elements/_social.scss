@@ -1,0 +1,17 @@
+div.social {
+  background-color: $orange;
+  padding: 60px 0;
+
+  display: block;
+  font-family: $oswald;
+  color: #fff;
+  text-transform: uppercase;
+  line-height: 100%;
+
+  p {
+    font-size: $base-font-size * 4 + 11;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+  }
+}
