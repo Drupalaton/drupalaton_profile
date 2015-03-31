@@ -1,0 +1,139 @@
+
+// sponsors row in frontpage
+.sponsors {
+  padding: 20px 0;
+
+  .view-content div:first-child h3 {
+    margin-top: 20px;
+  }
+  .view-content {
+    position: relative;
+    margin-top: 20px;
+  }
+}
+
+.view-sponsors {
+  .sponsor-row {
+    @include clearfix;
+    margin-bottom: 10px;
+  }
+  h3 {
+    font-family: $oswald;
+    font-size: $base-font-size *2;
+    color: #000;
+    font-weight: bold;
+    margin: 0;
+    margin: 17px 0 20px 0;
+  }
+}
+
+// sponsor page
+body.page-sponsors{
+  .views-field-field-sponsor-logo {
+    float:right;
+    margin: 0 0 10px 10px;
+  }
+  .sponsor-row {
+    border-bottom: 3px solid $tabletd;
+    padding-bottom: 10px;
+
+    &:last-child {
+      border-bottom: 0;
+    }
+  }
+  .pane-sponsors .views-row {
+    border-bottom: 1px solid $tabletd;
+    margin: 15px 0;
+    padding-bottom: 20px;
+
+    &:last-child {
+      border-bottom: 0;
+      padding-bottom: 0;
+    }
+  }
+}
+
+// keynote
+body.front .panel-flexible .sponsor {
+  width: 100%;
+  background-color: $sectiontitle;
+
+  .pane-title {
+    color: #fff;
+  }
+  .keynote {
+    ul {
+      list-style: none;
+    }
+    .speaker-name {
+      font-size: $base-font-size * 2 + 8;
+      color: $links;
+      font-family: $oswald;
+      line-height: 100%;
+      text-transform: uppercase;
+      font-weight: bold;
+    }
+    .speaker-title {
+      font-size: $base-font-size + 8;
+      font-family: $oswald;
+      line-height: 110%;
+      text-transform: uppercase;
+      font-weight: bold;
+      color: $sectiontitle-40;
+    }
+    .speaker-nick {
+      color: #fff;
+      font-size: $base-font-size + 8;
+      font-family: $oswald;
+      line-height: 110%;
+      text-transform: uppercase;
+      font-weight: bold;
+    }
+    .user {
+      float: left;
+      margin: 30px 7px 22px 7px;
+      width: 300px;
+
+      .image {
+        margin-top: 25px;
+      }
+      .tab-button {
+        width: 90%;
+        margin-top: 25px;
+
+        a {
+          color: #fff;
+        }
+      }
+    }
+    .user .speaker-title {
+      margin-bottom: 49px;
+    }
+    .views-row-first .speaker-title,
+    .views-row-last .speaker-title {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.sponsor_packages {
+  margin-top: 50px;
+  margin-bottom: 50px;
+
+  table tbody tr td {
+    background-color: transparent;
+    color: $tabletd;
+  }
+}
+
+.partner-link {
+  background: #fff;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.15);
+}
+.sponsor-link:hover,
+.sponsor-link:focus,
+.partner-link:hover,
+.partner-link:focus {
+  border-color: #f0a303;
+}

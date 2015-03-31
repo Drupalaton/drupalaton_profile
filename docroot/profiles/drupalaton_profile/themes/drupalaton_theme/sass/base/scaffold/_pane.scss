@@ -1,0 +1,28 @@
+.panel-pane {
+
+  h2 {
+    margin: 0;
+    font-family: $oswald;
+    font-size: $base-font-size * 5;
+    line-height: 100%;
+    text-transform: uppercase;
+    color: $sectiontitle;
+    font-weight: 700;
+  }
+
+  h3 {
+    margin: 40px 0 0;
+    font-family: $oswald;
+    font-weight: 100;
+    font-size: $base-font-size * 2 + 6;
+    line-height: 100%;
+    text-transform: uppercase;
+    color: $sectionsubtitle;
+  }
+}
+
+body.front .panel-flexible .panel-separator {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  height: 1px;
+}

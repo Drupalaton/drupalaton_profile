@@ -7972,45 +7972,7 @@ button.close {
   margin: 60px 0 0 0;
 }
 
-/* line 4, ../sass/base/_drupalaton.scss */
-html {
-  font-family: "Open Sans", Arial, Helvetica, "Nimbus Sans L", sans-serif;
-  line-height: 160%;
-  font-size: 14px;
-  -webkit-font-smoothing: antialiased;
-}
-
-/* line 12, ../sass/base/_drupalaton.scss */
-.node ul li {
-  font-family: "Open Sans", Arial, Helvetica, "Nimbus Sans L", sans-serif;
-  line-height: 160%;
-  font-size: 20px;
-}
-
-/* line 19, ../sass/base/_drupalaton.scss */
-.pane-content li {
-  font-size: 22px;
-  line-height: 140%;
-}
-
-/* line 24, ../sass/base/_drupalaton.scss */
-a {
-  color: #e9590a;
-  text-decoration: none;
-}
-
-/* line 28, ../sass/base/_drupalaton.scss */
-a.anchor {
-  color: #1675af;
-}
-
-/* line 31, ../sass/base/_drupalaton.scss */
-p {
-  font-size: 22px;
-  line-height: 140%;
-}
-
-/* line 36, ../sass/base/_drupalaton.scss */
+/* line 5, ../sass/base/_drupalaton.scss */
 .invisible {
   position: absolute !important;
   height: 1px;
@@ -8019,1045 +7981,6 @@ p {
   clip: rect(1px, 1px, 1px, 1px);
 }
 
-/* line 39, ../sass/base/_drupalaton.scss */
-h1.title {
-  margin: 0;
-  font-family: Oswald, Arial, Helvetica, "Nimbus Sans L", sans-serif;
-  font-size: 70px;
-  line-height: 100%;
-  text-transform: uppercase;
-  color: #082637;
-  font-weight: 700;
-}
-
-/* line 48, ../sass/base/_drupalaton.scss */
-h1#page-title {
-  margin-top: 50px;
-}
-
-/**
- * navigation
- */
-/* line 54, ../sass/base/_drupalaton.scss */
-.navigation {
-  position: fixed;
-  z-index: 10;
-  width: 100%;
-  transition: all 0.3s ease-in;
-}
-/* line 60, ../sass/base/_drupalaton.scss */
-.navigation.fixed {
-  background-color: rgba(0, 0, 0, 0.6);
-}
-/* line 63, ../sass/base/_drupalaton.scss */
-.navigation.fixed #nav ul li a {
-  color: #fff;
-}
-
-/* line 14, ../lib/sass_bootstrap/vendor/assets/stylesheets/bootstrap/mixins/_clearfix.scss */
-#nav:before, #nav:after {
-  content: " ";
-  display: table;
-}
-/* line 19, ../lib/sass_bootstrap/vendor/assets/stylesheets/bootstrap/mixins/_clearfix.scss */
-#nav:after {
-  clear: both;
-}
-/* line 72, ../sass/base/_drupalaton.scss */
-#nav ul {
-  text-align: center;
-  padding: 0 20px;
-}
-/* line 14, ../lib/sass_bootstrap/vendor/assets/stylesheets/bootstrap/mixins/_clearfix.scss */
-#nav ul:before, #nav ul:after {
-  content: " ";
-  display: table;
-}
-/* line 19, ../lib/sass_bootstrap/vendor/assets/stylesheets/bootstrap/mixins/_clearfix.scss */
-#nav ul:after {
-  clear: both;
-}
-/* line 77, ../sass/base/_drupalaton.scss */
-#nav ul li {
-  display: inline;
-  margin: 0 6px;
-  line-height: normal;
-}
-/* line 82, ../sass/base/_drupalaton.scss */
-#nav ul li a {
-  font-family: Oswald, Arial, Helvetica, "Nimbus Sans L", sans-serif;
-  font-weight: bold;
-  font-size: 22px;
-  color: #1675af;
-  text-decoration: none;
-  text-transform: uppercase;
-}
-
-/**
- * landscape
- */
-/* line 98, ../sass/base/_drupalaton.scss */
-body.front .landscape {
-  background: url("../img/sky.png") repeat-x scroll 0 0 transparent;
-  position: relative;
-}
-/* line 102, ../sass/base/_drupalaton.scss */
-body.front .hills {
-  background: url("../img/hills.png") no-repeat scroll 0 0 transparent;
-  display: block;
-  height: 174px;
-  width: 745px;
-  position: absolute;
-  top: 98px;
-}
-/* line 110, ../sass/base/_drupalaton.scss */
-body.front .boats {
-  width: 100%;
-  position: relative;
-  height: 100px;
-  margin: 0;
-  top: 174px !important;
-}
-/* line 117, ../sass/base/_drupalaton.scss */
-body.front .boats .boat {
-  position: absolute;
-}
-/* line 120, ../sass/base/_drupalaton.scss */
-body.front .boats #smallboat {
-  background: url("../img/boat_small.svg") no-repeat scroll 0 0 transparent;
-  height: 60px;
-  width: 30px;
-  top: 25px;
-}
-/* line 126, ../sass/base/_drupalaton.scss */
-body.front .boats #bigboat {
-  background: url("../img/boat_big.svg") no-repeat scroll 0 0 transparent;
-  height: 77px;
-  top: 0;
-  width: 66px;
-}
-/* line 133, ../sass/base/_drupalaton.scss */
-body.front .lake {
-  position: absolute;
-  top: 0;
-  width: 100%;
-  background: url("../img/water_02.png") repeat-x scroll 0 0 transparent;
-}
-/* line 139, ../sass/base/_drupalaton.scss */
-body.front .logo {
-  position: absolute;
-  text-align: right;
-  top: 189px;
-  width: 100%;
-}
-/* line 145, ../sass/base/_drupalaton.scss */
-body.front .logo a {
-  display: block;
-  margin: 0 auto;
-}
-/* line 149, ../sass/base/_drupalaton.scss */
-body.front .logo .logo-inner {
-  margin: 0 auto;
-  padding: 0 20px;
-}
-/* line 155, ../sass/base/_drupalaton.scss */
-body.front .logo-link {
-  width: 100%;
-}
-/* line 158, ../sass/base/_drupalaton.scss */
-body.front .logo-link a {
-  height: 74px;
-  width: 345px;
-  position: absolute;
-  right: 0;
-  top: 190px;
-  display: block;
-}
-/* line 167, ../sass/base/_drupalaton.scss */
-body.front .rounded-corner .wrap-corner {
-  background-color: transparent !important;
-  background-image: none;
-}
-/* line 171, ../sass/base/_drupalaton.scss */
-body.front .rounded-corner .wrap-corner .b-edge,
-body.front .rounded-corner .wrap-corner .t-edge,
-body.front .rounded-corner .wrap-corner .l,
-body.front .rounded-corner .wrap-corner .r,
-body.front .rounded-corner .wrap-corner .l-edge,
-body.front .rounded-corner .wrap-corner .r-edge {
-  background-image: none;
-  background-color: transparent !important;
-}
-
-/* line 184, ../sass/base/_drupalaton.scss */
-.clouds {
-  height: 100px;
-  margin: 0;
-  width: 100%;
-  top: 20px !important;
-}
-/* line 190, ../sass/base/_drupalaton.scss */
-.clouds .cloud {
-  background-repeat: no-repeat;
-  position: absolute;
-  top: 10px;
-}
-/* line 195, ../sass/base/_drupalaton.scss */
-.clouds .cloud-left {
-  background-image: url("../img/cloud_left.svg");
-}
-/* line 198, ../sass/base/_drupalaton.scss */
-.clouds .cloud-right {
-  background-image: url("../img/cloud_right.svg");
-}
-/* line 201, ../sass/base/_drupalaton.scss */
-.clouds .cloud1 {
-  width: 100px;
-  height: 40px;
-  background-size: 100px auto;
-}
-/* line 206, ../sass/base/_drupalaton.scss */
-.clouds .cloud2 {
-  width: 122px;
-  height: 52px;
-  top: 20px;
-  background-size: 122px auto;
-}
-/* line 212, ../sass/base/_drupalaton.scss */
-.clouds .cloud3 {
-  width: 122px;
-  height: 52px;
-  background-size: 122px auto;
-  top: 80px;
-}
-/* line 218, ../sass/base/_drupalaton.scss */
-.clouds .cloud4 {
-  width: 166px;
-  height: 70px;
-  background-size: 166px auto;
-}
-/* line 223, ../sass/base/_drupalaton.scss */
-.clouds .cloud5 {
-  top: 0;
-  width: 142px;
-  height: 60px;
-  background-size: 142px auto;
-}
-/* line 229, ../sass/base/_drupalaton.scss */
-.clouds .cloud6,
-.clouds .cloud8 {
-  width: 71px;
-  height: 30px;
-  background-size: 71px auto;
-  top: 49px;
-}
-/* line 236, ../sass/base/_drupalaton.scss */
-.clouds .cloud7,
-.clouds .cloud9 {
-  width: 49px;
-  height: 21px;
-  background-size: 49px auto;
-  top: 40px;
-}
-/* line 243, ../sass/base/_drupalaton.scss */
-.clouds .cloud10 {
-  width: 115px;
-  height: 49px;
-  background-size: 115px auto;
-}
-
-/* line 251, ../sass/base/_drupalaton.scss */
-body.not-front .landscape {
-  background: url("../img/sky.png") repeat-x scroll 0 0 transparent;
-  height: 320px;
-  position: relative;
-}
-/* line 256, ../sass/base/_drupalaton.scss */
-body.not-front .hills {
-  background: url("../img/hills.png") no-repeat scroll 0 0 transparent;
-  display: block;
-  height: 162px;
-  width: 745px;
-  position: absolute;
-  top: 109px;
-}
-/* line 264, ../sass/base/_drupalaton.scss */
-body.not-front .boats {
-  width: 100%;
-  position: relative;
-  height: 100px;
-  margin: 0;
-  top: 174px !important;
-}
-/* line 271, ../sass/base/_drupalaton.scss */
-body.not-front .boats .boat {
-  position: absolute;
-}
-/* line 274, ../sass/base/_drupalaton.scss */
-body.not-front .boats #smallboat {
-  background: url("../img/boat_small.svg") no-repeat scroll 0 0 transparent;
-  height: 60px;
-  width: 30px;
-  top: 25px;
-}
-/* line 280, ../sass/base/_drupalaton.scss */
-body.not-front .boats #bigboat {
-  background: url("../img/boat_big.svg") no-repeat scroll 0 0 transparent;
-  height: 77px;
-  top: 0;
-  width: 66px;
-}
-/* line 287, ../sass/base/_drupalaton.scss */
-body.not-front .lake {
-  height: 320px;
-  position: absolute;
-  top: 0;
-  width: 100%;
-  background: url("../img/water_02_small.png") repeat-x scroll 0 0 transparent;
-}
-/* line 294, ../sass/base/_drupalaton.scss */
-body.not-front .logo {
-  position: absolute;
-  text-align: right;
-  top: 189px;
-  width: 100%;
-}
-/* line 300, ../sass/base/_drupalaton.scss */
-body.not-front .logo a {
-  display: block;
-  margin: 0 auto;
-}
-/* line 304, ../sass/base/_drupalaton.scss */
-body.not-front .logo .logo-inner {
-  width: 960px;
-  margin: 0 auto;
-  padding: 0 20px;
-}
-/* line 310, ../sass/base/_drupalaton.scss */
-body.not-front .logo-link {
-  width: 100%;
-}
-/* line 313, ../sass/base/_drupalaton.scss */
-body.not-front .logo-link .logo-link-inner {
-  width: 960px;
-  margin: 0 auto;
-  position: relative;
-}
-/* line 318, ../sass/base/_drupalaton.scss */
-body.not-front .logo-link .logo-link-inner a {
-  height: 74px;
-  width: 345px;
-  position: absolute;
-  right: 0;
-  top: 190px;
-  display: block;
-}
-
-/**
- * content
- */
-/* line 334, ../sass/base/_drupalaton.scss */
-.content section {
-  padding-top: 2.5em;
-}
-/* line 337, ../sass/base/_drupalaton.scss */
-.content h2.section-title {
-  margin: 0;
-  font-family: Oswald, Arial, Helvetica, "Nimbus Sans L", sans-serif;
-  font-size: 70px;
-  line-height: 100%;
-  text-transform: uppercase;
-  color: #082637;
-}
-/* line 345, ../sass/base/_drupalaton.scss */
-.content h3.section-subtitle strong {
-  margin: 40px 0 0 0;
-  font-family: Oswald, Arial, Helvetica, "Nimbus Sans L", sans-serif;
-  font-weight: 700;
-  font-size: 34px;
-  line-height: 100%;
-  text-transform: uppercase;
-  color: #1675af;
-}
-/* line 354, ../sass/base/_drupalaton.scss */
-.content .field-label {
-  margin: 25px 0 10px 0;
-}
-/* line 357, ../sass/base/_drupalaton.scss */
-.content .field-items {
-  margin-bottom: 10px;
-}
-
-/* line 361, ../sass/base/_drupalaton.scss */
-.field-name-field-session-type .field-items,
-.field-name-field-session-room .field-items {
-  margin: 25px 0 10px 0;
-}
-
-/* line 367, ../sass/base/_drupalaton.scss */
-.panel-pane h2 {
-  margin: 0;
-  font-family: Oswald, Arial, Helvetica, "Nimbus Sans L", sans-serif;
-  font-size: 70px;
-  line-height: 100%;
-  text-transform: uppercase;
-  color: #082637;
-  font-weight: 700;
-}
-/* line 376, ../sass/base/_drupalaton.scss */
-.panel-pane h3 {
-  margin: 40px 0 0 0;
-  font-family: Oswald, Arial, Helvetica, "Nimbus Sans L", sans-serif;
-  font-weight: 100;
-  font-size: 34px;
-  line-height: 100%;
-  text-transform: uppercase;
-  color: #1675af;
-}
-
-/* line 386, ../sass/base/_drupalaton.scss */
-.field-name-field-sponsor-web-page a {
-  font-size: 22px;
-}
-
-/* line 391, ../sass/base/_drupalaton.scss */
-.sponsors {
-  padding: 20px 0;
-}
-/* line 394, ../sass/base/_drupalaton.scss */
-.sponsors .view-content div:first-child h3 {
-  margin-top: 20px;
-}
-/* line 397, ../sass/base/_drupalaton.scss */
-.sponsors .view-content {
-  position: relative;
-  margin-top: 20px;
-}
-
-/* line 403, ../sass/base/_drupalaton.scss */
-.view-sponsors .sponsor-row {
-  margin-bottom: 10px;
-}
-/* line 14, ../lib/sass_bootstrap/vendor/assets/stylesheets/bootstrap/mixins/_clearfix.scss */
-.view-sponsors .sponsor-row:before, .view-sponsors .sponsor-row:after {
-  content: " ";
-  display: table;
-}
-/* line 19, ../lib/sass_bootstrap/vendor/assets/stylesheets/bootstrap/mixins/_clearfix.scss */
-.view-sponsors .sponsor-row:after {
-  clear: both;
-}
-/* line 407, ../sass/base/_drupalaton.scss */
-.view-sponsors h3 {
-  font-family: Oswald, Arial, Helvetica, "Nimbus Sans L", sans-serif;
-  font-size: 28px;
-  color: #000;
-  font-weight: bold;
-  margin: 0;
-  margin: 17px 0 20px 0;
-}
-
-/* line 419, ../sass/base/_drupalaton.scss */
-body.page-sponsors .views-field-field-sponsor-logo {
-  float: right;
-  margin: 0 0 10px 10px;
-}
-/* line 423, ../sass/base/_drupalaton.scss */
-body.page-sponsors .sponsor-row {
-  border-bottom: 3px solid #092738;
-  padding-bottom: 10px;
-}
-/* line 427, ../sass/base/_drupalaton.scss */
-body.page-sponsors .sponsor-row:last-child {
-  border-bottom: 0;
-}
-/* line 431, ../sass/base/_drupalaton.scss */
-body.page-sponsors .pane-sponsors .views-row {
-  border-bottom: 1px solid #092738;
-  margin: 15px 0;
-  padding-bottom: 20px;
-}
-/* line 436, ../sass/base/_drupalaton.scss */
-body.page-sponsors .pane-sponsors .views-row:last-child {
-  border-bottom: 0;
-  padding-bottom: 0;
-}
-
-/* line 444, ../sass/base/_drupalaton.scss */
-body.front .panel-flexible .sponsor {
-  width: 100%;
-  background-color: #082637;
-}
-/* line 448, ../sass/base/_drupalaton.scss */
-body.front .panel-flexible .sponsor .pane-title {
-  color: #fff;
-}
-/* line 452, ../sass/base/_drupalaton.scss */
-body.front .panel-flexible .sponsor .keynote ul {
-  list-style: none;
-}
-/* line 455, ../sass/base/_drupalaton.scss */
-body.front .panel-flexible .sponsor .keynote .speaker-name {
-  font-size: 36px;
-  color: #e9590a;
-  font-family: Oswald, Arial, Helvetica, "Nimbus Sans L", sans-serif;
-  line-height: 100%;
-  text-transform: uppercase;
-  font-weight: bold;
-}
-/* line 463, ../sass/base/_drupalaton.scss */
-body.front .panel-flexible .sponsor .keynote .speaker-title {
-  font-size: 22px;
-  font-family: Oswald, Arial, Helvetica, "Nimbus Sans L", sans-serif;
-  line-height: 110%;
-  text-transform: uppercase;
-  font-weight: bold;
-  color: #9DA9AF;
-}
-/* line 471, ../sass/base/_drupalaton.scss */
-body.front .panel-flexible .sponsor .keynote .speaker-nick {
-  color: #fff;
-  font-size: 22px;
-  font-family: Oswald, Arial, Helvetica, "Nimbus Sans L", sans-serif;
-  line-height: 110%;
-  text-transform: uppercase;
-  font-weight: bold;
-}
-/* line 479, ../sass/base/_drupalaton.scss */
-body.front .panel-flexible .sponsor .keynote .user {
-  float: left;
-  margin: 30px 7px 22px 7px;
-  width: 300px;
-}
-/* line 484, ../sass/base/_drupalaton.scss */
-body.front .panel-flexible .sponsor .keynote .user .image {
-  margin-top: 25px;
-}
-/* line 487, ../sass/base/_drupalaton.scss */
-body.front .panel-flexible .sponsor .keynote .user .tab-button {
-  width: 90%;
-  margin-top: 25px;
-}
-/* line 491, ../sass/base/_drupalaton.scss */
-body.front .panel-flexible .sponsor .keynote .user .tab-button a {
-  color: #fff;
-}
-/* line 496, ../sass/base/_drupalaton.scss */
-body.front .panel-flexible .sponsor .keynote .user .speaker-title {
-  margin-bottom: 49px;
-}
-/* line 499, ../sass/base/_drupalaton.scss */
-body.front .panel-flexible .sponsor .keynote .views-row-first .speaker-title,
-body.front .panel-flexible .sponsor .keynote .views-row-last .speaker-title {
-  margin-bottom: 0;
-}
-
-/* line 507, ../sass/base/_drupalaton.scss */
-body.node-type-speaker .field-name-field-speaker-photo {
-  float: right;
-  margin: -30px 0 15px 15px;
-}
-/* line 511, ../sass/base/_drupalaton.scss */
-body.node-type-speaker .field-name-field-speaker-job-title {
-  margin: 40px 0 0 0;
-}
-/* line 514, ../sass/base/_drupalaton.scss */
-body.node-type-speaker .field-name-field-speaker-job-title .field-label {
-  margin: 0;
-}
-/* line 518, ../sass/base/_drupalaton.scss */
-body.node-type-speaker .field-label,
-body.node-type-speaker .field-item {
-  font-size: 24px;
-}
-
-/* line 526, ../sass/base/_drupalaton.scss */
-body.page-node-edit .field-name-field-speaker-photo {
-  float: none;
-  margin: 20px 0;
-}
-/* line 530, ../sass/base/_drupalaton.scss */
-body.page-node-edit .field-name-field-sponsor-logo {
-  position: relative;
-  margin-top: 0;
-  left: 0;
-}
-/* line 535, ../sass/base/_drupalaton.scss */
-body.page-node-edit .node {
-  position: relative;
-}
-/* line 538, ../sass/base/_drupalaton.scss */
-body.page-node-edit .node .field-label {
-  margin: 0;
-}
-
-/* line 543, ../sass/base/_drupalaton.scss */
-p.price {
-  display: none;
-}
-
-/* line 547, ../sass/base/_drupalaton.scss */
-section {
-  margin-top: -4.5em;
-  padding-top: 4.5em;
-}
-
-/* line 551, ../sass/base/_drupalaton.scss */
-.tab-content {
-  background-color: #1675af;
-  padding: 40px 0 50px;
-  margin-top: -1px;
-}
-/* line 557, ../sass/base/_drupalaton.scss */
-.tab-content p a {
-  color: #8abad7;
-  text-shadow: 0 -2px #082637;
-  transition: color 1s;
-}
-/* line 562, ../sass/base/_drupalaton.scss */
-.tab-content p a:hover {
-  text-decoration: underline;
-}
-/* line 567, ../sass/base/_drupalaton.scss */
-.tab-content p, .tab-content ul, .tab-content li, .tab-content h3 {
-  color: #fff;
-}
-
-/* line 573, ../sass/base/_drupalaton.scss */
-.tab-button a {
-  display: block;
-  color: #ffffff;
-  color: #fff;
-  font-family: Oswald, Arial, Helvetica, "Nimbus Sans L", sans-serif;
-  font-weight: bold;
-  display: block;
-  text-transform: uppercase;
-  font-size: 18px;
-  padding: 14px 30px 10px 30px;
-  text-shadow: 0 -2px #000000;
-  -moz-border-radius: 6px;
-  -webkit-border-radius: 6px;
-  border-radius: 6px;
-  -webkit-box-shadow: 0px 6px 0px #15648c;
-  -moz-box-shadow: 0px 6px 0px #15648c;
-  box-shadow: 0px 6px 0px #15648c;
-  background-color: #1675af;
-  text-align: center;
-  -webkit-transform: translate(0, 0);
-  -moz-transform: translate(0, 0);
-  transform: translate(0, 0);
-  -webkit-transition: all .2s ease;
-  -moz-transition: all .2s ease;
-  -ms-transition: all .2s ease;
-  -o-transition: all .2s ease;
-  transition: all .2s ease;
-  padding: 14px 0;
-}
-/* line 100, ../sass/_mixins.scss */
-.tab-button a:active {
-  -webkit-transform: translate(0, 3px);
-  -moz-transform: translate(0, 3px);
-  transform: translate(0, 3px);
-}
-
-/* line 579, ../sass/base/_drupalaton.scss */
-.about {
-  margin-top: 25px;
-}
-
-/* line 582, ../sass/base/_drupalaton.scss */
-.event-data {
-  background: url("../img/drupalaton_hungary.jpg") no-repeat scroll top right transparent;
-  padding: 20px 0;
-  margin-bottom: 20px;
-}
-
-/* line 588, ../sass/base/_drupalaton.scss */
-.about-buttons .tab-button {
-  width: 31%;
-  float: left;
-}
-/* line 592, ../sass/base/_drupalaton.scss */
-.about-buttons .tab-button a {
-  color: #fff;
-}
-/* line 595, ../sass/base/_drupalaton.scss */
-.about-buttons .tab-button.center {
-  margin: 0 30px;
-}
-
-/* line 600, ../sass/base/_drupalaton.scss */
-.sponsors.tab-button {
-  position: relative;
-  color: #fff;
-  background-color: #ef5825;
-  font-family: Oswald, Arial, Helvetica, "Nimbus Sans L", sans-serif;
-  font-weight: bold;
-  display: block;
-  text-transform: uppercase;
-  font-size: 22px;
-  padding: 14px 30px 10px 30px;
-  text-shadow: 0 -2px #000000;
-  -moz-border-radius: 6px;
-  -webkit-border-radius: 6px;
-  border-radius: 6px;
-  -moz-box-shadow: #b2411b 0px -6px;
-  -webkit-box-shadow: #b2411b 0px -6px;
-  box-shadow: #b2411b 0px -6px;
-  width: 100%;
-  max-width: 900px;
-  margin: 40px 0 0 0;
-  text-align: center;
-  border: 0;
-}
-
-/* line 610, ../sass/base/_drupalaton.scss */
-.partner-link {
-  background: #fff;
-  border: 1px solid #ccc;
-  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.15);
-}
-
-/* line 615, ../sass/base/_drupalaton.scss */
-.sponsor-link:hover,
-.sponsor-link:focus,
-.partner-link:hover,
-.partner-link:focus {
-  border-color: #f0a303;
-}
-
-/* line 624, ../sass/base/_drupalaton.scss */
-.location-area {
-  background: #e7e7e7;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  height: 300px;
-}
-
-/* line 630, ../sass/base/_drupalaton.scss */
-.location,
-.sessionproposals,
-.about {
-  margin-bottom: 60px;
-}
-
-/* line 635, ../sass/base/_drupalaton.scss */
-.keynote.container_12 {
-  margin-bottom: 20px;
-  margin-top: 60px;
-}
-
-/* line 639, ../sass/base/_drupalaton.scss */
-.registration {
-  margin-bottom: 40px;
-}
-
-/* line 642, ../sass/base/_drupalaton.scss */
-.about-wrapper {
-  margin-top: 20px;
-}
-
-/* line 648, ../sass/base/_drupalaton.scss */
-table {
-  font-size: 18px;
-  width: 100%;
-}
-/* line 654, ../sass/base/_drupalaton.scss */
-table thead th {
-  padding: 0;
-  border-bottom: 0;
-}
-/* line 658, ../sass/base/_drupalaton.scss */
-table thead th span {
-  background-color: #1776B0;
-  color: #fff;
-  padding: 10px;
-  display: table-cell;
-}
-/* line 664, ../sass/base/_drupalaton.scss */
-table thead th.room1 {
-  width: 27%;
-}
-/* line 667, ../sass/base/_drupalaton.scss */
-table thead th.room2 {
-  width: 38%;
-}
-/* line 673, ../sass/base/_drupalaton.scss */
-table tbody {
-  border-top: 0;
-}
-/* line 676, ../sass/base/_drupalaton.scss */
-table tbody tr {
-  border-bottom: 0;
-  background-color: transparent;
-}
-/* line 680, ../sass/base/_drupalaton.scss */
-table tbody tr td {
-  padding: 10px;
-  border-width: 4px 2px;
-  border-style: solid;
-  border-color: #fff;
-  background-color: #092738;
-  color: #fff;
-  font-size: 20px !important;
-  font-weight: 700;
-  vertical-align: top;
-}
-/* line 691, ../sass/base/_drupalaton.scss */
-table tbody tr td a {
-  color: #fff;
-}
-/* line 694, ../sass/base/_drupalaton.scss */
-table tbody tr td.hide {
-  background-color: #3A5260;
-  color: #A9B4BA;
-}
-/* line 698, ../sass/base/_drupalaton.scss */
-table tbody tr td.time {
-  background-color: #1776B0;
-  width: 15%;
-}
-/* line 702, ../sass/base/_drupalaton.scss */
-table tbody tr td.time.hide {
-  color: #fff;
-}
-/* line 708, ../sass/base/_drupalaton.scss */
-table tbody tr td:hover {
-  background-color: #ef5825;
-  transition: background-color 0.6s ease 0s;
-  color: #fff;
-}
-/* line 713, ../sass/base/_drupalaton.scss */
-table tbody tr td:hover a {
-  color: #fff;
-  text-decoration: underline;
-}
-/* line 719, ../sass/base/_drupalaton.scss */
-table tbody tr:nth-child(odd),
-table tbody tr:nth-child(even) {
-  background-color: transparent;
-  border-bottom: 0;
-}
-
-/* line 727, ../sass/base/_drupalaton.scss */
-table.program {
-  margin: 15px 0;
-}
-/* line 731, ../sass/base/_drupalaton.scss */
-table.program thead th.name {
-  width: 22%;
-}
-/* line 734, ../sass/base/_drupalaton.scss */
-table.program thead th:first-child {
-  width: 15%;
-}
-
-/* line 739, ../sass/base/_drupalaton.scss */
-body.front .panel-flexible .panel-separator {
-  margin-top: 50px;
-  margin-bottom: 50px;
-  height: 1px;
-}
-
-/* line 744, ../sass/base/_drupalaton.scss */
-.sponsor_packages {
-  margin-top: 50px;
-  margin-bottom: 50px;
-}
-/* line 748, ../sass/base/_drupalaton.scss */
-.sponsor_packages table tbody tr td {
-  background-color: transparent;
-  color: #092738;
-}
-
-/* line 756, ../sass/base/_drupalaton.scss */
-.view-sessions * {
-  line-height: 100%;
-}
-/* line 759, ../sass/base/_drupalaton.scss */
-.view-sessions ul {
-  padding: 0;
-}
-/* line 762, ../sass/base/_drupalaton.scss */
-.view-sessions ul li {
-  list-style: none;
-  margin: 3em 0;
-}
-/* line 767, ../sass/base/_drupalaton.scss */
-.view-sessions .views-field-body ul {
-  padding: 0 0 0 40px;
-}
-/* line 770, ../sass/base/_drupalaton.scss */
-.view-sessions .views-field-body ul li {
-  margin: 10px 0;
-  list-style: initial;
-  list-style-position: inside;
-}
-/* line 777, ../sass/base/_drupalaton.scss */
-.view-sessions p {
-  line-height: 140%;
-}
-/* line 780, ../sass/base/_drupalaton.scss */
-.view-sessions .views-field-field-speaker-session-title {
-  color: #ef5825;
-  font-size: 35px;
-  text-transform: uppercase;
-  font-family: Oswald, Arial, Helvetica, "Nimbus Sans L", sans-serif;
-  line-height: 100%;
-}
-/* line 787, ../sass/base/_drupalaton.scss */
-.view-sessions .views-field-field-speaker-session-type {
-  font-size: 22px;
-  font-family: Oswald, Arial, Helvetica, "Nimbus Sans L", sans-serif;
-  color: #9DA9AF;
-  text-transform: uppercase;
-}
-/* line 796, ../sass/base/_drupalaton.scss */
-.view-sessions .views-field-title {
-  color: #092738;
-  font-size: 22px;
-  text-transform: uppercase;
-  font-family: Oswald, Arial, Helvetica, "Nimbus Sans L", sans-serif;
-  line-height: 140%;
-  font-weight: bold;
-}
-/* line 804, ../sass/base/_drupalaton.scss */
-.view-sessions .views-field-title a {
-  color: #092738;
-}
-/* line 808, ../sass/base/_drupalaton.scss */
-.view-sessions .views-field-field-speaker-job-title {
-  font-size: 22px;
-  font-family: Oswald, Arial, Helvetica, "Nimbus Sans L", sans-serif;
-  color: #9DA9AF;
-  text-transform: uppercase;
-}
-/* line 814, ../sass/base/_drupalaton.scss */
-.view-sessions .views-field-field-speaker-photo {
-  float: left;
-  margin: 0 15px 15px 0;
-}
-
-/* line 823, ../sass/base/_drupalaton.scss */
-body.page-schedule .region-content p {
-  margin: 1em 0;
-}
-/* line 826, ../sass/base/_drupalaton.scss */
-body.page-schedule .pane-sessions-panel-pane-1 {
-  margin: 2em 0 0 0;
-}
-
-/* line 831, ../sass/base/_drupalaton.scss */
-#live {
-  position: fixed;
-  top: 43%;
-  right: -240px;
-  width: 367px;
-  z-index: 100;
-  cursor: pointer;
-  -moz-transition-property: right;
-  -o-transition-property: right;
-  -webkit-transition-property: right;
-  transition-property: right;
-  -moz-transition-duration: 1s;
-  -o-transition-duration: 1s;
-  -webkit-transition-duration: 1s;
-  transition-duration: 1s;
-}
-/* line 842, ../sass/base/_drupalaton.scss */
-#live.oneday {
-  background: url("../img/live_oneday.png") no-repeat scroll 0 0 transparent;
-  height: 135px;
-}
-/* line 846, ../sass/base/_drupalaton.scss */
-#live.twoday {
-  background: url("../img/live_twoday.png") no-repeat scroll 0 0 transparent;
-  height: 209px;
-}
-/* line 851, ../sass/base/_drupalaton.scss */
-#live:hover {
-  right: 0;
-  -moz-transition-property: right;
-  -o-transition-property: right;
-  -webkit-transition-property: right;
-  transition-property: right;
-  -moz-transition-duration: 1s;
-  -o-transition-duration: 1s;
-  -webkit-transition-duration: 1s;
-  transition-duration: 1s;
-}
-/* line 857, ../sass/base/_drupalaton.scss */
-#live .inner {
-  margin: 36px 0 0 131px;
-  overflow: hidden;
-}
-/* line 861, ../sass/base/_drupalaton.scss */
-#live .icon {
-  width: 56px;
-  height: 56px;
-  background: url("../img/live_icon.png") no-repeat scroll 0 0 transparent;
-  float: left;
-  display: block;
-}
-/* line 868, ../sass/base/_drupalaton.scss */
-#live a {
-  font-family: Oswald, Arial, Helvetica, "Nimbus Sans L", sans-serif;
-  overflow: hidden;
-  margin-bottom: 15px;
-  display: block;
-}
-/* line 874, ../sass/base/_drupalaton.scss */
-#live a:hover .icon {
-  background-position: 0 -144px;
-}
-/* line 877, ../sass/base/_drupalaton.scss */
-#live .text {
-  font-size: 20px;
-  float: left;
-  margin-left: 20px;
-  margin-top: 5px;
-}
-/* line 883, ../sass/base/_drupalaton.scss */
-#live .day {
-  color: #fff;
-}
-/* line 886, ../sass/base/_drupalaton.scss */
-#live .dayname {
-  color: #F4AC85;
-}
-
-/* line 891, ../sass/base/_drupalaton.scss */
-img.img-left {
-  float: left;
-  margin: 0 15px 15px 0;
-}
-
-/* line 895, ../sass/base/_drupalaton.scss */
-img.img-right {
-  float: right;
-  margin: 0 0 15px 15px;
-}
-
-/* line 899, ../sass/base/_drupalaton.scss */
-.contactmin {
-  background-color: #2b9fe0;
-  padding: 60px;
-}
-
-@media all and (max-width: 1300px) {
-  /* line 906, ../sass/base/_drupalaton.scss */
-  .hills {
-    background-position: -320px 0;
-  }
-}
-@media only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 600px) {
-  /* line 913, ../sass/base/_drupalaton.scss */
-  .landscape .info h1 span {
-    background-size: 270px auto;
-    margin-left: 0.2em;
-    width: 90%;
-  }
-}
 /**
  * @file
  * Formatting the forms.
@@ -9561,6 +8484,64 @@ body {
 /* line 28, ../sass/base/_nav.scss */
 #nav-toggle {
   display: none;
+}
+
+/**
+ * navigation
+ */
+/* line 35, ../sass/base/_nav.scss */
+.navigation {
+  position: fixed;
+  z-index: 10;
+  width: 100%;
+  transition: all 0.3s ease-in;
+}
+/* line 41, ../sass/base/_nav.scss */
+.navigation.fixed {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+/* line 44, ../sass/base/_nav.scss */
+.navigation.fixed #nav ul li a {
+  color: #fff;
+}
+
+/* line 14, ../lib/sass_bootstrap/vendor/assets/stylesheets/bootstrap/mixins/_clearfix.scss */
+#nav:before, #nav:after {
+  content: " ";
+  display: table;
+}
+/* line 19, ../lib/sass_bootstrap/vendor/assets/stylesheets/bootstrap/mixins/_clearfix.scss */
+#nav:after {
+  clear: both;
+}
+/* line 53, ../sass/base/_nav.scss */
+#nav ul {
+  text-align: center;
+  padding: 0 20px;
+}
+/* line 14, ../lib/sass_bootstrap/vendor/assets/stylesheets/bootstrap/mixins/_clearfix.scss */
+#nav ul:before, #nav ul:after {
+  content: " ";
+  display: table;
+}
+/* line 19, ../lib/sass_bootstrap/vendor/assets/stylesheets/bootstrap/mixins/_clearfix.scss */
+#nav ul:after {
+  clear: both;
+}
+/* line 58, ../sass/base/_nav.scss */
+#nav ul li {
+  display: inline;
+  margin: 0 6px;
+  line-height: normal;
+}
+/* line 63, ../sass/base/_nav.scss */
+#nav ul li a {
+  font-family: Oswald, Arial, Helvetica, "Nimbus Sans L", sans-serif;
+  font-weight: bold;
+  font-size: 22px;
+  color: #1675af;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
 /*! normalize.css v1.1.1 | MIT License | git.io/normalize */
@@ -10156,11 +9137,16 @@ table {
   text-align: center;
 }
 
-/* line 2, ../sass/base/elements/_contact.scss */
+/* line 1, ../sass/base/elements/_contact.scss */
+.contactmin {
+  background-color: #2b9fe0;
+  padding: 60px;
+}
+/* line 5, ../sass/base/elements/_contact.scss */
 .contactmin .content {
   padding: 80px 0;
 }
-/* line 5, ../sass/base/elements/_contact.scss */
+/* line 8, ../sass/base/elements/_contact.scss */
 .contactmin p {
   margin: 0;
   display: block;
@@ -10172,9 +9158,88 @@ table {
   font-weight: bold;
   text-shadow: 1px 1px 1px #082637;
 }
-/* line 16, ../sass/base/elements/_contact.scss */
+/* line 19, ../sass/base/elements/_contact.scss */
 .contactmin p span a {
   color: #fff;
+}
+
+/* line 2, ../sass/base/elements/_live.scss */
+#live {
+  -moz-transition-property: right;
+  -o-transition-property: right;
+  -webkit-transition-property: right;
+  transition-property: right;
+  -moz-transition-duration: 1s;
+  -o-transition-duration: 1s;
+  -webkit-transition-duration: 1s;
+  transition-duration: 1s;
+  position: fixed;
+  top: 43%;
+  right: -240px;
+  width: 367px;
+  z-index: 100;
+  cursor: pointer;
+}
+/* line 12, ../sass/base/elements/_live.scss */
+#live.oneday {
+  background: url("../img/live_oneday.png") no-repeat scroll 0 0 transparent;
+  height: 135px;
+}
+/* line 17, ../sass/base/elements/_live.scss */
+#live.twoday {
+  background: url("../img/live_twoday.png") no-repeat scroll 0 0 transparent;
+  height: 209px;
+}
+/* line 22, ../sass/base/elements/_live.scss */
+#live:hover {
+  -moz-transition-property: right;
+  -o-transition-property: right;
+  -webkit-transition-property: right;
+  transition-property: right;
+  -moz-transition-duration: 1s;
+  -o-transition-duration: 1s;
+  -webkit-transition-duration: 1s;
+  transition-duration: 1s;
+  right: 0;
+}
+/* line 28, ../sass/base/elements/_live.scss */
+#live .inner {
+  margin: 36px 0 0 131px;
+  overflow: hidden;
+}
+/* line 33, ../sass/base/elements/_live.scss */
+#live .icon {
+  width: 56px;
+  height: 56px;
+  background: url("../img/live_icon.png") no-repeat scroll 0 0 transparent;
+  float: left;
+  display: block;
+}
+/* line 41, ../sass/base/elements/_live.scss */
+#live a {
+  font-family: Oswald, Arial, Helvetica, "Nimbus Sans L", sans-serif;
+  overflow: hidden;
+  margin-bottom: 15px;
+  display: block;
+}
+/* line 48, ../sass/base/elements/_live.scss */
+#live a:hover .icon {
+  background-position: 0 -144px;
+}
+/* line 52, ../sass/base/elements/_live.scss */
+#live .text {
+  font-size: 20px;
+  float: left;
+  margin-left: 20px;
+  margin-top: 5px;
+}
+/* line 59, ../sass/base/elements/_live.scss */
+#live .day {
+  color: #fff;
+}
+/* line 63, ../sass/base/elements/_live.scss */
+#live .dayname {
+  color: #F4AC85;
 }
 
 /* line 2, ../sass/base/elements/_newsletter.scss */
@@ -10462,6 +9527,894 @@ div.twitter span.second {
 /* line 21, ../sass/base/elements/_twitter.scss */
 div.twitter span {
   font-size: 56px;
+}
+
+/* line 3, ../sass/base/node/_base.scss */
+.node ul li {
+  font-family: "Open Sans", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+  line-height: 160%;
+  font-size: 20px;
+}
+
+/* line 11, ../sass/base/node/_base.scss */
+.pane-content li {
+  font-size: 22px;
+  line-height: 140%;
+}
+
+/* line 17, ../sass/base/node/_base.scss */
+a {
+  color: #e9590a;
+  text-decoration: none;
+}
+/* line 21, ../sass/base/node/_base.scss */
+a.anchor {
+  color: #1675af;
+}
+
+/* line 26, ../sass/base/node/_base.scss */
+p {
+  font-size: 22px;
+  line-height: 140%;
+}
+/* line 30, ../sass/base/node/_base.scss */
+p.price {
+  display: none;
+}
+
+/* line 37, ../sass/base/node/_base.scss */
+body.page-node-edit .field-name-field-speaker-photo {
+  float: none;
+  margin: 20px 0;
+}
+/* line 42, ../sass/base/node/_base.scss */
+body.page-node-edit .field-name-field-sponsor-logo {
+  position: relative;
+  margin-top: 0;
+  left: 0;
+}
+/* line 48, ../sass/base/node/_base.scss */
+body.page-node-edit .node {
+  position: relative;
+}
+/* line 51, ../sass/base/node/_base.scss */
+body.page-node-edit .node .field-label {
+  margin: 0;
+}
+
+/**
+ * content
+ */
+/* line 62, ../sass/base/node/_base.scss */
+.content section {
+  padding-top: 2.5em;
+}
+/* line 66, ../sass/base/node/_base.scss */
+.content h2.section-title {
+  margin: 0;
+  font-family: Oswald, Arial, Helvetica, "Nimbus Sans L", sans-serif;
+  font-size: 70px;
+  line-height: 100%;
+  text-transform: uppercase;
+  color: #082637;
+}
+/* line 75, ../sass/base/node/_base.scss */
+.content h3.section-subtitle strong {
+  margin: 40px 0 0;
+  font-family: Oswald, Arial, Helvetica, "Nimbus Sans L", sans-serif;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 100%;
+  text-transform: uppercase;
+  color: #1675af;
+}
+/* line 85, ../sass/base/node/_base.scss */
+.content .field-label {
+  margin: 25px 0 10px;
+}
+/* line 89, ../sass/base/node/_base.scss */
+.content .field-items {
+  margin-bottom: 10px;
+}
+
+/* line 95, ../sass/base/node/_base.scss */
+.tab-button a {
+  display: block;
+  color: #ffffff;
+  color: #fff;
+  font-family: Oswald, Arial, Helvetica, "Nimbus Sans L", sans-serif;
+  font-weight: bold;
+  display: block;
+  text-transform: uppercase;
+  font-size: 18px;
+  padding: 14px 30px 10px 30px;
+  text-shadow: 0 -2px #000000;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  border-radius: 6px;
+  -webkit-box-shadow: 0px 6px 0px #15648c;
+  -moz-box-shadow: 0px 6px 0px #15648c;
+  box-shadow: 0px 6px 0px #15648c;
+  background-color: #1675af;
+  text-align: center;
+  -webkit-transform: translate(0, 0);
+  -moz-transform: translate(0, 0);
+  transform: translate(0, 0);
+  -webkit-transition: all .2s ease;
+  -moz-transition: all .2s ease;
+  -ms-transition: all .2s ease;
+  -o-transition: all .2s ease;
+  transition: all .2s ease;
+  padding: 14px 0;
+}
+/* line 100, ../sass/_mixins.scss */
+.tab-button a:active {
+  -webkit-transform: translate(0, 3px);
+  -moz-transform: translate(0, 3px);
+  transform: translate(0, 3px);
+}
+
+/* line 102, ../sass/base/node/_base.scss */
+h1.title {
+  margin: 0;
+  font-family: Oswald, Arial, Helvetica, "Nimbus Sans L", sans-serif;
+  font-size: 70px;
+  line-height: 100%;
+  text-transform: uppercase;
+  color: #082637;
+  font-weight: 700;
+}
+/* line 112, ../sass/base/node/_base.scss */
+h1#page-title {
+  margin-top: 50px;
+}
+
+/* line 118, ../sass/base/node/_base.scss */
+table {
+  font-size: 18px;
+  width: 100%;
+}
+/* line 124, ../sass/base/node/_base.scss */
+table thead th {
+  padding: 0;
+  border-bottom: 0;
+}
+/* line 128, ../sass/base/node/_base.scss */
+table thead th span {
+  background-color: #1776B0;
+  color: #fff;
+  padding: 10px;
+  display: table-cell;
+}
+/* line 134, ../sass/base/node/_base.scss */
+table thead th.room1 {
+  width: 27%;
+}
+/* line 137, ../sass/base/node/_base.scss */
+table thead th.room2 {
+  width: 38%;
+}
+/* line 144, ../sass/base/node/_base.scss */
+table tbody {
+  border-top: 0;
+}
+/* line 147, ../sass/base/node/_base.scss */
+table tbody tr {
+  border-bottom: 0;
+  background-color: transparent;
+}
+/* line 151, ../sass/base/node/_base.scss */
+table tbody tr td {
+  padding: 10px;
+  border-width: 4px 2px;
+  border-style: solid;
+  border-color: #fff;
+  background-color: #092738;
+  color: #fff;
+  font-size: 20px !important;
+  font-weight: 700;
+  vertical-align: top;
+}
+/* line 162, ../sass/base/node/_base.scss */
+table tbody tr td a {
+  color: #fff;
+}
+/* line 165, ../sass/base/node/_base.scss */
+table tbody tr td.hide {
+  background-color: #3A5260;
+  color: #A9B4BA;
+}
+/* line 169, ../sass/base/node/_base.scss */
+table tbody tr td.time {
+  background-color: #1776B0;
+  width: 15%;
+}
+/* line 173, ../sass/base/node/_base.scss */
+table tbody tr td.time.hide {
+  color: #fff;
+}
+/* line 179, ../sass/base/node/_base.scss */
+table tbody tr td:hover {
+  background-color: #ef5825;
+  transition: background-color 0.6s ease 0s;
+  color: #fff;
+}
+/* line 184, ../sass/base/node/_base.scss */
+table tbody tr td:hover a {
+  color: #fff;
+  text-decoration: underline;
+}
+/* line 190, ../sass/base/node/_base.scss */
+table tbody tr:nth-child(odd),
+table tbody tr:nth-child(even) {
+  background-color: transparent;
+  border-bottom: 0;
+}
+
+/* line 198, ../sass/base/node/_base.scss */
+img.img-left {
+  float: left;
+  margin: 0 15px 15px 0;
+}
+
+/* line 202, ../sass/base/node/_base.scss */
+img.img-right {
+  float: right;
+  margin: 0 0 15px 15px;
+}
+
+/* line 2, ../sass/base/node/_session.scss */
+.field-name-field-session-type .field-items,
+.field-name-field-session-room .field-items {
+  margin: 25px 0 10px 0;
+}
+
+/* line 4, ../sass/base/node/_speaker.scss */
+body.node-type-speaker .field-name-field-speaker-photo {
+  float: right;
+  margin: -30px 0 15px 15px;
+}
+/* line 8, ../sass/base/node/_speaker.scss */
+body.node-type-speaker .field-name-field-speaker-job-title {
+  margin: 40px 0 0 0;
+}
+/* line 11, ../sass/base/node/_speaker.scss */
+body.node-type-speaker .field-name-field-speaker-job-title .field-label {
+  margin: 0;
+}
+/* line 15, ../sass/base/node/_speaker.scss */
+body.node-type-speaker .field-label,
+body.node-type-speaker .field-item {
+  font-size: 24px;
+}
+
+/* line 2, ../sass/base/node/_sponsor.scss */
+.field-name-field-sponsor-web-page a {
+  font-size: 22px;
+}
+
+/* line 2, ../sass/base/pages/_about.scss */
+.about {
+  margin-top: 25px;
+}
+
+/* line 6, ../sass/base/pages/_about.scss */
+.event-data {
+  background: url("../img/drupalaton_hungary.jpg") no-repeat scroll top right transparent;
+  padding: 20px 0;
+  margin-bottom: 20px;
+}
+
+/* line 13, ../sass/base/pages/_about.scss */
+.about-buttons .tab-button {
+  width: 31%;
+  float: left;
+}
+/* line 17, ../sass/base/pages/_about.scss */
+.about-buttons .tab-button a {
+  color: #fff;
+}
+/* line 20, ../sass/base/pages/_about.scss */
+.about-buttons .tab-button.center {
+  margin: 0 30px;
+}
+
+/* line 26, ../sass/base/pages/_about.scss */
+.sponsors.tab-button {
+  position: relative;
+  color: #fff;
+  background-color: #ef5825;
+  font-family: Oswald, Arial, Helvetica, "Nimbus Sans L", sans-serif;
+  font-weight: bold;
+  display: block;
+  text-transform: uppercase;
+  font-size: 22px;
+  padding: 14px 30px 10px 30px;
+  text-shadow: 0 -2px #000000;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  border-radius: 6px;
+  -moz-box-shadow: #b2411b 0px -6px;
+  -webkit-box-shadow: #b2411b 0px -6px;
+  box-shadow: #b2411b 0px -6px;
+  width: 100%;
+  max-width: 900px;
+  margin: 40px 0 0;
+  text-align: center;
+  border: 0;
+}
+
+/**
+ * landscape
+ */
+/* line 6, ../sass/base/pages/_frontpage.scss */
+body.front .landscape {
+  background: url("../img/sky.png") repeat-x scroll 0 0 transparent;
+  position: relative;
+}
+/* line 11, ../sass/base/pages/_frontpage.scss */
+body.front .hills {
+  background: url("../img/hills.png") no-repeat scroll 0 0 transparent;
+  display: block;
+  height: 174px;
+  width: 745px;
+  position: absolute;
+  top: 98px;
+}
+/* line 20, ../sass/base/pages/_frontpage.scss */
+body.front .boats {
+  width: 100%;
+  position: relative;
+  height: 100px;
+  margin: 0;
+  top: 174px !important;
+}
+/* line 27, ../sass/base/pages/_frontpage.scss */
+body.front .boats .boat {
+  position: absolute;
+}
+/* line 31, ../sass/base/pages/_frontpage.scss */
+body.front .boats #smallboat {
+  background: url("../img/boat_small.svg") no-repeat scroll 0 0 transparent;
+  height: 60px;
+  width: 30px;
+  top: 25px;
+}
+/* line 38, ../sass/base/pages/_frontpage.scss */
+body.front .boats #bigboat {
+  background: url("../img/boat_big.svg") no-repeat scroll 0 0 transparent;
+  height: 77px;
+  top: 0;
+  width: 66px;
+}
+/* line 46, ../sass/base/pages/_frontpage.scss */
+body.front .lake {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  background: url("../img/water_02.png") repeat-x scroll 0 0 transparent;
+}
+/* line 53, ../sass/base/pages/_frontpage.scss */
+body.front .logo {
+  position: absolute;
+  text-align: right;
+  top: 189px;
+  width: 100%;
+}
+/* line 59, ../sass/base/pages/_frontpage.scss */
+body.front .logo a {
+  display: block;
+  margin: 0 auto;
+}
+/* line 64, ../sass/base/pages/_frontpage.scss */
+body.front .logo .logo-inner {
+  margin: 0 auto;
+  padding: 0 20px;
+}
+/* line 70, ../sass/base/pages/_frontpage.scss */
+body.front .logo-link {
+  width: 100%;
+}
+/* line 73, ../sass/base/pages/_frontpage.scss */
+body.front .logo-link a {
+  height: 74px;
+  width: 345px;
+  position: absolute;
+  right: 0;
+  top: 190px;
+  display: block;
+}
+/* line 83, ../sass/base/pages/_frontpage.scss */
+body.front .rounded-corner .wrap-corner {
+  background-color: transparent !important;
+  background-image: none;
+}
+/* line 87, ../sass/base/pages/_frontpage.scss */
+body.front .rounded-corner .wrap-corner .b-edge,
+body.front .rounded-corner .wrap-corner .t-edge,
+body.front .rounded-corner .wrap-corner .l,
+body.front .rounded-corner .wrap-corner .r,
+body.front .rounded-corner .wrap-corner .l-edge,
+body.front .rounded-corner .wrap-corner .r-edge {
+  background-image: none;
+  background-color: transparent !important;
+}
+
+/* line 100, ../sass/base/pages/_frontpage.scss */
+body.not-front .landscape {
+  background: url("../img/sky.png") repeat-x scroll 0 0 transparent;
+  height: 320px;
+  position: relative;
+}
+/* line 106, ../sass/base/pages/_frontpage.scss */
+body.not-front .hills {
+  background: url("../img/hills.png") no-repeat scroll 0 0 transparent;
+  display: block;
+  height: 162px;
+  width: 745px;
+  position: absolute;
+  top: 109px;
+}
+/* line 115, ../sass/base/pages/_frontpage.scss */
+body.not-front .boats {
+  width: 100%;
+  position: relative;
+  height: 100px;
+  margin: 0;
+  top: 174px !important;
+}
+/* line 122, ../sass/base/pages/_frontpage.scss */
+body.not-front .boats .boat {
+  position: absolute;
+}
+/* line 126, ../sass/base/pages/_frontpage.scss */
+body.not-front .boats #smallboat {
+  background: url("../img/boat_small.svg") no-repeat scroll 0 0 transparent;
+  height: 60px;
+  width: 30px;
+  top: 25px;
+}
+/* line 133, ../sass/base/pages/_frontpage.scss */
+body.not-front .boats #bigboat {
+  background: url("../img/boat_big.svg") no-repeat scroll 0 0 transparent;
+  height: 77px;
+  top: 0;
+  width: 66px;
+}
+/* line 141, ../sass/base/pages/_frontpage.scss */
+body.not-front .lake {
+  height: 320px;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  background: url("../img/water_02_small.png") repeat-x scroll 0 0 transparent;
+}
+/* line 149, ../sass/base/pages/_frontpage.scss */
+body.not-front .logo {
+  position: absolute;
+  text-align: right;
+  top: 189px;
+  width: 100%;
+}
+/* line 155, ../sass/base/pages/_frontpage.scss */
+body.not-front .logo a {
+  display: block;
+  margin: 0 auto;
+}
+/* line 160, ../sass/base/pages/_frontpage.scss */
+body.not-front .logo .logo-inner {
+  width: 960px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+/* line 167, ../sass/base/pages/_frontpage.scss */
+body.not-front .logo-link {
+  width: 100%;
+}
+/* line 170, ../sass/base/pages/_frontpage.scss */
+body.not-front .logo-link .logo-link-inner {
+  width: 960px;
+  margin: 0 auto;
+  position: relative;
+}
+/* line 175, ../sass/base/pages/_frontpage.scss */
+body.not-front .logo-link .logo-link-inner a {
+  height: 74px;
+  width: 345px;
+  position: absolute;
+  right: 0;
+  top: 190px;
+  display: block;
+}
+
+/* line 188, ../sass/base/pages/_frontpage.scss */
+.clouds {
+  height: 100px;
+  margin: 0;
+  width: 100%;
+  top: 20px !important;
+}
+/* line 194, ../sass/base/pages/_frontpage.scss */
+.clouds .cloud {
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 10px;
+}
+/* line 200, ../sass/base/pages/_frontpage.scss */
+.clouds .cloud-left {
+  background-image: url("../img/cloud_left.svg");
+}
+/* line 204, ../sass/base/pages/_frontpage.scss */
+.clouds .cloud-right {
+  background-image: url("../img/cloud_right.svg");
+}
+/* line 208, ../sass/base/pages/_frontpage.scss */
+.clouds .cloud1 {
+  width: 100px;
+  height: 40px;
+  background-size: 100px auto;
+}
+/* line 214, ../sass/base/pages/_frontpage.scss */
+.clouds .cloud2 {
+  width: 122px;
+  height: 52px;
+  top: 20px;
+  background-size: 122px auto;
+}
+/* line 221, ../sass/base/pages/_frontpage.scss */
+.clouds .cloud3 {
+  width: 122px;
+  height: 52px;
+  background-size: 122px auto;
+  top: 80px;
+}
+/* line 228, ../sass/base/pages/_frontpage.scss */
+.clouds .cloud4 {
+  width: 166px;
+  height: 70px;
+  background-size: 166px auto;
+}
+/* line 234, ../sass/base/pages/_frontpage.scss */
+.clouds .cloud5 {
+  top: 0;
+  width: 142px;
+  height: 60px;
+  background-size: 142px auto;
+}
+/* line 241, ../sass/base/pages/_frontpage.scss */
+.clouds .cloud6,
+.clouds .cloud8 {
+  width: 71px;
+  height: 30px;
+  background-size: 71px auto;
+  top: 49px;
+}
+/* line 249, ../sass/base/pages/_frontpage.scss */
+.clouds .cloud7,
+.clouds .cloud9 {
+  width: 49px;
+  height: 21px;
+  background-size: 49px auto;
+  top: 40px;
+}
+/* line 257, ../sass/base/pages/_frontpage.scss */
+.clouds .cloud10 {
+  width: 115px;
+  height: 49px;
+  background-size: 115px auto;
+}
+
+/* line 264, ../sass/base/pages/_frontpage.scss */
+.location,
+.sessionproposals,
+.about {
+  margin-bottom: 60px;
+}
+
+/* line 270, ../sass/base/pages/_frontpage.scss */
+.keynote.container_12 {
+  margin-bottom: 20px;
+  margin-top: 60px;
+}
+
+/* line 275, ../sass/base/pages/_frontpage.scss */
+.registration {
+  margin-bottom: 40px;
+}
+
+/* line 279, ../sass/base/pages/_frontpage.scss */
+.about-wrapper {
+  margin-top: 20px;
+}
+
+/* line 2, ../sass/base/pages/_schedule.scss */
+table.program {
+  margin: 15px 0;
+}
+/* line 7, ../sass/base/pages/_schedule.scss */
+table.program thead th.name {
+  width: 22%;
+}
+/* line 11, ../sass/base/pages/_schedule.scss */
+table.program thead th:first-child {
+  width: 15%;
+}
+
+/* line 19, ../sass/base/pages/_schedule.scss */
+.view-sessions * {
+  line-height: 100%;
+}
+/* line 23, ../sass/base/pages/_schedule.scss */
+.view-sessions ul {
+  padding: 0;
+}
+/* line 26, ../sass/base/pages/_schedule.scss */
+.view-sessions ul li {
+  list-style: none;
+  margin: 3em 0;
+}
+/* line 32, ../sass/base/pages/_schedule.scss */
+.view-sessions .views-field-body ul {
+  padding: 0 0 0 40px;
+}
+/* line 35, ../sass/base/pages/_schedule.scss */
+.view-sessions .views-field-body ul li {
+  margin: 10px 0;
+  list-style: initial;
+  list-style-position: inside;
+}
+/* line 42, ../sass/base/pages/_schedule.scss */
+.view-sessions p {
+  line-height: 140%;
+}
+/* line 46, ../sass/base/pages/_schedule.scss */
+.view-sessions .views-field-field-speaker-session-title {
+  color: #ef5825;
+  font-size: 35px;
+  text-transform: uppercase;
+  font-family: Oswald, Arial, Helvetica, "Nimbus Sans L", sans-serif;
+  line-height: 100%;
+}
+/* line 54, ../sass/base/pages/_schedule.scss */
+.view-sessions .views-field-field-speaker-session-type {
+  font-size: 22px;
+  font-family: Oswald, Arial, Helvetica, "Nimbus Sans L", sans-serif;
+  color: #9DA9AF;
+  text-transform: uppercase;
+}
+/* line 61, ../sass/base/pages/_schedule.scss */
+.view-sessions .views-field-title {
+  color: #092738;
+  font-size: 22px;
+  text-transform: uppercase;
+  font-family: Oswald, Arial, Helvetica, "Nimbus Sans L", sans-serif;
+  line-height: 140%;
+  font-weight: bold;
+}
+/* line 69, ../sass/base/pages/_schedule.scss */
+.view-sessions .views-field-title a {
+  color: #092738;
+}
+/* line 74, ../sass/base/pages/_schedule.scss */
+.view-sessions .views-field-field-speaker-job-title {
+  font-size: 22px;
+  font-family: Oswald, Arial, Helvetica, "Nimbus Sans L", sans-serif;
+  color: #9DA9AF;
+  text-transform: uppercase;
+}
+/* line 81, ../sass/base/pages/_schedule.scss */
+.view-sessions .views-field-field-speaker-photo {
+  float: left;
+  margin: 0 15px 15px 0;
+}
+
+/* line 88, ../sass/base/pages/_schedule.scss */
+body.page-schedule .region-content p {
+  margin: 1em 0;
+}
+/* line 92, ../sass/base/pages/_schedule.scss */
+body.page-schedule .pane-sessions-panel-pane-1 {
+  margin: 2em 0 0;
+}
+
+/* line 3, ../sass/base/pages/_sponsor.scss */
+.sponsors {
+  padding: 20px 0;
+}
+/* line 6, ../sass/base/pages/_sponsor.scss */
+.sponsors .view-content div:first-child h3 {
+  margin-top: 20px;
+}
+/* line 9, ../sass/base/pages/_sponsor.scss */
+.sponsors .view-content {
+  position: relative;
+  margin-top: 20px;
+}
+
+/* line 16, ../sass/base/pages/_sponsor.scss */
+.view-sponsors .sponsor-row {
+  margin-bottom: 10px;
+}
+/* line 14, ../lib/sass_bootstrap/vendor/assets/stylesheets/bootstrap/mixins/_clearfix.scss */
+.view-sponsors .sponsor-row:before, .view-sponsors .sponsor-row:after {
+  content: " ";
+  display: table;
+}
+/* line 19, ../lib/sass_bootstrap/vendor/assets/stylesheets/bootstrap/mixins/_clearfix.scss */
+.view-sponsors .sponsor-row:after {
+  clear: both;
+}
+/* line 20, ../sass/base/pages/_sponsor.scss */
+.view-sponsors h3 {
+  font-family: Oswald, Arial, Helvetica, "Nimbus Sans L", sans-serif;
+  font-size: 28px;
+  color: #000;
+  font-weight: bold;
+  margin: 0;
+  margin: 17px 0 20px 0;
+}
+
+/* line 32, ../sass/base/pages/_sponsor.scss */
+body.page-sponsors .views-field-field-sponsor-logo {
+  float: right;
+  margin: 0 0 10px 10px;
+}
+/* line 36, ../sass/base/pages/_sponsor.scss */
+body.page-sponsors .sponsor-row {
+  border-bottom: 3px solid #092738;
+  padding-bottom: 10px;
+}
+/* line 40, ../sass/base/pages/_sponsor.scss */
+body.page-sponsors .sponsor-row:last-child {
+  border-bottom: 0;
+}
+/* line 44, ../sass/base/pages/_sponsor.scss */
+body.page-sponsors .pane-sponsors .views-row {
+  border-bottom: 1px solid #092738;
+  margin: 15px 0;
+  padding-bottom: 20px;
+}
+/* line 49, ../sass/base/pages/_sponsor.scss */
+body.page-sponsors .pane-sponsors .views-row:last-child {
+  border-bottom: 0;
+  padding-bottom: 0;
+}
+
+/* line 57, ../sass/base/pages/_sponsor.scss */
+body.front .panel-flexible .sponsor {
+  width: 100%;
+  background-color: #082637;
+}
+/* line 61, ../sass/base/pages/_sponsor.scss */
+body.front .panel-flexible .sponsor .pane-title {
+  color: #fff;
+}
+/* line 65, ../sass/base/pages/_sponsor.scss */
+body.front .panel-flexible .sponsor .keynote ul {
+  list-style: none;
+}
+/* line 68, ../sass/base/pages/_sponsor.scss */
+body.front .panel-flexible .sponsor .keynote .speaker-name {
+  font-size: 36px;
+  color: #e9590a;
+  font-family: Oswald, Arial, Helvetica, "Nimbus Sans L", sans-serif;
+  line-height: 100%;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+/* line 76, ../sass/base/pages/_sponsor.scss */
+body.front .panel-flexible .sponsor .keynote .speaker-title {
+  font-size: 22px;
+  font-family: Oswald, Arial, Helvetica, "Nimbus Sans L", sans-serif;
+  line-height: 110%;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #9DA9AF;
+}
+/* line 84, ../sass/base/pages/_sponsor.scss */
+body.front .panel-flexible .sponsor .keynote .speaker-nick {
+  color: #fff;
+  font-size: 22px;
+  font-family: Oswald, Arial, Helvetica, "Nimbus Sans L", sans-serif;
+  line-height: 110%;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+/* line 92, ../sass/base/pages/_sponsor.scss */
+body.front .panel-flexible .sponsor .keynote .user {
+  float: left;
+  margin: 30px 7px 22px 7px;
+  width: 300px;
+}
+/* line 97, ../sass/base/pages/_sponsor.scss */
+body.front .panel-flexible .sponsor .keynote .user .image {
+  margin-top: 25px;
+}
+/* line 100, ../sass/base/pages/_sponsor.scss */
+body.front .panel-flexible .sponsor .keynote .user .tab-button {
+  width: 90%;
+  margin-top: 25px;
+}
+/* line 104, ../sass/base/pages/_sponsor.scss */
+body.front .panel-flexible .sponsor .keynote .user .tab-button a {
+  color: #fff;
+}
+/* line 109, ../sass/base/pages/_sponsor.scss */
+body.front .panel-flexible .sponsor .keynote .user .speaker-title {
+  margin-bottom: 49px;
+}
+/* line 112, ../sass/base/pages/_sponsor.scss */
+body.front .panel-flexible .sponsor .keynote .views-row-first .speaker-title,
+body.front .panel-flexible .sponsor .keynote .views-row-last .speaker-title {
+  margin-bottom: 0;
+}
+
+/* line 119, ../sass/base/pages/_sponsor.scss */
+.sponsor_packages {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+/* line 123, ../sass/base/pages/_sponsor.scss */
+.sponsor_packages table tbody tr td {
+  background-color: transparent;
+  color: #092738;
+}
+
+/* line 129, ../sass/base/pages/_sponsor.scss */
+.partner-link {
+  background: #fff;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.15);
+}
+
+/* line 134, ../sass/base/pages/_sponsor.scss */
+.sponsor-link:hover,
+.sponsor-link:focus,
+.partner-link:hover,
+.partner-link:focus {
+  border-color: #f0a303;
+}
+
+/* line 1, ../sass/base/scaffold/_global.scss */
+html {
+  font-family: "Open Sans", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+  line-height: 160%;
+  font-size: 14px;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* line 8, ../sass/base/scaffold/_global.scss */
+section {
+  margin-top: -4.5em;
+  padding-top: 4.5em;
+}
+
+/* line 3, ../sass/base/scaffold/_pane.scss */
+.panel-pane h2 {
+  margin: 0;
+  font-family: Oswald, Arial, Helvetica, "Nimbus Sans L", sans-serif;
+  font-size: 70px;
+  line-height: 100%;
+  text-transform: uppercase;
+  color: #082637;
+  font-weight: 700;
+}
+/* line 13, ../sass/base/scaffold/_pane.scss */
+.panel-pane h3 {
+  margin: 40px 0 0;
+  font-family: Oswald, Arial, Helvetica, "Nimbus Sans L", sans-serif;
+  font-weight: 100;
+  font-size: 34px;
+  line-height: 100%;
+  text-transform: uppercase;
+  color: #1675af;
+}
+
+/* line 24, ../sass/base/scaffold/_pane.scss */
+body.front .panel-flexible .panel-separator {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  height: 1px;
 }
 
 @media only screen and (max-width: 767px) {
@@ -11108,11 +11061,12 @@ div.twitter span {
   /* line 6, ../sass/desktop/layout/_header.scss */
   body.front .info h1 {
     width: 100%;
-    height: 392px;
+    height: 396px;
   }
   /* line 10, ../sass/desktop/layout/_header.scss */
   body.front .info h1 i {
     background-image: url("../img/big_typo.png");
+    background-size: 100% auto;
   }
 }
 @media only screen and (min-width: 992px) and (-webkit-min-device-pixel-ratio: 2), only screen and (min-width: 992px) and (min--moz-device-pixel-ratio: 2), only screen and (min-width: 992px) and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-width: 992px) and (min-device-pixel-ratio: 2), only screen and (min-width: 992px) and (min-resolution: 192dpi), only screen and (min-width: 992px) and (min-resolution: 2dppx) {
@@ -11122,26 +11076,26 @@ div.twitter span {
   }
 }
 @media only screen and (min-width: 992px) {
-  /* line 15, ../sass/desktop/layout/_header.scss */
+  /* line 16, ../sass/desktop/layout/_header.scss */
   body.front .info .sponsor {
     float: right;
     margin: 20px 40px;
   }
-  /* line 19, ../sass/desktop/layout/_header.scss */
+  /* line 20, ../sass/desktop/layout/_header.scss */
   body.front .info .sponsor .views-row {
     float: none;
     margin: 0;
   }
 
-  /* line 28, ../sass/desktop/layout/_header.scss */
+  /* line 29, ../sass/desktop/layout/_header.scss */
   .front .landscape {
     height: 780px;
   }
-  /* line 32, ../sass/desktop/layout/_header.scss */
+  /* line 33, ../sass/desktop/layout/_header.scss */
   .front .lake {
     height: 780px;
   }
-  /* line 36, ../sass/desktop/layout/_header.scss */
+  /* line 37, ../sass/desktop/layout/_header.scss */
   .front .hills {
     height: 174px;
     width: 745px;

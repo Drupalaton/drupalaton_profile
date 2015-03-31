@@ -14,7 +14,21 @@
 @import 'base/layout/header';
 
 @import 'base/elements/contact';
+@import 'base/elements/live';
 @import 'base/elements/newsletter';
 @import 'base/elements/social';
 @import 'base/elements/sponsor';
 @import 'base/elements/twitter';
+
+@import 'base/node/base';
+@import 'base/node/session';
+@import 'base/node/speaker';
+@import 'base/node/sponsor';
+
+@import 'base/pages/about';
+@import 'base/pages/frontpage';
+@import 'base/pages/schedule';
+@import 'base/pages/sponsor';
+
+@import 'base/scaffold/global';
+@import 'base/scaffold/pane';

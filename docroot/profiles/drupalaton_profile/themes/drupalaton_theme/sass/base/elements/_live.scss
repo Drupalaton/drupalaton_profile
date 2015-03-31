@@ -1,0 +1,66 @@
+
+#live {
+  @include transition-property(right);
+  @include transition-duration(1s);
+  position: fixed;
+  top: 43%;
+  right: -240px;
+  width: 367px;
+  z-index: 100;
+  cursor: pointer;
+
+  &.oneday {
+    background: url("../img/live_oneday.png") no-repeat scroll 0 0 transparent;
+    height: 135px;
+  }
+
+  &.twoday {
+    background: url("../img/live_twoday.png") no-repeat scroll 0 0 transparent;
+    height: 209px;
+  }
+
+  &:hover {
+    @include transition-property(right);
+    @include transition-duration(1s);
+    right: 0;
+  }
+
+  .inner {
+    margin: 36px 0 0 131px;
+    overflow: hidden;
+  }
+
+  .icon {
+    width: 56px;
+    height: 56px;
+    background: url("../img/live_icon.png") no-repeat scroll 0 0 transparent;
+    float: left;
+    display: block;
+  }
+
+  a {
+    font-family: $oswald;
+    overflow: hidden;
+    margin-bottom: 15px;
+    display: block;
+  }
+
+  a:hover .icon {
+    background-position: 0 -144px;
+  }
+
+  .text {
+    font-size: $base-font-size + 6;
+    float: left;
+    margin-left: 20px;
+    margin-top: 5px;
+  }
+
+  .day {
+    color: #fff;
+  }
+
+  .dayname {
+    color: $orange-50;
+  }
+}

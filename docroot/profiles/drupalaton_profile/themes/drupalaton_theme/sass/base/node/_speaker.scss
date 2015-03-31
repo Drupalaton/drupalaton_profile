@@ -1,0 +1,19 @@
+
+// speakers node
+body.node-type-speaker {
+  .field-name-field-speaker-photo {
+    float: right;
+    margin: -30px 0 15px 15px;
+  }
+  .field-name-field-speaker-job-title {
+    margin: 40px 0 0 0;
+
+    .field-label {
+      margin: 0;
+    }
+  }
+  .field-label,
+  .field-item {
+    font-size: $base-font-size +10;
+  }
+}

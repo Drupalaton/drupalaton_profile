@@ -1,0 +1,95 @@
+
+table.program {
+  margin: 15px 0;
+
+  thead th {
+
+    &.name {
+      width: 22%;
+    }
+
+    &:first-child {
+      width: 15%;
+    }
+  }
+}
+
+// Sessions view in schedule page
+.view-sessions {
+  * {
+    line-height: 100%;
+  }
+
+  ul {
+    padding: 0;
+
+    li {
+      list-style: none;
+      margin: 3em 0;
+    }
+  }
+
+  .views-field-body ul {
+    padding: 0 0 0 40px;
+
+    li {
+      margin: 10px 0;
+      list-style: initial;
+      list-style-position: inside;
+    }
+  }
+
+  p {
+    line-height: 140%;
+  }
+
+  .views-field-field-speaker-session-title {
+    color: $orange;
+    font-size: 35px;
+    text-transform: uppercase;
+    font-family: $oswald;
+    line-height: 100%;
+  }
+
+  .views-field-field-speaker-session-type {
+    font-size: 22px;
+    font-family: $oswald;
+    color: $tabletd-40;
+    text-transform: uppercase;
+  }
+
+  .views-field-title {
+    color: $tabletd;
+    font-size: 22px;
+    text-transform: uppercase;
+    font-family: $oswald;
+    line-height: 140%;
+    font-weight: bold;
+
+    a {
+      color: $tabletd;
+    }
+  }
+
+  .views-field-field-speaker-job-title {
+    font-size: 22px;
+    font-family: $oswald;
+    color: $tabletd-40;
+    text-transform: uppercase;
+  }
+
+  .views-field-field-speaker-photo {
+    float: left;
+    margin: 0 15px 15px 0;
+  }
+}
+
+body.page-schedule {
+  .region-content p {
+    margin: 1em 0;
+  }
+
+  .pane-sessions-panel-pane-1 {
+    margin: 2em 0 0;
+  }
+}

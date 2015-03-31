@@ -1,0 +1,281 @@
+
+/**
+ * landscape
+ */
+body.front {
+  .landscape {
+    background: url("../img/sky.png") repeat-x scroll 0 0 transparent;
+    position: relative;
+  }
+
+  .hills {
+    background: url("../img/hills.png") no-repeat scroll 0 0 transparent;
+    display: block;
+    height: 174px;
+    width: 745px;
+    position: absolute;
+    top: 98px;
+  }
+
+  .boats {
+    width: 100%;
+    position: relative;
+    height: 100px;
+    margin: 0;
+    top: 174px !important;
+
+    .boat {
+      position: absolute;
+    }
+
+    #smallboat {
+      background: url("../img/boat_small.svg") no-repeat scroll 0 0 transparent;
+      height: 60px;
+      width: 30px;
+      top: 25px;
+    }
+
+    #bigboat {
+      background: url("../img/boat_big.svg") no-repeat scroll 0 0 transparent;
+      height: 77px;
+      top: 0;
+      width: 66px;
+    }
+  }
+
+  .lake {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background: url("../img/water_02.png") repeat-x scroll 0 0 transparent;
+  }
+
+  .logo {
+    position: absolute;
+    text-align: right;
+    top: 189px;
+    width: 100%;
+
+    a {
+      display: block;
+      margin: 0 auto;
+    }
+
+    .logo-inner {
+      margin: 0 auto;
+      padding: 0 $dekstopgutter;
+    }
+  }
+
+  .logo-link {
+    width: 100%;
+
+    a {
+      height: 74px;
+      width: 345px;
+      position: absolute;
+      right: 0;
+      top: 190px;
+      display: block;
+    }
+  }
+
+  .rounded-corner .wrap-corner {
+    background-color: transparent !important;
+    background-image: none;
+
+    .b-edge,
+    .t-edge,
+    .l,
+    .r,
+    .l-edge,
+    .r-edge {
+      background-image: none;
+      background-color: transparent !important;
+    }
+  }
+}
+
+body.not-front {
+  .landscape {
+    background: url("../img/sky.png") repeat-x scroll 0 0 transparent;
+    height: 320px;
+    position: relative;
+  }
+
+  .hills {
+    background: url("../img/hills.png") no-repeat scroll 0 0 transparent;
+    display: block;
+    height: 162px;
+    width: 745px;
+    position: absolute;
+    top: 109px;
+  }
+
+  .boats {
+    width: 100%;
+    position: relative;
+    height: 100px;
+    margin: 0;
+    top: 174px !important;
+
+    .boat {
+      position: absolute;
+    }
+
+    #smallboat {
+      background: url("../img/boat_small.svg") no-repeat scroll 0 0 transparent;
+      height: 60px;
+      width: 30px;
+      top: 25px;
+    }
+
+    #bigboat {
+      background: url("../img/boat_big.svg") no-repeat scroll 0 0 transparent;
+      height: 77px;
+      top: 0;
+      width: 66px;
+    }
+  }
+
+  .lake {
+    height: 320px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background: url("../img/water_02_small.png") repeat-x scroll 0 0 transparent;
+  }
+
+  .logo {
+    position: absolute;
+    text-align: right;
+    top: 189px;
+    width: 100%;
+
+    a {
+      display: block;
+      margin: 0 auto;
+    }
+
+    .logo-inner {
+      width: 960px;
+      margin: 0 auto;
+      padding: 0 $dekstopgutter;
+    }
+  }
+
+  .logo-link {
+    width: 100%;
+
+    .logo-link-inner {
+      width: 960px;
+      margin: 0 auto;
+      position: relative;
+
+      a {
+        height: 74px;
+        width: 345px;
+        position: absolute;
+        right: 0;
+        top: 190px;
+        display: block;
+      }
+    }
+  }
+}
+
+// clouds in header
+.clouds {
+  height: 100px;
+  margin: 0;
+  width: 100%;
+  top: 20px !important;
+
+  .cloud {
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 10px;
+  }
+
+  .cloud-left {
+    background-image: url("../img/cloud_left.svg");
+  }
+
+  .cloud-right {
+    background-image: url("../img/cloud_right.svg");
+  }
+
+  .cloud1 {
+    width: 100px;
+    height: 40px;
+    background-size: 100px auto;
+  }
+
+  .cloud2 {
+    width: 122px;
+    height: 52px;
+    top: 20px;
+    background-size: 122px auto;
+  }
+
+  .cloud3 {
+    width: 122px;
+    height: 52px;
+    background-size: 122px auto;
+    top: 80px;
+  }
+
+  .cloud4 {
+    width: 166px;
+    height: 70px;
+    background-size: 166px auto;
+  }
+
+  .cloud5 {
+    top: 0;
+    width:142px;
+    height: 60px;
+    background-size: 142px auto;
+  }
+
+  .cloud6,
+  .cloud8 {
+    width: 71px;
+    height: 30px;
+    background-size: 71px auto;
+    top: 49px;
+  }
+
+  .cloud7,
+  .cloud9 {
+    width: 49px;
+    height: 21px;
+    background-size: 49px auto;
+    top: 40px;
+  }
+
+  .cloud10 {
+    width: 115px;
+    height: 49px;
+    background-size: 115px auto;
+  }
+}
+
+.location,
+.sessionproposals,
+.about {
+  margin-bottom: 60px;
+}
+
+.keynote.container_12 {
+  margin-bottom: 20px;
+  margin-top: 60px;
+}
+
+.registration {
+  margin-bottom: 40px;
+}
+
+.about-wrapper {
+  margin-top: 20px;
+}
