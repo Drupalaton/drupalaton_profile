@@ -40,7 +40,7 @@ function drupalaton_user_profile_field_default_field_instances() {
         'rows' => 5,
       ),
       'type' => 'text_textarea',
-      'weight' => 11,
+      'weight' => 12,
     ),
   );
 
@@ -74,7 +74,109 @@ function drupalaton_user_profile_field_default_field_instances() {
         'size' => 60,
       ),
       'type' => 'text_textfield',
-      'weight' => 9,
+      'weight' => 10,
+    ),
+  );
+
+  // Exported field_instance: 'user-user-field_profile_dorg'
+  $field_instances['user-user-field_profile_dorg'] = array(
+    'bundle' => 'user',
+    'default_value' => NULL,
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'above',
+        'module' => 'link',
+        'settings' => array(),
+        'type' => 'link_default',
+        'weight' => 14,
+      ),
+    ),
+    'entity_type' => 'user',
+    'field_name' => 'field_profile_dorg',
+    'label' => 'Drupal.org profile',
+    'required' => 0,
+    'settings' => array(
+      'absolute_url' => 0,
+      'attributes' => array(
+        'class' => '',
+        'configurable_class' => 0,
+        'configurable_title' => 0,
+        'rel' => '',
+        'target' => 'default',
+        'title' => '',
+      ),
+      'display' => array(
+        'url_cutoff' => 80,
+      ),
+      'enable_tokens' => 1,
+      'rel_remove' => 'default',
+      'title' => 'none',
+      'title_label_use_field_label' => 0,
+      'title_maxlength' => 128,
+      'title_value' => '',
+      'url' => 0,
+      'user_register_form' => 0,
+      'validate_url' => 1,
+    ),
+    'widget' => array(
+      'active' => 0,
+      'module' => 'link',
+      'settings' => array(),
+      'type' => 'link_field',
+      'weight' => 16,
+    ),
+  );
+
+  // Exported field_instance: 'user-user-field_profile_facebook'
+  $field_instances['user-user-field_profile_facebook'] = array(
+    'bundle' => 'user',
+    'default_value' => NULL,
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'above',
+        'module' => 'link',
+        'settings' => array(),
+        'type' => 'link_default',
+        'weight' => 11,
+      ),
+    ),
+    'entity_type' => 'user',
+    'field_name' => 'field_profile_facebook',
+    'label' => 'Facebook profile',
+    'required' => 0,
+    'settings' => array(
+      'absolute_url' => 0,
+      'attributes' => array(
+        'class' => '',
+        'configurable_class' => 0,
+        'configurable_title' => 0,
+        'rel' => '',
+        'target' => 'default',
+        'title' => '',
+      ),
+      'display' => array(
+        'url_cutoff' => 80,
+      ),
+      'enable_tokens' => 1,
+      'rel_remove' => 'default',
+      'title' => 'none',
+      'title_label_use_field_label' => 0,
+      'title_maxlength' => 128,
+      'title_value' => '',
+      'url' => 0,
+      'user_register_form' => 0,
+      'validate_url' => 1,
+    ),
+    'widget' => array(
+      'active' => 0,
+      'module' => 'link',
+      'settings' => array(),
+      'type' => 'link_field',
+      'weight' => 17,
     ),
   );
 
@@ -130,7 +232,7 @@ function drupalaton_user_profile_field_default_field_instances() {
     'entity_type' => 'user',
     'field_name' => 'field_profile_gender',
     'label' => 'Gender',
-    'required' => 1,
+    'required' => 0,
     'settings' => array(
       'user_register_form' => 1,
     ),
@@ -139,7 +241,7 @@ function drupalaton_user_profile_field_default_field_instances() {
       'module' => 'options',
       'settings' => array(),
       'type' => 'options_buttons',
-      'weight' => 6,
+      'weight' => 7,
     ),
   );
 
@@ -209,7 +311,7 @@ function drupalaton_user_profile_field_default_field_instances() {
         'size' => 60,
       ),
       'type' => 'text_textfield',
-      'weight' => 7,
+      'weight' => 8,
     ),
   );
 
@@ -247,6 +349,57 @@ function drupalaton_user_profile_field_default_field_instances() {
     ),
   );
 
+  // Exported field_instance: 'user-user-field_profile_linkedin'
+  $field_instances['user-user-field_profile_linkedin'] = array(
+    'bundle' => 'user',
+    'default_value' => NULL,
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'above',
+        'module' => 'link',
+        'settings' => array(),
+        'type' => 'link_default',
+        'weight' => 12,
+      ),
+    ),
+    'entity_type' => 'user',
+    'field_name' => 'field_profile_linkedin',
+    'label' => 'LinkedIn profile',
+    'required' => 0,
+    'settings' => array(
+      'absolute_url' => 0,
+      'attributes' => array(
+        'class' => '',
+        'configurable_class' => 0,
+        'configurable_title' => 0,
+        'rel' => '',
+        'target' => 'default',
+        'title' => '',
+      ),
+      'display' => array(
+        'url_cutoff' => 80,
+      ),
+      'enable_tokens' => 1,
+      'rel_remove' => 'default',
+      'title' => 'none',
+      'title_label_use_field_label' => 0,
+      'title_maxlength' => 128,
+      'title_value' => '',
+      'url' => 0,
+      'user_register_form' => 0,
+      'validate_url' => 1,
+    ),
+    'widget' => array(
+      'active' => 0,
+      'module' => 'link',
+      'settings' => array(),
+      'type' => 'link_field',
+      'weight' => 19,
+    ),
+  );
+
   // Exported field_instance: 'user-user-field_profile_organization'
   $field_instances['user-user-field_profile_organization'] = array(
     'bundle' => 'user',
@@ -277,7 +430,41 @@ function drupalaton_user_profile_field_default_field_instances() {
         'size' => 60,
       ),
       'type' => 'text_textfield',
-      'weight' => 8,
+      'weight' => 9,
+    ),
+  );
+
+  // Exported field_instance: 'user-user-field_profile_phone'
+  $field_instances['user-user-field_profile_phone'] = array(
+    'bundle' => 'user',
+    'default_value' => NULL,
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'above',
+        'module' => 'text',
+        'settings' => array(),
+        'type' => 'text_default',
+        'weight' => 10,
+      ),
+    ),
+    'entity_type' => 'user',
+    'field_name' => 'field_profile_phone',
+    'label' => 'Phone number',
+    'required' => 0,
+    'settings' => array(
+      'text_processing' => 0,
+      'user_register_form' => 0,
+    ),
+    'widget' => array(
+      'active' => 1,
+      'module' => 'text',
+      'settings' => array(
+        'size' => 60,
+      ),
+      'type' => 'text_textfield',
+      'weight' => 11,
     ),
   );
 
@@ -321,7 +508,7 @@ function drupalaton_user_profile_field_default_field_instances() {
         'progress_indicator' => 'throbber',
       ),
       'type' => 'image_image',
-      'weight' => 10,
+      'weight' => 6,
     ),
   );
 
@@ -342,7 +529,7 @@ function drupalaton_user_profile_field_default_field_instances() {
     'entity_type' => 'user',
     'field_name' => 'field_profile_tshirt',
     'label' => 'My T-shirt size',
-    'required' => 1,
+    'required' => 0,
     'settings' => array(
       'user_register_form' => 1,
     ),
@@ -355,18 +542,74 @@ function drupalaton_user_profile_field_default_field_instances() {
     ),
   );
 
+  // Exported field_instance: 'user-user-field_profile_twitter'
+  $field_instances['user-user-field_profile_twitter'] = array(
+    'bundle' => 'user',
+    'default_value' => NULL,
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'above',
+        'module' => 'link',
+        'settings' => array(),
+        'type' => 'link_default',
+        'weight' => 13,
+      ),
+    ),
+    'entity_type' => 'user',
+    'field_name' => 'field_profile_twitter',
+    'label' => 'Twitter profile',
+    'required' => 0,
+    'settings' => array(
+      'absolute_url' => 0,
+      'attributes' => array(
+        'class' => '',
+        'configurable_class' => 0,
+        'configurable_title' => 0,
+        'rel' => '',
+        'target' => 'default',
+        'title' => '',
+      ),
+      'display' => array(
+        'url_cutoff' => 80,
+      ),
+      'enable_tokens' => 1,
+      'rel_remove' => 'default',
+      'title' => 'none',
+      'title_label_use_field_label' => 0,
+      'title_maxlength' => 128,
+      'title_value' => '',
+      'url' => 0,
+      'user_register_form' => 0,
+      'validate_url' => 1,
+    ),
+    'widget' => array(
+      'active' => 0,
+      'module' => 'link',
+      'settings' => array(),
+      'type' => 'link_field',
+      'weight' => 18,
+    ),
+  );
+
   // Translatables
   // Included for use with string extractors like potx.
   t('About me');
   t('Country');
+  t('Drupal.org profile');
+  t('Facebook profile');
   t('First name');
   t('Gender');
   t('I\'m interested in participating at the job speed dating');
   t('Job title');
   t('Last name');
+  t('LinkedIn profile');
   t('My T-shirt size');
   t('Organization');
+  t('Phone number');
   t('Picture');
+  t('Twitter profile');
 
   return $field_instances;
 }
