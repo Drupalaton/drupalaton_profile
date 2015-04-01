@@ -23,10 +23,13 @@ function drupalaton_sessions_field_group_info() {
     'label' => 'Speaker infos',
     'weight' => '1',
     'children' => array(
-      0 => 'field_session_speaker_name',
+      0 => 'field_session_speaker_image',
       1 => 'field_session_speaker_nick',
-      2 => 'field_session_speaker_title',
-      3 => 'field_session_speaker_image',
+      2 => 'field_session_firstname',
+      3 => 'field_session_lastname',
+      4 => 'field_profile_job_title',
+      5 => 'field_profile_organization',
+      6 => 'field_session_co_presenters',
     ),
     'format_type' => 'fieldset',
     'format_settings' => array(

@@ -60,7 +60,7 @@ function drupalaton_sessions_views_default_views() {
   $handler->display->display_options['fields']['title']['element_class'] = 'views-field-field-speaker-session-title';
   $handler->display->display_options['fields']['title']['element_label_colon'] = FALSE;
   $handler->display->display_options['fields']['title']['link_to_node'] = FALSE;
-  /* Field: Content: Type */
+  /* Field: Broken/missing handler */
   $handler->display->display_options['fields']['field_session_type']['id'] = 'field_session_type';
   $handler->display->display_options['fields']['field_session_type']['table'] = 'field_data_field_session_type';
   $handler->display->display_options['fields']['field_session_type']['field'] = 'field_session_type';
@@ -127,7 +127,7 @@ function drupalaton_sessions_views_default_views() {
   $handler->display->display_options['fields']['nid']['table'] = 'node';
   $handler->display->display_options['fields']['nid']['field'] = 'nid';
   $handler->display->display_options['fields']['nid']['exclude'] = TRUE;
-  /* Field: Content: Speaker name */
+  /* Field: Broken/missing handler */
   $handler->display->display_options['fields']['field_session_speaker_name']['id'] = 'field_session_speaker_name';
   $handler->display->display_options['fields']['field_session_speaker_name']['table'] = 'field_data_field_session_speaker_name';
   $handler->display->display_options['fields']['field_session_speaker_name']['field'] = 'field_session_speaker_name';
@@ -141,7 +141,7 @@ function drupalaton_sessions_views_default_views() {
   $handler->display->display_options['fields']['field_session_speaker_nick']['label'] = '';
   $handler->display->display_options['fields']['field_session_speaker_nick']['element_label_colon'] = FALSE;
   $handler->display->display_options['fields']['field_session_speaker_nick']['element_wrapper_class'] = 'speaker-nick';
-  /* Field: Content: Position */
+  /* Field: Broken/missing handler */
   $handler->display->display_options['fields']['field_session_speaker_title']['id'] = 'field_session_speaker_title';
   $handler->display->display_options['fields']['field_session_speaker_title']['table'] = 'field_data_field_session_speaker_title';
   $handler->display->display_options['fields']['field_session_speaker_title']['field'] = 'field_session_speaker_title';
