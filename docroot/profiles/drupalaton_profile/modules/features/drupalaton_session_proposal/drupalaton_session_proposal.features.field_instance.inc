@@ -10,6 +10,43 @@
 function drupalaton_session_proposal_field_default_field_instances() {
   $field_instances = array();
 
+  // Exported field_instance: 'entityform-session_proposal-field_session_accept_proposal'
+  $field_instances['entityform-session_proposal-field_session_accept_proposal'] = array(
+    'bundle' => 'session_proposal',
+    'default_value' => array(
+      0 => array(
+        'value' => 0,
+      ),
+    ),
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'above',
+        'module' => 'list',
+        'settings' => array(),
+        'type' => 'list_default',
+        'weight' => 20,
+      ),
+    ),
+    'entity_type' => 'entityform',
+    'field_name' => 'field_session_accept_proposal',
+    'label' => 'Accept proposal',
+    'required' => 0,
+    'settings' => array(
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 1,
+      'module' => 'options',
+      'settings' => array(
+        'display_label' => 1,
+      ),
+      'type' => 'options_onoff',
+      'weight' => 17,
+    ),
+  );
+
   // Exported field_instance: 'entityform-session_proposal-field_session_bio'
   $field_instances['entityform-session_proposal-field_session_bio'] = array(
     'bundle' => 'session_proposal',
@@ -124,7 +161,7 @@ function drupalaton_session_proposal_field_default_field_instances() {
       'module' => 'link',
       'settings' => array(),
       'type' => 'link_field',
-      'weight' => 4,
+      'weight' => 12,
     ),
   );
 
@@ -145,7 +182,7 @@ function drupalaton_session_proposal_field_default_field_instances() {
     ),
     'entity_type' => 'entityform',
     'field_name' => 'field_session_email',
-    'label' => 'Your email address',
+    'label' => 'Email address',
     'required' => 1,
     'settings' => array(
       'user_register_form' => FALSE,
@@ -157,46 +194,12 @@ function drupalaton_session_proposal_field_default_field_instances() {
         'size' => 60,
       ),
       'type' => 'email_textfield',
-      'weight' => 2,
+      'weight' => 10,
     ),
   );
 
-  // Exported field_instance: 'entityform-session_proposal-field_session_employer'
-  $field_instances['entityform-session_proposal-field_session_employer'] = array(
-    'bundle' => 'session_proposal',
-    'default_value' => NULL,
-    'deleted' => 0,
-    'description' => 'The name of the company you are employed by if any',
-    'display' => array(
-      'default' => array(
-        'label' => 'above',
-        'module' => 'text',
-        'settings' => array(),
-        'type' => 'text_default',
-        'weight' => 4,
-      ),
-    ),
-    'entity_type' => 'entityform',
-    'field_name' => 'field_session_employer',
-    'label' => 'Employer name',
-    'required' => 0,
-    'settings' => array(
-      'text_processing' => 0,
-      'user_register_form' => FALSE,
-    ),
-    'widget' => array(
-      'active' => 1,
-      'module' => 'text',
-      'settings' => array(
-        'size' => 60,
-      ),
-      'type' => 'text_textfield',
-      'weight' => 5,
-    ),
-  );
-
-  // Exported field_instance: 'entityform-session_proposal-field_session_full_name'
-  $field_instances['entityform-session_proposal-field_session_full_name'] = array(
+  // Exported field_instance: 'entityform-session_proposal-field_session_firstname'
+  $field_instances['entityform-session_proposal-field_session_firstname'] = array(
     'bundle' => 'session_proposal',
     'default_value' => NULL,
     'deleted' => 0,
@@ -207,12 +210,12 @@ function drupalaton_session_proposal_field_default_field_instances() {
         'module' => 'text',
         'settings' => array(),
         'type' => 'text_default',
-        'weight' => 0,
+        'weight' => 16,
       ),
     ),
     'entity_type' => 'entityform',
-    'field_name' => 'field_session_full_name',
-    'label' => 'Your full name',
+    'field_name' => 'field_session_firstname',
+    'label' => 'Firstname',
     'required' => 1,
     'settings' => array(
       'text_processing' => 0,
@@ -225,7 +228,7 @@ function drupalaton_session_proposal_field_default_field_instances() {
         'size' => 60,
       ),
       'type' => 'text_textfield',
-      'weight' => 1,
+      'weight' => 8,
     ),
   );
 
@@ -259,7 +262,41 @@ function drupalaton_session_proposal_field_default_field_instances() {
         'size' => 60,
       ),
       'type' => 'text_textfield',
-      'weight' => 6,
+      'weight' => 14,
+    ),
+  );
+
+  // Exported field_instance: 'entityform-session_proposal-field_session_lastname'
+  $field_instances['entityform-session_proposal-field_session_lastname'] = array(
+    'bundle' => 'session_proposal',
+    'default_value' => NULL,
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'above',
+        'module' => 'text',
+        'settings' => array(),
+        'type' => 'text_default',
+        'weight' => 17,
+      ),
+    ),
+    'entity_type' => 'entityform',
+    'field_name' => 'field_session_lastname',
+    'label' => 'Lastname',
+    'required' => 1,
+    'settings' => array(
+      'text_processing' => 0,
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 1,
+      'module' => 'text',
+      'settings' => array(
+        'size' => 60,
+      ),
+      'type' => 'text_textfield',
+      'weight' => 9,
     ),
   );
 
@@ -291,6 +328,40 @@ function drupalaton_session_proposal_field_default_field_instances() {
       'settings' => array(),
       'type' => 'options_buttons',
       'weight' => 12,
+    ),
+  );
+
+  // Exported field_instance: 'entityform-session_proposal-field_session_organization'
+  $field_instances['entityform-session_proposal-field_session_organization'] = array(
+    'bundle' => 'session_proposal',
+    'default_value' => NULL,
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'above',
+        'module' => 'text',
+        'settings' => array(),
+        'type' => 'text_default',
+        'weight' => 18,
+      ),
+    ),
+    'entity_type' => 'entityform',
+    'field_name' => 'field_session_organization',
+    'label' => 'Organization',
+    'required' => 0,
+    'settings' => array(
+      'text_processing' => 0,
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 1,
+      'module' => 'text',
+      'settings' => array(
+        'size' => 60,
+      ),
+      'type' => 'text_textfield',
+      'weight' => 13,
     ),
   );
 
@@ -345,7 +416,7 @@ function drupalaton_session_proposal_field_default_field_instances() {
     ),
     'entity_type' => 'entityform',
     'field_name' => 'field_session_phone',
-    'label' => 'Your phone number',
+    'label' => 'Phone number',
     'required' => 0,
     'settings' => array(
       'text_processing' => 0,
@@ -358,7 +429,7 @@ function drupalaton_session_proposal_field_default_field_instances() {
         'size' => 60,
       ),
       'type' => 'text_textfield',
-      'weight' => 3,
+      'weight' => 11,
     ),
   );
 
@@ -535,56 +606,74 @@ function drupalaton_session_proposal_field_default_field_instances() {
     'display' => array(
       'default' => array(
         'label' => 'above',
-        'module' => 'text',
+        'module' => 'link',
         'settings' => array(),
-        'type' => 'text_default',
-        'weight' => 6,
+        'type' => 'link_default',
+        'weight' => 19,
       ),
     ),
     'entity_type' => 'entityform',
     'field_name' => 'field_session_twitter',
-    'label' => 'Twitter (optional)',
+    'label' => 'Twitter',
     'required' => 0,
     'settings' => array(
-      'text_processing' => 0,
+      'absolute_url' => 0,
+      'attributes' => array(
+        'class' => '',
+        'configurable_class' => 0,
+        'configurable_title' => 0,
+        'rel' => '',
+        'target' => 'default',
+        'title' => '',
+      ),
+      'display' => array(
+        'url_cutoff' => 80,
+      ),
+      'enable_tokens' => 1,
+      'rel_remove' => 'default',
+      'title' => 'none',
+      'title_label_use_field_label' => 0,
+      'title_maxlength' => 128,
+      'title_value' => '',
+      'url' => 0,
       'user_register_form' => FALSE,
+      'validate_url' => 1,
     ),
     'widget' => array(
-      'active' => 1,
-      'module' => 'text',
-      'settings' => array(
-        'size' => 60,
-      ),
-      'type' => 'text_textfield',
-      'weight' => 7,
+      'active' => 0,
+      'module' => 'link',
+      'settings' => array(),
+      'type' => 'link_field',
+      'weight' => 15,
     ),
   );
 
   // Translatables
   // Included for use with string extractors like potx.
+  t('Accept proposal');
   t('Co-presenters (optional)');
   t('Drupal.org profile (optional)');
-  t('Employer name');
+  t('Email address');
+  t('Firstname');
   t('Full description, e.g. target audience, what questions you will answer, and what info attendees will walk away with.');
   t('Full session summary');
   t('Have you given this talk before? Have you presented at other events? If you have links to slides or videos, please include them.');
   t('Job description, or title');
+  t('Lastname');
   t('Names of other individuals who will be presenting');
+  t('Organization');
   t('Past speaking experience (optional)');
+  t('Phone number');
   t('Please add any international dial codes');
   t('Session length');
   t('Session title');
   t('Short session summary');
   t('Skill level');
-  t('The name of the company you are employed by if any');
   t('Think "tweetable", around 120 characters');
   t('Track / Topic');
-  t('Twitter (optional)');
+  t('Twitter');
   t('What is the experience level of your target audience?');
   t('Workshops are 3 hours long, trainings are 6 hours with a lunchbreak. This means coworking with the guidance of the presenter(s) - every stakeholder will work on their own computer.');
-  t('Your email address');
-  t('Your full name');
-  t('Your phone number');
   t('Your professional bio');
   t('example: http://drupal.org/user/12345');
 

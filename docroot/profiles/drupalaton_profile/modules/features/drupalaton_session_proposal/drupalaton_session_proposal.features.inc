@@ -31,8 +31,8 @@ function drupalaton_session_proposal_default_entityform_type() {
       "submission_page_title" : "",
       "submission_text" : { "value" : "", "format" : "filtered_html" },
       "submission_show_submitted" : 0,
-      "submissions_view" : "entityforms",
-      "user_submissions_view" : "user_entityforms",
+      "submissions_view" : "default",
+      "user_submissions_view" : "default",
       "form_status" : "ENTITYFORM_OPEN",
       "roles" : {
         "1" : "1",
