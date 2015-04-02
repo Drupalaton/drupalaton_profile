@@ -40,7 +40,7 @@ function drupalaton_session_proposal_field_group_info() {
         'classes' => '',
         'description' => '',
       ),
-      'formatter' => 'collapsible',
+      'formatter' => 'open',
     ),
   );
   $export['group_contact|entityform|session_proposal|form'] = $field_group;
@@ -70,12 +70,13 @@ function drupalaton_session_proposal_field_group_info() {
     ),
     'format_type' => 'fieldset',
     'format_settings' => array(
-      'formatter' => 'collapsible',
+      'label' => 'Session information',
       'instance_settings' => array(
-        'description' => '',
-        'classes' => '',
         'required_fields' => 1,
+        'classes' => '',
+        'description' => '',
       ),
+      'formatter' => 'open',
     ),
   );
   $export['group_session|entityform|session_proposal|form'] = $field_group;
