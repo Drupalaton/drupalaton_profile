@@ -213,9 +213,9 @@
  * @endcode
  */
 $databases = array (
-  'default' =>
+  'default' => 
   array (
-    'default' =>
+    'default' => 
     array (
       'database' => 'fidic',
       'username' => 'drupal',
