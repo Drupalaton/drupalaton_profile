@@ -3,3 +3,16 @@ docroot/files
 docroot/sites/*/files
 docroot/sites/*/private
 
+#phpstorm files
+.idea
+.idea/*
+
+# ignore php error log:
+.ht-php-error.log
+
+#komodo edit
+*.komodoproject
+*.komodotools
+
+# compass - sass
+.sass-cache/
