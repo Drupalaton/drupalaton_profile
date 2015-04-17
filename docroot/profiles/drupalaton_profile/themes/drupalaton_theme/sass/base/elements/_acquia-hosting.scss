@@ -1,0 +1,26 @@
+div.acquia-hosting {
+  background-color: #000;
+  padding: 5px 0;
+
+  .container_12 {
+    margin: 5px auto;
+  }
+
+  p {
+    display: block;
+    font-family: $oswald;
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 100%;
+    font-size: $base-font-size;
+    font-weight: bold;
+
+    &.second {
+      color: #fff;
+    }
+  }
+}
+
+div.acquia-hosting p {
+  font-size: $base-font-size;
+}

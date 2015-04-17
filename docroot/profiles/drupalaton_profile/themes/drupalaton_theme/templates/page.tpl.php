@@ -104,3 +104,11 @@
     </p>
   </div>
 </div><!-- /.social -->
+<div class="acquia-hosting" id="acquia-hosting">
+  <div class="container_12">
+    <p>Drupal community hosting powered by <a href="https://www.acquia.com/products-services/acquia-hosting">Acquia Cloud</a></p>
+    <a href="https://www.acquia.com/products-services/acquia-hosting">
+      <img id="acquia_logo" src="/profiles/drupalaton_profile/themes/drupalaton_theme/img/acquia_logo.png" alt="Acquia Logo">
+    </a>
+  </div>
+</div><!-- /.acquia-hosting -->
