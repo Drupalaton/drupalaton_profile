@@ -1,0 +1,12 @@
+name = Drupalaton dev
+core = 7.x
+package = Features
+version = 7.x-1.0
+project = drupalaton_dev
+dependencies[] = devel
+dependencies[] = field_ui
+dependencies[] = module_filter
+dependencies[] = reroute_email
+dependencies[] = rules_admin
+dependencies[] = views_ui
+features[features_api][] = api:2
