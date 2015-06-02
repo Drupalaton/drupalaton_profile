@@ -1,0 +1,14 @@
+name = Scald YouTube
+description = Provides Video atoms from YouTube.
+package = Scald Providers
+core = 7.x
+dependencies[] = scald
+files[] = scald_youtube.test
+
+
+; Information added by Drupal.org packaging script on 2015-05-18
+version = "7.x-1.4"
+core = "7.x"
+project = "scald_youtube"
+datestamp = "1431938284"
+
