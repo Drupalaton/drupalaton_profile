@@ -40,7 +40,7 @@ function drupalaton_page_field_default_field_instances() {
     'required' => 0,
     'settings' => array(
       'context' => 'title',
-      'context_default' => 'sdl_editor_representation',
+      'context_default' => '1_3_size',
       'display_summary' => 1,
       'dnd_enabled' => 1,
       'mee_enabled' => 1,
