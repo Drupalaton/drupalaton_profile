@@ -5,7 +5,6 @@ package = Drupalaton
 version = 7.x-1.0
 project = drupalaton_sponsor
 dependencies[] = drupalaton_page
-dependencies[] = image
 dependencies[] = link
 dependencies[] = list
 dependencies[] = taxonomy

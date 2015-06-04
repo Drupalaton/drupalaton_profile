@@ -37,13 +37,18 @@ function drupalaton_sponsor_field_default_field_instances() {
     'entity_type' => 'node',
     'field_name' => 'body',
     'label' => 'Body',
-    'required' => FALSE,
+    'required' => 0,
     'settings' => array(
-      'display_summary' => TRUE,
+      'context' => 'title',
+      'context_default' => 'sdl_editor_representation',
+      'display_summary' => 1,
+      'dnd_enabled' => 1,
+      'mee_enabled' => 1,
       'text_processing' => 1,
       'user_register_form' => FALSE,
     ),
     'widget' => array(
+      'active' => 1,
       'module' => 'text',
       'settings' => array(
         'rows' => 20,
