@@ -13,10 +13,6 @@ function drupalaton_ckeditor_ckeditor_profile_defaults() {
       'name' => 'Advanced',
       'settings' => array(
         'ss' => 2,
-        'default' => 't',
-        'show_toggle' => 't',
-        'uicolor' => 'default',
-        'uicolor_user' => 'default',
         'toolbar' => '[
     [\'Styles\',\'Bold\',\'Italic\',\'Underline\',\'Strike\'],
     [\'NumberedList\',\'BulletedList\'],
@@ -24,10 +20,16 @@ function drupalaton_ckeditor_ckeditor_profile_defaults() {
     [\'PasteFromWord\',\'Link\',\'Unlink\',\'Image\',\'DrupalBreak\']
 ]',
         'expand' => 't',
+        'default' => 't',
+        'show_toggle' => 't',
+        'uicolor' => 'default',
+        'uicolor_user' => 'default',
         'width' => '100%',
         'lang' => 'en',
         'auto_lang' => 't',
         'language_direction' => 'default',
+        'allowed_content' => 't',
+        'extraAllowedContent' => '',
         'enter_mode' => 'p',
         'shift_enter_mode' => 'br',
         'font_format' => 'p;div;pre;address;h1;h2;h3;h4;h5;h6',
@@ -63,6 +65,17 @@ function drupalaton_ckeditor_ckeditor_profile_defaults() {
   { name : \'Img-right\', element : \'img\', attributes : {class: \'img-right\'}}
 ];',
         'loadPlugins' => array(
+          'dndck4' => array(
+            'name' => 'dndck4',
+            'desc' => 'Scald Drag and Drop integration - CKEditor 4 widgets',
+            'path' => '%base_path%sites/all/modules/contrib/scald/modules/library/dnd/plugins/dndck4/',
+            'buttons' => array(
+              'ScaldAtom' => array(
+                'label' => 'ScaldAtom',
+                'icon' => 'icons/atom.png',
+              ),
+            ),
+          ),
           'drupalbreaks' => array(
             'name' => 'drupalbreaks',
             'desc' => 'Plugin for inserting Drupal teaser and page breaks.',
@@ -74,12 +87,11 @@ function drupalaton_ckeditor_ckeditor_profile_defaults() {
               ),
             ),
             'default' => 't',
+            'active' => 0,
           ),
         ),
       ),
-      'input_formats' => array(
-        'filtered_html' => 'Filtered HTML',
-      ),
+      'input_formats' => array(),
     ),
   );
   return $data;
