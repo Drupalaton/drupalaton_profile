@@ -1,5 +1,7 @@
 <?php
 /**
  * @file
- * Drupal needs this blank file.
+ * Code for the Text format and Style feature.
  */
+
+include_once 'drupalaton_ckeditor.features.inc';
