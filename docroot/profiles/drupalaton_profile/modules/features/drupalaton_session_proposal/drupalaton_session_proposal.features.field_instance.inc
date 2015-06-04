@@ -10,7 +10,8 @@
 function drupalaton_session_proposal_field_default_field_instances() {
   $field_instances = array();
 
-  // Exported field_instance: 'entityform-session_proposal-field_session_accept_proposal'
+  // Exported field_instance:
+  // 'entityform-session_proposal-field_session_accept_proposal'
   $field_instances['entityform-session_proposal-field_session_accept_proposal'] = array(
     'bundle' => 'session_proposal',
     'default_value' => array(
@@ -67,6 +68,9 @@ function drupalaton_session_proposal_field_default_field_instances() {
     'label' => 'Your professional bio',
     'required' => 0,
     'settings' => array(
+      'context' => '',
+      'dnd_enabled' => 0,
+      'mee_enabled' => 0,
       'text_processing' => 0,
       'user_register_form' => FALSE,
     ),
@@ -81,7 +85,8 @@ function drupalaton_session_proposal_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'entityform-session_proposal-field_session_co_presenters'
+  // Exported field_instance:
+  // 'entityform-session_proposal-field_session_co_presenters'
   $field_instances['entityform-session_proposal-field_session_co_presenters'] = array(
     'bundle' => 'session_proposal',
     'default_value' => NULL,
@@ -101,6 +106,9 @@ function drupalaton_session_proposal_field_default_field_instances() {
     'label' => 'Co-presenters (optional)',
     'required' => 0,
     'settings' => array(
+      'context' => '',
+      'dnd_enabled' => 0,
+      'mee_enabled' => 0,
       'text_processing' => 0,
       'user_register_form' => FALSE,
     ),
@@ -198,7 +206,8 @@ function drupalaton_session_proposal_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'entityform-session_proposal-field_session_firstname'
+  // Exported field_instance:
+  // 'entityform-session_proposal-field_session_firstname'
   $field_instances['entityform-session_proposal-field_session_firstname'] = array(
     'bundle' => 'session_proposal',
     'default_value' => NULL,
@@ -218,6 +227,9 @@ function drupalaton_session_proposal_field_default_field_instances() {
     'label' => 'Firstname',
     'required' => 1,
     'settings' => array(
+      'context' => '',
+      'dnd_enabled' => 0,
+      'mee_enabled' => 0,
       'text_processing' => 0,
       'user_register_form' => FALSE,
     ),
@@ -252,6 +264,9 @@ function drupalaton_session_proposal_field_default_field_instances() {
     'label' => 'Job description, or title',
     'required' => 0,
     'settings' => array(
+      'context' => '',
+      'dnd_enabled' => 0,
+      'mee_enabled' => 0,
       'text_processing' => 0,
       'user_register_form' => FALSE,
     ),
@@ -266,7 +281,8 @@ function drupalaton_session_proposal_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'entityform-session_proposal-field_session_lastname'
+  // Exported field_instance:
+  // 'entityform-session_proposal-field_session_lastname'
   $field_instances['entityform-session_proposal-field_session_lastname'] = array(
     'bundle' => 'session_proposal',
     'default_value' => NULL,
@@ -286,6 +302,9 @@ function drupalaton_session_proposal_field_default_field_instances() {
     'label' => 'Lastname',
     'required' => 1,
     'settings' => array(
+      'context' => '',
+      'dnd_enabled' => 0,
+      'mee_enabled' => 0,
       'text_processing' => 0,
       'user_register_form' => FALSE,
     ),
@@ -305,7 +324,7 @@ function drupalaton_session_proposal_field_default_field_instances() {
     'bundle' => 'session_proposal',
     'default_value' => NULL,
     'deleted' => 0,
-    'description' => 'Workshops are 3 hours long, trainings are 6 hours with a lunchbreak. This means coworking with the guidance of the presenter(s) - every stakeholder will work on their own computer.',
+    'description' => 'Workshop duration is 90 minutes, trainings are half-day long. This means coworking with the guidance of the presenter(s) - every stakeholder will work on their own computer.',
     'display' => array(
       'default' => array(
         'label' => 'above',
@@ -331,7 +350,8 @@ function drupalaton_session_proposal_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'entityform-session_proposal-field_session_organization'
+  // Exported field_instance:
+  // 'entityform-session_proposal-field_session_organization'
   $field_instances['entityform-session_proposal-field_session_organization'] = array(
     'bundle' => 'session_proposal',
     'default_value' => NULL,
@@ -351,6 +371,9 @@ function drupalaton_session_proposal_field_default_field_instances() {
     'label' => 'Organization',
     'required' => 0,
     'settings' => array(
+      'context' => '',
+      'dnd_enabled' => 0,
+      'mee_enabled' => 0,
       'text_processing' => 0,
       'user_register_form' => FALSE,
     ),
@@ -385,6 +408,9 @@ function drupalaton_session_proposal_field_default_field_instances() {
     'label' => 'Past speaking experience (optional)',
     'required' => 0,
     'settings' => array(
+      'context' => '',
+      'dnd_enabled' => 0,
+      'mee_enabled' => 0,
       'text_processing' => 0,
       'user_register_form' => FALSE,
     ),
@@ -419,6 +445,9 @@ function drupalaton_session_proposal_field_default_field_instances() {
     'label' => 'Phone number',
     'required' => 0,
     'settings' => array(
+      'context' => '',
+      'dnd_enabled' => 0,
+      'mee_enabled' => 0,
       'text_processing' => 0,
       'user_register_form' => FALSE,
     ),
@@ -464,7 +493,8 @@ function drupalaton_session_proposal_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'entityform-session_proposal-field_session_summary'
+  // Exported field_instance:
+  // 'entityform-session_proposal-field_session_summary'
   $field_instances['entityform-session_proposal-field_session_summary'] = array(
     'bundle' => 'session_proposal',
     'default_value' => NULL,
@@ -484,6 +514,9 @@ function drupalaton_session_proposal_field_default_field_instances() {
     'label' => 'Short session summary',
     'required' => 1,
     'settings' => array(
+      'context' => '',
+      'dnd_enabled' => 0,
+      'mee_enabled' => 0,
       'text_processing' => 0,
       'user_register_form' => FALSE,
     ),
@@ -498,7 +531,8 @@ function drupalaton_session_proposal_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'entityform-session_proposal-field_session_summary_full'
+  // Exported field_instance:
+  // 'entityform-session_proposal-field_session_summary_full'
   $field_instances['entityform-session_proposal-field_session_summary_full'] = array(
     'bundle' => 'session_proposal',
     'default_value' => NULL,
@@ -518,6 +552,9 @@ function drupalaton_session_proposal_field_default_field_instances() {
     'label' => 'Full session summary',
     'required' => 1,
     'settings' => array(
+      'context' => '',
+      'dnd_enabled' => 0,
+      'mee_enabled' => 0,
       'text_processing' => 0,
       'user_register_form' => FALSE,
     ),
@@ -552,6 +589,9 @@ function drupalaton_session_proposal_field_default_field_instances() {
     'label' => 'Session title',
     'required' => 1,
     'settings' => array(
+      'context' => '',
+      'dnd_enabled' => 0,
+      'mee_enabled' => 0,
       'text_processing' => 0,
       'user_register_form' => FALSE,
     ),
@@ -566,7 +606,8 @@ function drupalaton_session_proposal_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'entityform-session_proposal-field_session_track_topic'
+  // Exported field_instance:
+  // 'entityform-session_proposal-field_session_track_topic'
   $field_instances['entityform-session_proposal-field_session_track_topic'] = array(
     'bundle' => 'session_proposal',
     'default_value' => NULL,
@@ -597,7 +638,8 @@ function drupalaton_session_proposal_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'entityform-session_proposal-field_session_twitter'
+  // Exported field_instance:
+  // 'entityform-session_proposal-field_session_twitter'
   $field_instances['entityform-session_proposal-field_session_twitter'] = array(
     'bundle' => 'session_proposal',
     'default_value' => NULL,
@@ -673,7 +715,7 @@ function drupalaton_session_proposal_field_default_field_instances() {
   t('Track / Topic');
   t('Twitter');
   t('What is the experience level of your target audience?');
-  t('Workshops are 3 hours long, trainings are 6 hours with a lunchbreak. This means coworking with the guidance of the presenter(s) - every stakeholder will work on their own computer.');
+  t('Workshop duration is 90 minutes, trainings are half-day long. This means coworking with the guidance of the presenter(s) - every stakeholder will work on their own computer.');
   t('Your professional bio');
   t('example: http://drupal.org/user/12345');
 

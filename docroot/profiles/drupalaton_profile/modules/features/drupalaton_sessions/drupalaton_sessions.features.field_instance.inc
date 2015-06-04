@@ -36,6 +36,9 @@ function drupalaton_sessions_field_default_field_instances() {
     'label' => 'Job title',
     'required' => 0,
     'settings' => array(
+      'context' => '',
+      'dnd_enabled' => 0,
+      'mee_enabled' => 0,
       'text_processing' => 0,
       'user_register_form' => FALSE,
     ),
@@ -76,6 +79,9 @@ function drupalaton_sessions_field_default_field_instances() {
     'label' => 'Organization',
     'required' => 0,
     'settings' => array(
+      'context' => '',
+      'dnd_enabled' => 0,
+      'mee_enabled' => 0,
       'text_processing' => 0,
       'user_register_form' => FALSE,
     ),
@@ -116,6 +122,9 @@ function drupalaton_sessions_field_default_field_instances() {
     'label' => 'Co-presenters (optional)',
     'required' => 0,
     'settings' => array(
+      'context' => '',
+      'dnd_enabled' => 0,
+      'mee_enabled' => 0,
       'text_processing' => 0,
       'user_register_form' => FALSE,
     ),
@@ -156,6 +165,9 @@ function drupalaton_sessions_field_default_field_instances() {
     'label' => 'Firstname',
     'required' => 1,
     'settings' => array(
+      'context' => '',
+      'dnd_enabled' => 0,
+      'mee_enabled' => 0,
       'text_processing' => 0,
       'user_register_form' => FALSE,
     ),
@@ -196,6 +208,9 @@ function drupalaton_sessions_field_default_field_instances() {
     'label' => 'Lastname',
     'required' => 1,
     'settings' => array(
+      'context' => '',
+      'dnd_enabled' => 0,
+      'mee_enabled' => 0,
       'text_processing' => 0,
       'user_register_form' => FALSE,
     ),
@@ -273,6 +288,10 @@ function drupalaton_sessions_field_default_field_instances() {
     'label' => 'Past speaking experience (optional)',
     'required' => 0,
     'settings' => array(
+      'context' => 'debug',
+      'context_default' => 'sdl_editor_representation',
+      'dnd_enabled' => 0,
+      'mee_enabled' => 0,
       'text_processing' => 0,
       'user_register_form' => FALSE,
     ),
@@ -432,6 +451,9 @@ function drupalaton_sessions_field_default_field_instances() {
     'label' => 'Speaker nick',
     'required' => 0,
     'settings' => array(
+      'context' => '',
+      'dnd_enabled' => 0,
+      'mee_enabled' => 0,
       'text_processing' => 0,
       'user_register_form' => FALSE,
     ),
@@ -472,6 +494,10 @@ function drupalaton_sessions_field_default_field_instances() {
     'label' => 'Short session summary',
     'required' => 0,
     'settings' => array(
+      'context' => 'debug',
+      'context_default' => 'sdl_editor_representation',
+      'dnd_enabled' => 0,
+      'mee_enabled' => 0,
       'text_processing' => 0,
       'user_register_form' => FALSE,
     ),
@@ -512,6 +538,10 @@ function drupalaton_sessions_field_default_field_instances() {
     'label' => 'Full session summary',
     'required' => 0,
     'settings' => array(
+      'context' => 'debug',
+      'context_default' => 'sdl_editor_representation',
+      'dnd_enabled' => 0,
+      'mee_enabled' => 0,
       'text_processing' => 0,
       'user_register_form' => FALSE,
     ),
@@ -552,6 +582,9 @@ function drupalaton_sessions_field_default_field_instances() {
     'label' => 'Session title',
     'required' => 0,
     'settings' => array(
+      'context' => '',
+      'dnd_enabled' => 0,
+      'mee_enabled' => 0,
       'text_processing' => 0,
       'user_register_form' => FALSE,
     ),
