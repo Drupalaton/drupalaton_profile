@@ -19,10 +19,9 @@ function drupalaton_sessions_field_default_field_instances() {
     'display' => array(
       'default' => array(
         'label' => 'above',
-        'module' => 'text',
         'settings' => array(),
-        'type' => 'text_default',
-        'weight' => 9,
+        'type' => 'hidden',
+        'weight' => 8,
       ),
       'teaser' => array(
         'label' => 'above',
@@ -62,10 +61,9 @@ function drupalaton_sessions_field_default_field_instances() {
     'display' => array(
       'default' => array(
         'label' => 'above',
-        'module' => 'text',
         'settings' => array(),
-        'type' => 'text_default',
-        'weight' => 10,
+        'type' => 'hidden',
+        'weight' => 9,
       ),
       'teaser' => array(
         'label' => 'above',
@@ -108,7 +106,7 @@ function drupalaton_sessions_field_default_field_instances() {
         'module' => 'text',
         'settings' => array(),
         'type' => 'text_default',
-        'weight' => 11,
+        'weight' => 1,
       ),
       'teaser' => array(
         'label' => 'above',
@@ -148,10 +146,9 @@ function drupalaton_sessions_field_default_field_instances() {
     'display' => array(
       'default' => array(
         'label' => 'above',
-        'module' => 'text',
         'settings' => array(),
-        'type' => 'text_default',
-        'weight' => 7,
+        'type' => 'hidden',
+        'weight' => 10,
       ),
       'teaser' => array(
         'label' => 'above',
@@ -191,10 +188,9 @@ function drupalaton_sessions_field_default_field_instances() {
     'display' => array(
       'default' => array(
         'label' => 'above',
-        'module' => 'text',
         'settings' => array(),
-        'type' => 'text_default',
-        'weight' => 8,
+        'type' => 'hidden',
+        'weight' => 11,
       ),
       'teaser' => array(
         'label' => 'above',
@@ -237,7 +233,7 @@ function drupalaton_sessions_field_default_field_instances() {
         'module' => 'list',
         'settings' => array(),
         'type' => 'list_default',
-        'weight' => 15,
+        'weight' => 4,
       ),
       'teaser' => array(
         'label' => 'above',
@@ -274,7 +270,7 @@ function drupalaton_sessions_field_default_field_instances() {
         'module' => 'text',
         'settings' => array(),
         'type' => 'text_default',
-        'weight' => 18,
+        'weight' => 6,
       ),
       'teaser' => array(
         'label' => 'above',
@@ -318,7 +314,7 @@ function drupalaton_sessions_field_default_field_instances() {
         'module' => 'list',
         'settings' => array(),
         'type' => 'list_default',
-        'weight' => 2,
+        'weight' => 0,
       ),
       'teaser' => array(
         'label' => 'above',
@@ -355,7 +351,7 @@ function drupalaton_sessions_field_default_field_instances() {
         'module' => 'list',
         'settings' => array(),
         'type' => 'list_default',
-        'weight' => 14,
+        'weight' => 3,
       ),
       'teaser' => array(
         'label' => 'above',
@@ -390,7 +386,7 @@ function drupalaton_sessions_field_default_field_instances() {
         'label' => 'above',
         'settings' => array(),
         'type' => 'hidden',
-        'weight' => 5,
+        'weight' => 13,
       ),
       'teaser' => array(
         'label' => 'above',
@@ -437,7 +433,7 @@ function drupalaton_sessions_field_default_field_instances() {
         'label' => 'above',
         'settings' => array(),
         'type' => 'hidden',
-        'weight' => 3,
+        'weight' => 12,
       ),
       'teaser' => array(
         'label' => 'above',
@@ -477,10 +473,9 @@ function drupalaton_sessions_field_default_field_instances() {
     'display' => array(
       'default' => array(
         'label' => 'above',
-        'module' => 'text',
         'settings' => array(),
-        'type' => 'text_default',
-        'weight' => 16,
+        'type' => 'hidden',
+        'weight' => 14,
       ),
       'teaser' => array(
         'label' => 'above',
@@ -524,7 +519,7 @@ function drupalaton_sessions_field_default_field_instances() {
         'module' => 'text',
         'settings' => array(),
         'type' => 'text_default',
-        'weight' => 17,
+        'weight' => 5,
       ),
       'teaser' => array(
         'label' => 'above',
@@ -535,7 +530,7 @@ function drupalaton_sessions_field_default_field_instances() {
     ),
     'entity_type' => 'node',
     'field_name' => 'field_session_summary_full',
-    'label' => 'Full session summary',
+    'label' => 'Summary',
     'required' => 0,
     'settings' => array(
       'context' => 'debug',
@@ -565,10 +560,9 @@ function drupalaton_sessions_field_default_field_instances() {
     'display' => array(
       'default' => array(
         'label' => 'above',
-        'module' => 'text',
         'settings' => array(),
-        'type' => 'text_default',
-        'weight' => 12,
+        'type' => 'hidden',
+        'weight' => 7,
       ),
       'teaser' => array(
         'label' => 'above',
@@ -611,7 +605,7 @@ function drupalaton_sessions_field_default_field_instances() {
         'module' => 'list',
         'settings' => array(),
         'type' => 'list_default',
-        'weight' => 13,
+        'weight' => 2,
       ),
       'teaser' => array(
         'label' => 'above',
@@ -640,7 +634,6 @@ function drupalaton_sessions_field_default_field_instances() {
   // Included for use with string extractors like potx.
   t('Co-presenters (optional)');
   t('Firstname');
-  t('Full session summary');
   t('Job title');
   t('Lastname');
   t('Organization');
@@ -652,6 +645,7 @@ function drupalaton_sessions_field_default_field_instances() {
   t('Skill level');
   t('Speaker image');
   t('Speaker nick');
+  t('Summary');
   t('Track / Topic');
 
   return $field_instances;
