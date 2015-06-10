@@ -65,46 +65,11 @@ body.front .panel-flexible .sponsor {
     ul {
       list-style: none;
     }
-    .speaker-name {
-      font-size: $base-font-size * 2 + 8;
-      color: $links;
-      font-family: $oswald;
-      line-height: 100%;
-      text-transform: uppercase;
-      font-weight: bold;
-    }
-    .speaker-title {
-      font-size: $base-font-size + 8;
-      font-family: $oswald;
-      line-height: 110%;
-      text-transform: uppercase;
-      font-weight: bold;
-      color: $sectiontitle-40;
-    }
-    .speaker-nick {
-      color: #fff;
-      font-size: $base-font-size + 8;
-      font-family: $oswald;
-      line-height: 110%;
-      text-transform: uppercase;
-      font-weight: bold;
-    }
+
     .user {
       float: left;
       margin: 30px 7px 22px 7px;
       width: 300px;
-
-      .image {
-        margin-top: 25px;
-      }
-      .tab-button {
-        width: 90%;
-        margin-top: 25px;
-
-        a {
-          color: #fff;
-        }
-      }
     }
     .user .speaker-title {
       margin-bottom: 49px;
