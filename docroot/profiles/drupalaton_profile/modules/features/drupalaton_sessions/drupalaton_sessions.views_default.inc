@@ -60,13 +60,6 @@ function drupalaton_sessions_views_default_views() {
   $handler->display->display_options['fields']['title']['element_class'] = 'views-field-field-speaker-session-title';
   $handler->display->display_options['fields']['title']['element_label_colon'] = FALSE;
   $handler->display->display_options['fields']['title']['link_to_node'] = FALSE;
-  /* Field: Broken/missing handler */
-  $handler->display->display_options['fields']['field_session_type']['id'] = 'field_session_type';
-  $handler->display->display_options['fields']['field_session_type']['table'] = 'field_data_field_session_type';
-  $handler->display->display_options['fields']['field_session_type']['field'] = 'field_session_type';
-  $handler->display->display_options['fields']['field_session_type']['label'] = '';
-  $handler->display->display_options['fields']['field_session_type']['element_class'] = 'views-field-field-speaker-session-type';
-  $handler->display->display_options['fields']['field_session_type']['element_label_colon'] = FALSE;
   /* Field: Content: Body */
   $handler->display->display_options['fields']['body']['id'] = 'body';
   $handler->display->display_options['fields']['body']['table'] = 'field_data_body';
@@ -109,7 +102,8 @@ function drupalaton_sessions_views_default_views() {
   $handler->display->display_options['style_options']['row_class'] = 'user';
   $handler->display->display_options['defaults']['style_options'] = FALSE;
   $handler->display->display_options['defaults']['row_plugin'] = FALSE;
-  $handler->display->display_options['row_plugin'] = 'fields';
+  $handler->display->display_options['row_plugin'] = 'node';
+  $handler->display->display_options['row_options']['links'] = FALSE;
   $handler->display->display_options['defaults']['row_options'] = FALSE;
   $handler->display->display_options['defaults']['relationships'] = FALSE;
   /* Relationship: Nodequeue: Queue */
@@ -127,13 +121,6 @@ function drupalaton_sessions_views_default_views() {
   $handler->display->display_options['fields']['nid']['table'] = 'node';
   $handler->display->display_options['fields']['nid']['field'] = 'nid';
   $handler->display->display_options['fields']['nid']['exclude'] = TRUE;
-  /* Field: Broken/missing handler */
-  $handler->display->display_options['fields']['field_session_speaker_name']['id'] = 'field_session_speaker_name';
-  $handler->display->display_options['fields']['field_session_speaker_name']['table'] = 'field_data_field_session_speaker_name';
-  $handler->display->display_options['fields']['field_session_speaker_name']['field'] = 'field_session_speaker_name';
-  $handler->display->display_options['fields']['field_session_speaker_name']['label'] = '';
-  $handler->display->display_options['fields']['field_session_speaker_name']['element_label_colon'] = FALSE;
-  $handler->display->display_options['fields']['field_session_speaker_name']['element_wrapper_class'] = 'speaker-name';
   /* Field: Content: Speaker nick */
   $handler->display->display_options['fields']['field_session_speaker_nick']['id'] = 'field_session_speaker_nick';
   $handler->display->display_options['fields']['field_session_speaker_nick']['table'] = 'field_data_field_session_speaker_nick';
@@ -141,13 +128,6 @@ function drupalaton_sessions_views_default_views() {
   $handler->display->display_options['fields']['field_session_speaker_nick']['label'] = '';
   $handler->display->display_options['fields']['field_session_speaker_nick']['element_label_colon'] = FALSE;
   $handler->display->display_options['fields']['field_session_speaker_nick']['element_wrapper_class'] = 'speaker-nick';
-  /* Field: Broken/missing handler */
-  $handler->display->display_options['fields']['field_session_speaker_title']['id'] = 'field_session_speaker_title';
-  $handler->display->display_options['fields']['field_session_speaker_title']['table'] = 'field_data_field_session_speaker_title';
-  $handler->display->display_options['fields']['field_session_speaker_title']['field'] = 'field_session_speaker_title';
-  $handler->display->display_options['fields']['field_session_speaker_title']['label'] = '';
-  $handler->display->display_options['fields']['field_session_speaker_title']['element_label_colon'] = FALSE;
-  $handler->display->display_options['fields']['field_session_speaker_title']['element_wrapper_class'] = 'speaker-title';
   /* Field: Content: Speaker image */
   $handler->display->display_options['fields']['field_session_speaker_image']['id'] = 'field_session_speaker_image';
   $handler->display->display_options['fields']['field_session_speaker_image']['table'] = 'field_data_field_session_speaker_image';
