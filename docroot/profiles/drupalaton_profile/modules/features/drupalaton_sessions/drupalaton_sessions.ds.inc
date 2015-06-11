@@ -17,13 +17,14 @@ function drupalaton_sessions_ds_field_settings_info() {
   $ds_fieldsetting->bundle = 'session';
   $ds_fieldsetting->view_mode = 'teaser';
   $ds_fieldsetting->settings = array(
-    'details' => array(
+    'node_link' => array(
       'weight' => '4',
       'label' => 'hidden',
       'format' => 'default',
-    ),
-    'field_session_speaker_image' => array(
       'formatter_settings' => array(
+        'link text' => 'View details',
+        'wrapper' => 'div',
+        'class' => 'about-speaker tab-button',
         'ft' => array(),
       ),
     ),
@@ -37,33 +38,6 @@ function drupalaton_sessions_ds_field_settings_info() {
     ),
   );
   $export['node|session|teaser'] = $ds_fieldsetting;
-
-  return $export;
-}
-
-/**
- * Implements hook_ds_custom_fields_info().
- */
-function drupalaton_sessions_ds_custom_fields_info() {
-  $export = array();
-
-  $ds_field = new stdClass();
-  $ds_field->api_version = 1;
-  $ds_field->field = 'details';
-  $ds_field->label = 'View details';
-  $ds_field->field_type = 5;
-  $ds_field->entities = array(
-    'node' => 'node',
-  );
-  $ds_field->ui_limit = '';
-  $ds_field->properties = array(
-    'code' => array(
-      'value' => '<div class="about-speaker tab-button"><a href="/schedule">View details</a></a>',
-      'format' => 'ds_code',
-    ),
-    'use_token' => 0,
-  );
-  $export['details'] = $ds_field;
 
   return $export;
 }
@@ -90,7 +64,7 @@ function drupalaton_sessions_ds_layout_settings_info() {
         3 => 'field_session_lastname',
         4 => 'field_profile_job_title',
         5 => 'field_session_speaker_image',
-        6 => 'details',
+        6 => 'node_link',
       ),
     ),
     'fields' => array(
@@ -100,7 +74,7 @@ function drupalaton_sessions_ds_layout_settings_info() {
       'field_session_lastname' => 'ds_content',
       'field_profile_job_title' => 'ds_content',
       'field_session_speaker_image' => 'ds_content',
-      'details' => 'ds_content',
+      'node_link' => 'ds_content',
     ),
     'classes' => array(),
     'wrappers' => array(
