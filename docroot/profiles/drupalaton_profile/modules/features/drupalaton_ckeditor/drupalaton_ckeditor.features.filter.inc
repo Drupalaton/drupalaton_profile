@@ -16,7 +16,7 @@ function drupalaton_ckeditor_filter_default_formats() {
     'name' => 'Filtered HTML',
     'cache' => 1,
     'status' => 1,
-    'weight' => 0,
+    'weight' => -10,
     'filters' => array(
       'filter_html' => array(
         'weight' => -50,
@@ -55,7 +55,7 @@ function drupalaton_ckeditor_filter_default_formats() {
     'name' => 'Full HTML',
     'cache' => 1,
     'status' => 1,
-    'weight' => 0,
+    'weight' => -8,
     'filters' => array(
       'filter_url' => array(
         'weight' => 0,
