@@ -97,12 +97,22 @@ function drupalaton_ckeditor_scald_default_context_types() {
   $contexts['1_3_size-gallery'] = array(
     'player' => array(
       'gallery' => array(
-        '*' => 'default',
+        '*' => 'galleria',
+        'settings' => array(
+          'width' => 340,
+          'height' => 320,
+          'fullscreen_link' => 0,
+          'thumb_style' => 'thumbnail',
+          'normal_style' => '1_3_size',
+          'big_style' => 'full_size',
+          'theme' => 'classic',
+          'options' => '',
+        ),
       ),
     ),
     'transcoder' => array(
       'gallery' => array(
-        '*' => 'passthrough',
+        '*' => 'style-1_3_size',
       ),
     ),
   );
@@ -122,12 +132,22 @@ function drupalaton_ckeditor_scald_default_context_types() {
   $contexts['1_4_size-gallery'] = array(
     'player' => array(
       'gallery' => array(
-        '*' => 'default',
+        '*' => 'galleria',
+        'settings' => array(
+          'width' => 260,
+          'height' => 260,
+          'fullscreen_link' => 0,
+          'thumb_style' => 'thumbnail',
+          'normal_style' => '1_4_size',
+          'big_style' => 'full_size',
+          'theme' => 'classic',
+          'options' => '',
+        ),
       ),
     ),
     'transcoder' => array(
       'gallery' => array(
-        '*' => 'passthrough',
+        '*' => 'style-1_4_size',
       ),
     ),
   );
@@ -147,12 +167,22 @@ function drupalaton_ckeditor_scald_default_context_types() {
   $contexts['full_size-gallery'] = array(
     'player' => array(
       'gallery' => array(
-        '*' => 'default',
+        '*' => 'galleria',
+        'settings' => array(
+          'width' => 960,
+          'height' => 800,
+          'fullscreen_link' => 0,
+          'thumb_style' => 'thumbnail',
+          'normal_style' => 'full_size',
+          'big_style' => 'full_size',
+          'theme' => 'classic',
+          'options' => '',
+        ),
       ),
     ),
     'transcoder' => array(
       'gallery' => array(
-        '*' => 'passthrough',
+        '*' => 'style-full_size',
       ),
     ),
   );
@@ -172,12 +202,22 @@ function drupalaton_ckeditor_scald_default_context_types() {
   $contexts['half_size-gallery'] = array(
     'player' => array(
       'gallery' => array(
-        '*' => 'default',
+        '*' => 'galleria',
+        'settings' => array(
+          'width' => 500,
+          'height' => 420,
+          'fullscreen_link' => 0,
+          'thumb_style' => 'thumbnail',
+          'normal_style' => 'half_size',
+          'big_style' => 'full_size',
+          'theme' => 'classic',
+          'options' => '',
+        ),
       ),
     ),
     'transcoder' => array(
       'gallery' => array(
-        '*' => 'passthrough',
+        '*' => 'style-half_size',
       ),
     ),
   );
@@ -191,6 +231,32 @@ function drupalaton_ckeditor_scald_default_context_types() {
     'transcoder' => array(
       'image' => array(
         '*' => 'style-half_size',
+      ),
+    ),
+  );
+  $contexts['sdl_editor_representation-gallery'] = array(
+    'player' => array(
+      'gallery' => array(
+        '*' => 'default',
+        'settings' => array(),
+      ),
+    ),
+    'transcoder' => array(
+      'gallery' => array(
+        '*' => 'passthrough',
+      ),
+    ),
+  );
+  $contexts['sdl_editor_representation-image'] = array(
+    'player' => array(
+      'image' => array(
+        '*' => 'default',
+        'settings' => array(),
+      ),
+    ),
+    'transcoder' => array(
+      'image' => array(
+        '*' => 'style-thumbnail',
       ),
     ),
   );
