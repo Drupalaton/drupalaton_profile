@@ -197,6 +197,38 @@ function drupalaton_frontpage_default_page_manager_pages() {
     $display->content['new-9e5eed1f-1a43-466b-b825-5c7252ce14cb'] = $pane;
     $display->panels['bottom'][1] = 'new-9e5eed1f-1a43-466b-b825-5c7252ce14cb';
     $pane = new stdClass();
+    $pane->pid = 'new-93af5b4a-fefb-4603-8530-369af7cf38dd';
+    $pane->panel = 'bottom';
+    $pane->type = 'node';
+    $pane->subtype = 'node';
+    $pane->shown = TRUE;
+    $pane->access = array();
+    $pane->configuration = array(
+      'nid' => '61',
+      'links' => 1,
+      'leave_node_title' => 0,
+      'identifier' => '',
+      'build_mode' => 'full',
+      'link_node_title' => 0,
+      'override_title' => 1,
+      'override_title_text' => 'Tickets',
+      'override_title_heading' => 'h2',
+    );
+    $pane->cache = array();
+    $pane->style = array(
+      'settings' => NULL,
+    );
+    $pane->css = array(
+      'css_id' => 'ticket',
+      'css_class' => 'container_12',
+    );
+    $pane->extras = array();
+    $pane->position = 2;
+    $pane->locks = array();
+    $pane->uuid = '93af5b4a-fefb-4603-8530-369af7cf38dd';
+    $display->content['new-93af5b4a-fefb-4603-8530-369af7cf38dd'] = $pane;
+    $display->panels['bottom'][2] = 'new-93af5b4a-fefb-4603-8530-369af7cf38dd';
+    $pane = new stdClass();
     $pane->pid = 'new-6fd7f8b0-1cee-4ddd-aa7d-0fa25fbe3e91';
     $pane->panel = 'bottom';
     $pane->type = 'node';
@@ -222,11 +254,11 @@ function drupalaton_frontpage_default_page_manager_pages() {
       'css_class' => 'container_12',
     );
     $pane->extras = array();
-    $pane->position = 2;
+    $pane->position = 3;
     $pane->locks = array();
     $pane->uuid = '6fd7f8b0-1cee-4ddd-aa7d-0fa25fbe3e91';
     $display->content['new-6fd7f8b0-1cee-4ddd-aa7d-0fa25fbe3e91'] = $pane;
-    $display->panels['bottom'][2] = 'new-6fd7f8b0-1cee-4ddd-aa7d-0fa25fbe3e91';
+    $display->panels['bottom'][3] = 'new-6fd7f8b0-1cee-4ddd-aa7d-0fa25fbe3e91';
     $pane = new stdClass();
     $pane->pid = 'new-64cd9cf5-0b11-49da-9fb8-09f078db298f';
     $pane->panel = 'bottom';
@@ -253,11 +285,11 @@ function drupalaton_frontpage_default_page_manager_pages() {
       'css_class' => 'container_12',
     );
     $pane->extras = array();
-    $pane->position = 3;
+    $pane->position = 4;
     $pane->locks = array();
     $pane->uuid = '64cd9cf5-0b11-49da-9fb8-09f078db298f';
     $display->content['new-64cd9cf5-0b11-49da-9fb8-09f078db298f'] = $pane;
-    $display->panels['bottom'][3] = 'new-64cd9cf5-0b11-49da-9fb8-09f078db298f';
+    $display->panels['bottom'][4] = 'new-64cd9cf5-0b11-49da-9fb8-09f078db298f';
     $pane = new stdClass();
     $pane->pid = 'new-fa4de4a5-2129-4aab-8f3f-9eb2d968a61c';
     $pane->panel = 'sponsow';
