@@ -99,6 +99,7 @@ function dnd_library() {
             'url' => url(dnd_get_library()),
             'contexts' => $contexts,
             'contextDefault' => variable_get('dnd_context_default', 'sdl_editor_representation'),
+            'usesCaptionDefault' => variable_get('dnd_uses_caption_default', TRUE),
             'contexts_config' => $config,
             'qTipSettings' => $qtip_settings,
           ),

@@ -10,9 +10,9 @@ files[] = includes/scald_dnd_library.views.inc
 files[] = includes/scald_plugin_display_library.inc
 files[] = includes/scald_plugin_style_library.inc
 
-; Information added by Drupal.org packaging script on 2015-05-29
-version = "7.x-1.4+5-dev"
+; Information added by Drupal.org packaging script on 2015-06-09
+version = "7.x-1.4+10-dev"
 core = "7.x"
 project = "scald"
-datestamp = "1432892907"
+datestamp = "1433854983"
 

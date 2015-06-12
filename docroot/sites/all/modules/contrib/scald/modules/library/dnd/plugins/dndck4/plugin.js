@@ -311,6 +311,42 @@ CKEDITOR.plugins.add('dndck4', {
       editorFocus: CKEDITOR.env.ie || CKEDITOR.env.webkit
     });
 
+  },
+
+  afterInit: function (editor) {
+    function setupAlignCommand(value) {
+      var command = editor.getCommand('justify' + value);
+      if (command) {
+        if (value in {right: 1, left: 1, center: 1}) {
+          command.on('exec', function (event) {
+            var widget = editor.widgets.focused;
+            if (widget && widget.name === 'dndck4') {
+              widget.setData({align: value});
+            }
+          });
+        }
+
+        command.on('refresh', function (event) {
+          var widget = editor.widgets.focused,
+            allowed = { left: 1, center: 1, right: 1 },
+            align;
+
+          if (widget && widget.name === 'dndck4') {
+            align = widget.data.align;
+
+            this.setState(
+              (align === value) ? CKEDITOR.TRISTATE_ON : (value in allowed) ? CKEDITOR.TRISTATE_OFF : CKEDITOR.TRISTATE_DISABLED);
+
+            event.cancel();
+          }
+        });
+      }
+    }
+
+    // Customize the behavior of the alignment commands.
+    setupAlignCommand('left');
+    setupAlignCommand('right');
+    setupAlignCommand('center');
   }
 
 });
@@ -361,6 +397,36 @@ Drupal.dndck4 = {
     }
   },
 
+  addOption: function(id, type, mode, name, callback) {
+    $('body').once(id, function() {
+      if (typeof CKEDITOR === 'undefined') {
+        // CKEditor is not available yet, lets try a little bit later.
+        setTimeout(function() {
+          // If It's still not available, stop trying.
+          if (typeof CKEDITOR !== 'undefined') {
+            Drupal.dndck4.processOption(id, type, mode, name, callback);
+          }
+        }, 1000);
+      }
+      else {
+        Drupal.dndck4.processOption(id, type, mode, name, callback);
+      }
+    });
+  },
+
+  processOption: function(id, type, mode, name, callback) {
+    CKEDITOR.on('dialogDefinition', function(ev) {
+      if (typeof Drupal.dndck4 !== 'undefined') {
+        if (ev.data.name == 'atomProperties') {
+          var dialogDefinition = ev.data.definition;
+          var infoTab = dialogDefinition.getContents('info');
+          callback.call(this, infoTab, dialogDefinition);
+          Drupal.dndck4.registerOptions(id, type, mode, name);
+        }
+      }
+    });
+  },
+
   dataFromAttributes: function (attributes) {
     return {
       sid : attributes['data-scald-sid'],
@@ -409,7 +475,7 @@ Drupal.dndck4 = {
       // options in the sas code for the atom.
       options : sasData.options || '{}',
       align : 'none',
-      usesCaption : true
+      usesCaption : Drupal.settings.dnd.usesCaptionDefault
     };
   },
 
