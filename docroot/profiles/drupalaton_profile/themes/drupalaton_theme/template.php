@@ -73,3 +73,10 @@ function drupalaton_theme_preprocess_page(&$variables) {
     $variables['sponsor_gold'] = '';
   }
 }
+
+/**
+ * Implements hook_css_alter().
+ */
+function drupalaton_theme_css_alter(&$css) {
+  unset($css[drupal_get_path('module','ds').'/layouts/ds_2col_stacked_fluid/ds_2col_stacked_fluid.css']);
+}
