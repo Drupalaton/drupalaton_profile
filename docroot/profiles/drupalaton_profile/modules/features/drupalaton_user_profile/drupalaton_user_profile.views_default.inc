@@ -99,7 +99,7 @@ function drupalaton_user_profile_views_default_views() {
   $handler->display->display_options['filters']['rid']['table'] = 'users_roles';
   $handler->display->display_options['filters']['rid']['field'] = 'rid';
   $handler->display->display_options['filters']['rid']['value'] = array(
-    5 => '5',
+    11 => '11',
   );
 
   /* Display: Page */
@@ -173,7 +173,7 @@ function drupalaton_user_profile_views_default_views() {
   $handler->display->display_options['filters']['rid']['table'] = 'users_roles';
   $handler->display->display_options['filters']['rid']['field'] = 'rid';
   $handler->display->display_options['filters']['rid']['value'] = array(
-    6 => '6',
+    16 => '16',
   );
   $export['attendees'] = $view;
 

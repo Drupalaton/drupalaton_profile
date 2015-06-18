@@ -310,6 +310,9 @@ function drupalaton_user_profile_field_default_field_bases() {
     'deleted' => 0,
     'entity_types' => array(),
     'field_name' => 'field_profile_picture',
+    'field_permissions' => array(
+      'type' => 0,
+    ),
     'indexes' => array(
       'fid' => array(
         0 => 'fid',
@@ -318,7 +321,7 @@ function drupalaton_user_profile_field_default_field_bases() {
     'locked' => 0,
     'module' => 'image',
     'settings' => array(
-      'default_image' => 4,
+      'default_image' => 144,
       'profile2_private' => FALSE,
       'uri_scheme' => 'public',
     ),

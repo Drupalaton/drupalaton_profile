@@ -507,6 +507,7 @@ function drupalaton_user_profile_field_default_field_instances() {
         'weight' => 0,
       ),
     ),
+    'ds_extras_field_template' => '',
     'entity_type' => 'user',
     'field_name' => 'field_profile_picture',
     'label' => 'Picture',
