@@ -24,6 +24,13 @@ function drupalaton_sessions_field_default_field_instances() {
         'type' => 'text_default',
         'weight' => 2,
       ),
+      'schedule' => array(
+        'label' => 'hidden',
+        'module' => 'text',
+        'settings' => array(),
+        'type' => 'text_default',
+        'weight' => 3,
+      ),
       'teaser' => array(
         'label' => 'hidden',
         'module' => 'text',
@@ -68,6 +75,13 @@ function drupalaton_sessions_field_default_field_instances() {
         'type' => 'text_default',
         'weight' => 3,
       ),
+      'schedule' => array(
+        'label' => 'hidden',
+        'module' => 'text',
+        'settings' => array(),
+        'type' => 'text_default',
+        'weight' => 4,
+      ),
       'teaser' => array(
         'label' => 'above',
         'settings' => array(),
@@ -111,6 +125,13 @@ function drupalaton_sessions_field_default_field_instances() {
         'type' => 'text_default',
         'weight' => 9,
       ),
+      'schedule' => array(
+        'label' => 'hidden',
+        'module' => 'text',
+        'settings' => array(),
+        'type' => 'text_default',
+        'weight' => 10,
+      ),
       'teaser' => array(
         'label' => 'above',
         'settings' => array(),
@@ -153,6 +174,13 @@ function drupalaton_sessions_field_default_field_instances() {
         'settings' => array(),
         'type' => 'text_default',
         'weight' => 6,
+      ),
+      'schedule' => array(
+        'label' => 'hidden',
+        'module' => 'text',
+        'settings' => array(),
+        'type' => 'text_default',
+        'weight' => 7,
       ),
       'teaser' => array(
         'label' => 'hidden',
@@ -198,6 +226,13 @@ function drupalaton_sessions_field_default_field_instances() {
         'type' => 'text_default',
         'weight' => 7,
       ),
+      'schedule' => array(
+        'label' => 'hidden',
+        'module' => 'text',
+        'settings' => array(),
+        'type' => 'text_default',
+        'weight' => 8,
+      ),
       'teaser' => array(
         'label' => 'hidden',
         'module' => 'text',
@@ -242,6 +277,13 @@ function drupalaton_sessions_field_default_field_instances() {
         'type' => 'list_default',
         'weight' => 7,
       ),
+      'schedule' => array(
+        'label' => 'hidden',
+        'module' => 'list',
+        'settings' => array(),
+        'type' => 'list_default',
+        'weight' => 4,
+      ),
       'teaser' => array(
         'label' => 'above',
         'settings' => array(),
@@ -277,6 +319,12 @@ function drupalaton_sessions_field_default_field_instances() {
         'settings' => array(),
         'type' => 'hidden',
         'weight' => 14,
+      ),
+      'schedule' => array(
+        'label' => 'hidden',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 18,
       ),
       'teaser' => array(
         'label' => 'above',
@@ -321,6 +369,12 @@ function drupalaton_sessions_field_default_field_instances() {
         'type' => 'hidden',
         'weight' => 15,
       ),
+      'schedule' => array(
+        'label' => 'inline',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 19,
+      ),
       'teaser' => array(
         'label' => 'above',
         'settings' => array(),
@@ -357,6 +411,13 @@ function drupalaton_sessions_field_default_field_instances() {
         'settings' => array(),
         'type' => 'list_default',
         'weight' => 6,
+      ),
+      'schedule' => array(
+        'label' => 'hidden',
+        'module' => 'list',
+        'settings' => array(),
+        'type' => 'list_default',
+        'weight' => 3,
       ),
       'teaser' => array(
         'label' => 'above',
@@ -396,6 +457,16 @@ function drupalaton_sessions_field_default_field_instances() {
         ),
         'type' => 'image',
         'weight' => 1,
+      ),
+      'schedule' => array(
+        'label' => 'hidden',
+        'module' => 'image',
+        'settings' => array(
+          'image_link' => '',
+          'image_style' => 'attendees',
+        ),
+        'type' => 'image',
+        'weight' => 2,
       ),
       'teaser' => array(
         'label' => 'hidden',
@@ -449,6 +520,13 @@ function drupalaton_sessions_field_default_field_instances() {
         'type' => 'text_default',
         'weight' => 8,
       ),
+      'schedule' => array(
+        'label' => 'hidden',
+        'module' => 'text',
+        'settings' => array(),
+        'type' => 'text_default',
+        'weight' => 9,
+      ),
       'teaser' => array(
         'label' => 'hidden',
         'module' => 'text',
@@ -491,6 +569,12 @@ function drupalaton_sessions_field_default_field_instances() {
         'settings' => array(),
         'type' => 'hidden',
         'weight' => 16,
+      ),
+      'schedule' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 20,
       ),
       'teaser' => array(
         'label' => 'above',
@@ -536,6 +620,13 @@ function drupalaton_sessions_field_default_field_instances() {
         'type' => 'text_default',
         'weight' => 5,
       ),
+      'schedule' => array(
+        'label' => 'hidden',
+        'module' => 'text',
+        'settings' => array(),
+        'type' => 'text_default',
+        'weight' => 6,
+      ),
       'teaser' => array(
         'label' => 'above',
         'settings' => array(),
@@ -580,6 +671,12 @@ function drupalaton_sessions_field_default_field_instances() {
         'type' => 'hidden',
         'weight' => 13,
       ),
+      'schedule' => array(
+        'label' => 'hidden',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 17,
+      ),
       'teaser' => array(
         'label' => 'above',
         'settings' => array(),
@@ -622,6 +719,13 @@ function drupalaton_sessions_field_default_field_instances() {
         'settings' => array(),
         'type' => 'list_default',
         'weight' => 5,
+      ),
+      'schedule' => array(
+        'label' => 'hidden',
+        'module' => 'list',
+        'settings' => array(),
+        'type' => 'list_default',
+        'weight' => 2,
       ),
       'teaser' => array(
         'label' => 'above',

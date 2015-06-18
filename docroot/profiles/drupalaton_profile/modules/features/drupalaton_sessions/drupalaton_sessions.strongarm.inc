@@ -49,6 +49,9 @@ col-xs-12 col-sm-9 col-md-9 col-lg-9';
       'revision' => array(
         'custom_settings' => FALSE,
       ),
+      'schedule' => array(
+        'custom_settings' => TRUE,
+      ),
     ),
     'extra_fields' => array(
       'form' => array(
