@@ -5,6 +5,7 @@ version = 7.x-1.0
 project = drupalaton_eventbrite_import
 dependencies[] = ctools
 dependencies[] = feeds
+dependencies[] = feeds_import
 features[ctools][] = feeds:feeds_importer_default:1
 features[features_api][] = api:2
 features[feeds_importer][] = eventbrite_individual_sponsor_user
