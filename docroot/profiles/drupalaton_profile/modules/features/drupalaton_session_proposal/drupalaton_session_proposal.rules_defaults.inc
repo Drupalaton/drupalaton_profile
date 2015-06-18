@@ -157,7 +157,7 @@ function drupalaton_session_proposal_default_rules_configuration() {
           }
         },
         { "data_set" : {
-            "data" : [ "node-created:field-session-summary-full" ],
+            "data" : [ "node-created:field-session-summary-full:value" ],
             "value" : [ "entity:field-session-summary-full" ]
           }
         },
