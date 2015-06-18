@@ -268,13 +268,14 @@ function drupalaton_frontpage_default_page_manager_pages() {
     $pane->access = array();
     $pane->configuration = array(
       'nid' => '21',
-      'links' => 0,
+      'links' => 1,
       'leave_node_title' => 0,
       'identifier' => '',
       'build_mode' => 'teaser',
       'link_node_title' => 0,
       'override_title' => 0,
       'override_title_text' => '',
+      'override_title_heading' => 'h2',
     );
     $pane->cache = array();
     $pane->style = array(
