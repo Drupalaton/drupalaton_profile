@@ -242,7 +242,7 @@ function drupalaton_user_profile_field_default_field_instances() {
     'entity_type' => 'user',
     'field_name' => 'field_profile_gender',
     'label' => 'T-shirt type',
-    'required' => 0,
+    'required' => 1,
     'settings' => array(
       'user_register_form' => 1,
     ),
