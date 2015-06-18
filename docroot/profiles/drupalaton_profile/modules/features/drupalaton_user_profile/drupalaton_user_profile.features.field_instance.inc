@@ -30,6 +30,9 @@ function drupalaton_user_profile_field_default_field_instances() {
     'label' => 'About me',
     'required' => 0,
     'settings' => array(
+      'context' => '',
+      'dnd_enabled' => 0,
+      'mee_enabled' => 0,
       'text_processing' => 0,
       'user_register_form' => 0,
     ),
@@ -64,6 +67,9 @@ function drupalaton_user_profile_field_default_field_instances() {
     'label' => 'Country',
     'required' => 0,
     'settings' => array(
+      'context' => '',
+      'dnd_enabled' => 0,
+      'mee_enabled' => 0,
       'text_processing' => 0,
       'user_register_form' => 0,
     ),
@@ -200,6 +206,9 @@ function drupalaton_user_profile_field_default_field_instances() {
     'label' => 'First name',
     'required' => 1,
     'settings' => array(
+      'context' => '',
+      'dnd_enabled' => 0,
+      'mee_enabled' => 0,
       'text_processing' => 0,
       'user_register_form' => 1,
     ),
@@ -229,9 +238,10 @@ function drupalaton_user_profile_field_default_field_instances() {
         'weight' => 9,
       ),
     ),
+    'ds_extras_field_template' => '',
     'entity_type' => 'user',
     'field_name' => 'field_profile_gender',
-    'label' => 'Gender',
+    'label' => 'T-shirt type',
     'required' => 0,
     'settings' => array(
       'user_register_form' => 1,
@@ -277,7 +287,7 @@ function drupalaton_user_profile_field_default_field_instances() {
         'display_label' => 1,
       ),
       'type' => 'options_onoff',
-      'weight' => 12,
+      'weight' => 9,
     ),
   );
 
@@ -301,6 +311,9 @@ function drupalaton_user_profile_field_default_field_instances() {
     'label' => 'Job title',
     'required' => 0,
     'settings' => array(
+      'context' => '',
+      'dnd_enabled' => 0,
+      'mee_enabled' => 0,
       'text_processing' => 0,
       'user_register_form' => 0,
     ),
@@ -335,6 +348,9 @@ function drupalaton_user_profile_field_default_field_instances() {
     'label' => 'Last name',
     'required' => 1,
     'settings' => array(
+      'context' => '',
+      'dnd_enabled' => 0,
+      'mee_enabled' => 0,
       'text_processing' => 0,
       'user_register_form' => 1,
     ),
@@ -420,6 +436,9 @@ function drupalaton_user_profile_field_default_field_instances() {
     'label' => 'Organization',
     'required' => 0,
     'settings' => array(
+      'context' => '',
+      'dnd_enabled' => 0,
+      'mee_enabled' => 0,
       'text_processing' => 0,
       'user_register_form' => 0,
     ),
@@ -454,6 +473,9 @@ function drupalaton_user_profile_field_default_field_instances() {
     'label' => 'Phone number',
     'required' => 0,
     'settings' => array(
+      'context' => '',
+      'dnd_enabled' => 0,
+      'mee_enabled' => 0,
       'text_processing' => 0,
       'user_register_form' => 0,
     ),
@@ -538,7 +560,7 @@ function drupalaton_user_profile_field_default_field_instances() {
       'module' => 'options',
       'settings' => array(),
       'type' => 'options_select',
-      'weight' => 11,
+      'weight' => 8,
     ),
   );
 
@@ -600,7 +622,6 @@ function drupalaton_user_profile_field_default_field_instances() {
   t('Drupal.org profile');
   t('Facebook profile');
   t('First name');
-  t('Gender');
   t('I\'m interested in participating at the job speed dating');
   t('Job title');
   t('Last name');
@@ -609,6 +630,7 @@ function drupalaton_user_profile_field_default_field_instances() {
   t('Organization');
   t('Phone number');
   t('Picture');
+  t('T-shirt type');
   t('Twitter profile');
 
   return $field_instances;

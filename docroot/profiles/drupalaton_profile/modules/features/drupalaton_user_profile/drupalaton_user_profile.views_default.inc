@@ -72,7 +72,7 @@ function drupalaton_user_profile_views_default_views() {
   $handler->display->display_options['fields']['field_profile_last_name']['alter']['path'] = 'user/[uid]';
   $handler->display->display_options['fields']['field_profile_last_name']['element_label_colon'] = FALSE;
   $handler->display->display_options['fields']['field_profile_last_name']['hide_empty'] = TRUE;
-  /* Field: User: Organization */
+  /* Field: Field: Organization */
   $handler->display->display_options['fields']['field_profile_organization']['id'] = 'field_profile_organization';
   $handler->display->display_options['fields']['field_profile_organization']['table'] = 'field_data_field_profile_organization';
   $handler->display->display_options['fields']['field_profile_organization']['field'] = 'field_profile_organization';
