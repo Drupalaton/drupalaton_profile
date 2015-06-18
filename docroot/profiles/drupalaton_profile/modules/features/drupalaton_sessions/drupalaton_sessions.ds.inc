@@ -17,6 +17,11 @@ function drupalaton_sessions_ds_field_settings_info() {
   $ds_fieldsetting->bundle = 'session';
   $ds_fieldsetting->view_mode = 'default';
   $ds_fieldsetting->settings = array(
+    'field_session_speaker_image' => array(
+      'formatter_settings' => array(
+        'ft' => array(),
+      ),
+    ),
     'field_session_speaker_nick' => array(
       'formatter_settings' => array(
         'ft' => array(
@@ -221,6 +226,11 @@ function drupalaton_sessions_ds_field_settings_info() {
         'ft' => array(),
       ),
     ),
+    'field_session_speaker_image' => array(
+      'formatter_settings' => array(
+        'ft' => array(),
+      ),
+    ),
     'field_session_speaker_nick' => array(
       'formatter_settings' => array(
         'ft' => array(
@@ -269,7 +279,11 @@ function drupalaton_sessions_ds_layout_settings_info() {
       'field_session_speaker_image' => 'ds_content',
       'node_link' => 'ds_content',
     ),
-    'classes' => array(),
+    'classes' => array(
+      'layout_class' => array(
+        '' => '',
+      ),
+    ),
     'wrappers' => array(
       'ds_content' => 'div',
     ),

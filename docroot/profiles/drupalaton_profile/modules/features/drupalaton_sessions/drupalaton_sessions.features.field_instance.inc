@@ -276,7 +276,7 @@ function drupalaton_sessions_field_default_field_instances() {
         'label' => 'hidden',
         'settings' => array(),
         'type' => 'hidden',
-        'weight' => 15,
+        'weight' => 14,
       ),
       'teaser' => array(
         'label' => 'above',
@@ -319,7 +319,7 @@ function drupalaton_sessions_field_default_field_instances() {
         'label' => 'inline',
         'settings' => array(),
         'type' => 'hidden',
-        'weight' => 16,
+        'weight' => 15,
       ),
       'teaser' => array(
         'label' => 'above',
@@ -392,7 +392,7 @@ function drupalaton_sessions_field_default_field_instances() {
         'module' => 'image',
         'settings' => array(
           'image_link' => '',
-          'image_style' => '1_3_size',
+          'image_style' => 'attendees',
         ),
         'type' => 'image',
         'weight' => 1,
@@ -402,7 +402,7 @@ function drupalaton_sessions_field_default_field_instances() {
         'module' => 'image',
         'settings' => array(
           'image_link' => '',
-          'image_style' => '1_3_size',
+          'image_style' => 'attendees',
         ),
         'type' => 'image',
         'weight' => 3,
@@ -490,7 +490,7 @@ function drupalaton_sessions_field_default_field_instances() {
         'label' => 'above',
         'settings' => array(),
         'type' => 'hidden',
-        'weight' => 17,
+        'weight' => 16,
       ),
       'teaser' => array(
         'label' => 'above',
@@ -578,7 +578,7 @@ function drupalaton_sessions_field_default_field_instances() {
         'label' => 'hidden',
         'settings' => array(),
         'type' => 'hidden',
-        'weight' => 14,
+        'weight' => 13,
       ),
       'teaser' => array(
         'label' => 'above',
