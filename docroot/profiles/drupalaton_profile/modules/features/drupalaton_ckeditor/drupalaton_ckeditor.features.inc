@@ -237,13 +237,22 @@ function drupalaton_ckeditor_scald_default_context_types() {
   $contexts['sdl_editor_representation-gallery'] = array(
     'player' => array(
       'gallery' => array(
-        '*' => 'default',
-        'settings' => array(),
+        '*' => 'galleria',
+        'settings' => array(
+          'width' => 690,
+          'height' => 450,
+          'fullscreen_link' => FALSE,
+          'thumb_style' => 'thumbnail',
+          'normal_style' => 'large',
+          'big_style' => 'original',
+          'theme' => 'classic',
+          'options' => '',
+        ),
       ),
     ),
     'transcoder' => array(
       'gallery' => array(
-        '*' => 'passthrough',
+        '*' => 'style-thumbnail',
       ),
     ),
   );
